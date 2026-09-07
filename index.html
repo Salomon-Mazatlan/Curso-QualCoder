@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Investigación cualitativa con QualCoder 4</title>
+<meta name="description" content="Curso en español para analizar datos cualitativos con QualCoder 4, desde la instalación hasta el análisis publicable.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#ruta">Ir a las lecciones</a>
+
+<header class="barra">
+  <a class="marca" href="index.html">
+    <span class="sello">QC4</span>
+    <span>Investigación cualitativa con QualCoder&nbsp;4</span>
+  </a>
+  <span class="relleno"></span>
+  <div class="avance-barra">
+    <span data-avance-texto>0 de 17</span>
+    <span class="riel"><span class="relleno-riel"></span></span>
+  </div>
+  <button class="boton-icono" type="button" data-accion="tema" aria-label="Cambiar tema">☾</button>
+</header>
+
+<section class="portada">
+  <div class="contenedor portada-rejilla">
+    <div>
+      <h1>Analiza tus datos cualitativos con software libre</h1>
+      <p class="entrada">
+        Diecisiete lecciones para trabajar entrevistas, documentos, imágenes y audio en
+        QualCoder 4, con el detalle suficiente para que puedas defender cada decisión
+        metodológica que tomes por el camino.
+      </p>
+      <div class="acciones">
+        <a class="boton" id="seguir" href="curso.html#/01-bienvenida">Empezar la primera lección</a>
+        <a class="boton secundario" href="#ruta">Ver el temario</a>
+      </div>
+      <ul class="datos-portada">
+        <li><strong id="dato-lecciones">17</strong> lecciones</li>
+        <li><strong id="dato-modulos">5</strong> módulos</li>
+        <li><strong id="dato-horas">8 h</strong> de trabajo</li>
+      </ul>
+    </div>
+
+    <figure class="transcripcion" aria-label="Ejemplo de una entrevista codificada">
+      <figcaption class="cabecera">
+        <span>E03_cuidadora.txt</span>
+        <span>3 códigos</span>
+      </figcaption>
+      <p style="--tono: var(--resalte-2); --retardo: .35s">
+        <span class="franja" style="--tono: var(--marca-1); --retardo: .35s"></span>
+        <span class="locutor">Entrevistadora</span>
+        ¿Cómo organiza usted la semana desde que su mamá necesita atención todo el día?
+      </p>
+      <p style="--tono: var(--resalte-1); --retardo: .75s">
+        <span class="franja" style="--tono: var(--marca-5); --retardo: .75s"></span>
+        <span class="locutor">Rosa</span>
+        Pues ya no la organizo yo. <mark style="--tono: var(--resalte-1); --retardo: .75s">La semana la
+        organiza ella, sus horarios, sus medicinas.</mark> Mi trabajo lo acomodé al horario de la
+        clínica, y lo demás se fue cayendo solo.
+      </p>
+      <p style="--tono: var(--resalte-3); --retardo: 1.15s">
+        <span class="franja" style="--tono: var(--marca-3); --retardo: 1.15s"></span>
+        <span class="locutor">Rosa</span>
+        <mark style="--tono: var(--resalte-3); --retardo: 1.15s">Mis hermanos ayudan con dinero, pero
+        estar aquí, estar, nada más estoy yo.</mark> Y una no se queja porque es la mamá de una.
+      </p>
+      <div class="etiquetas">
+        <span class="etiqueta-codigo" style="--tono: var(--marca-1)">rutina reorganizada</span>
+        <span class="etiqueta-codigo" style="--tono: var(--marca-5)">tiempo propio perdido</span>
+        <span class="etiqueta-codigo" style="--tono: var(--marca-3)">reparto desigual</span>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<section class="seccion contenedor">
+  <h2 class="seccion-titulo">Un curso pensado para investigar, no para memorizar botones</h2>
+  <p class="seccion-entrada">
+    Cada lección parte de una tarea analítica real y muestra dónde vive esa tarea dentro del
+    programa. Si vienes de ATLAS.ti, NVivo o MAXQDA vas a encontrar equivalencias explícitas,
+    y si es tu primer software de análisis cualitativo no necesitas saber nada previo.
+  </p>
+  <div class="rejilla-3">
+    <article class="tarjeta-simple">
+      <h3>Con tus propios materiales</h3>
+      <p>Las prácticas funcionan con las entrevistas o documentos que ya tienes. Si aún no
+        tienes corpus, la lección 5 explica cómo armar uno de prueba.</p>
+    </article>
+    <article class="tarjeta-simple">
+      <h3>Video y texto</h3>
+      <p>Las lecciones incluyen demostraciones en video cuando el procedimiento se entiende
+        mejor viéndolo, y texto detallado para consultar después.</p>
+    </article>
+    <article class="tarjeta-simple">
+      <h3>A tu ritmo</h3>
+      <p>El navegador recuerda por dónde vas. Puedes hacer el curso completo o entrar
+        directo al módulo que necesitas resolver hoy.</p>
+    </article>
+  </div>
+</section>
+
+<section class="seccion contenedor" id="ruta-envoltura">
+  <h2 class="seccion-titulo">Temario</h2>
+  <p class="seccion-entrada">
+    Los módulos siguen el orden habitual de un proyecto, aunque cada lección se sostiene sola.
+  </p>
+  <div class="ruta" id="ruta"></div>
+</section>
+
+<section class="seccion contenedor">
+  <h2 class="seccion-titulo">Lo que necesitas antes de empezar</h2>
+  <div class="rejilla-3">
+    <article class="tarjeta-simple">
+      <h3>Una computadora</h3>
+      <p>Windows 10 o superior, macOS o alguna distribución de Linux. QualCoder 4 corre
+        cómodo en equipos modestos mientras no uses funciones de inteligencia artificial.</p>
+    </article>
+    <article class="tarjeta-simple">
+      <h3>Materiales cualitativos</h3>
+      <p>Entrevistas transcritas, notas de campo, documentos, imágenes o audio. Con dos o tres
+        archivos alcanza para todo el curso.</p>
+    </article>
+    <article class="tarjeta-simple">
+      <h3>Una pregunta de investigación</h3>
+      <p>Aunque sea provisional. El curso insiste en que las decisiones del software se
+        justifican desde el diseño metodológico, no al revés.</p>
+    </article>
+  </div>
+</section>
+
+<footer class="pie">
+  <div class="contenedor">
+    <p>
+      Curso de acceso abierto. QualCoder es un programa libre desarrollado por Colin Curtain
+      y su comunidad, distinto e independiente de este material de formación.
+    </p>
+    <p>
+      <a href="https://github.com/ccbogel/QualCoder">Repositorio de QualCoder</a> ·
+      <a href="https://qualcoder.wordpress.com/">Sitio del proyecto</a>
+    </p>
+  </div>
+</footer>
+
+<script src="assets/indice.js"></script>
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/curso.js"></script>
+</body>
+</html>

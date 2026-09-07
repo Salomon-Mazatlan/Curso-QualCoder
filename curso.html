@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lecciones · Investigación cualitativa con QualCoder 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/estilos.css">
+</head>
+<body>
+<a class="saltar" href="#contenido">Ir al contenido de la lección</a>
+
+<header class="barra">
+  <button class="boton-icono alterna-lateral" type="button" data-accion="lateral" aria-label="Mostrar las lecciones">☰</button>
+  <a class="marca" href="index.html">
+    <span class="sello">QC4</span>
+    <span>Investigación cualitativa con QualCoder&nbsp;4</span>
+  </a>
+  <span class="relleno"></span>
+  <div class="avance-barra">
+    <span data-avance-texto>0 de 17</span>
+    <span class="riel"><span class="relleno-riel"></span></span>
+  </div>
+  <button class="boton-icono" type="button" data-accion="tema" aria-label="Cambiar tema">☾</button>
+</header>
+
+<div class="velo" id="velo"></div>
+
+<div class="disposicion">
+  <aside class="lateral" id="lateral">
+    <label class="saltar" for="buscador">Buscar una lección</label>
+    <input class="buscador" id="buscador" type="search" placeholder="Buscar una lección" autocomplete="off">
+    <nav id="nav-lecciones" aria-label="Lecciones del curso"></nav>
+  </aside>
+
+  <main class="principal">
+    <div class="zona-articulo">
+      <div>
+        <header class="cabecera-leccion" id="cabecera-leccion"></header>
+        <article class="contenido" id="contenido"></article>
+        <div id="pie-leccion"></div>
+      </div>
+      <nav class="indice-leccion" id="indice-leccion" aria-label="Índice de la lección"></nav>
+    </div>
+  </main>
+</div>
+
+<script src="assets/indice.js"></script>
+<script src="assets/vendor/marked.min.js"></script>
+<script src="assets/curso.js"></script>
+</body>
+</html>
