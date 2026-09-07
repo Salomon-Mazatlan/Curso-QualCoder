@@ -216,9 +216,9 @@
     return '<div class="bloque bloque-cita">' +
       '<p class="titulo-bloque"><span class="icono">❞</span>' +
       esc(nodo.arg || "Cita textual") + "</p>" +
-      '<p class="original">“' + esc(original.join(" ")) + '”</p>' +
+      '<p class="original">"' + esc(original.join(" ")) + '"</p>' +
       (traduccion.length
-        ? '<p class="traduccion">Traducción propia. «' + esc(traduccion.join(" ")) + '»</p>'
+        ? '<p class="traduccion">Traducción propia. "' + esc(traduccion.join(" ")) + '"</p>'
         : "") +
       "</div>";
   }
