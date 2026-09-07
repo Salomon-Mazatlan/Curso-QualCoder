@@ -291,7 +291,11 @@
         .join(" ")
         .trim();
       return '<figure class="captura-imagen">' +
+        '<button type="button" class="ampliar" data-ampliar="' + esc(nodo.arg) +
+        '" data-pie="' + esc(pie) + '" aria-label="Ampliar la captura">' +
         '<img loading="lazy" src="' + esc(nodo.arg) + '" alt="' + esc(pie) + '">' +
+        '<span class="lupa" aria-hidden="true">⤢</span>' +
+        "</button>" +
         (pie ? "<figcaption>" + esc(pie) + "</figcaption>" : "") +
         "</figure>";
     }
@@ -411,6 +415,84 @@
         'clipboard-write; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
       b.replaceWith(marco);
     });
+  }
+
+  var visor = null;
+
+  function crearVisor() {
+    if (visor) return visor;
+    visor = document.createElement("div");
+    visor.className = "visor-captura";
+    visor.setAttribute("role", "dialog");
+    visor.setAttribute("aria-modal", "true");
+    visor.innerHTML =
+      '<button class="visor-cerrar" type="button" aria-label="Cerrar">✕</button>' +
+      '<button class="visor-nav previa" type="button" aria-label="Captura anterior">‹</button>' +
+      '<button class="visor-nav siguiente" type="button" aria-label="Captura siguiente">›</button>' +
+      '<figure><img alt=""><figcaption></figcaption></figure>';
+    document.body.appendChild(visor);
+
+    visor.addEventListener("click", function (e) {
+      if (e.target.closest(".visor-nav")) {
+        mover(e.target.closest(".previa") ? -1 : 1);
+      } else if (!e.target.closest("figure") || e.target.closest(".visor-cerrar")) {
+        cerrarVisor();
+      }
+    });
+    return visor;
+  }
+
+  var capturaActual = 0;
+
+  function listaCapturas() {
+    return Array.prototype.slice.call(document.querySelectorAll("#contenido [data-ampliar]"));
+  }
+
+  function pintarVisor() {
+    var botones = listaCapturas();
+    var b = botones[capturaActual];
+    if (!b) return;
+    visor.querySelector("img").src = b.getAttribute("data-ampliar");
+    var pie = b.getAttribute("data-pie") || "";
+    visor.querySelector("figcaption").textContent = pie;
+    visor.querySelector("img").alt = pie;
+    visor.querySelector(".previa").hidden = botones.length < 2;
+    visor.querySelector(".siguiente").hidden = botones.length < 2;
+  }
+
+  function mover(paso) {
+    var total = listaCapturas().length;
+    if (!total) return;
+    capturaActual = (capturaActual + paso + total) % total;
+    pintarVisor();
+  }
+
+  function abrirVisor(boton) {
+    crearVisor();
+    capturaActual = listaCapturas().indexOf(boton);
+    pintarVisor();
+    visor.classList.add("abierto");
+    document.body.classList.add("sin-desplazar");
+    visor.querySelector(".visor-cerrar").focus();
+  }
+
+  function cerrarVisor() {
+    if (!visor) return;
+    visor.classList.remove("abierto");
+    document.body.classList.remove("sin-desplazar");
+  }
+
+  function activarCapturas() {
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest("[data-ampliar]");
+      if (b) abrirVisor(b);
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!visor || !visor.classList.contains("abierto")) return;
+      if (e.key === "Escape") cerrarVisor();
+      if (e.key === "ArrowRight") { e.stopPropagation(); mover(1); }
+      if (e.key === "ArrowLeft") { e.stopPropagation(); mover(-1); }
+    }, true);
   }
 
   function activarQuiz(raiz) {
@@ -624,6 +706,7 @@
   function atajosTeclado() {
     document.addEventListener("keydown", function (e) {
       if (e.target.matches("input, textarea")) return;
+      if (visor && visor.classList.contains("abierto")) return;
       if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
       var id = idActualDesdeHash();
       var i = window.CURSO.lista.map(function (l) { return l.id; }).indexOf(id);
@@ -647,6 +730,7 @@
     var articulo = document.getElementById("contenido");
     activarVideos(articulo);
     activarQuiz(articulo);
+    activarCapturas();
     activarBuscador();
     activarLateralMovil();
     activarMarcado();
