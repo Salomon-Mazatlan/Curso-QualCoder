@@ -167,5 +167,5 @@ posiciones de los segmentos, así que la limpieza siempre va antes.
 :::
 
 ::: apoyo Curso gratuito, donativos voluntarios
-Bienvenida y bienvenido. Este curso es gratuito y forma parte de una propuesta de democratización del conocimiento. Se sostiene con donativos voluntarios, nunca obligatorios, para [gastos médicos personales](https://gofund.me/5c133cc99) y para [asistencia humanitaria a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon). El [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas) reúne ambas campañas.
+Bienvenida y bienvenido. Este curso es gratuito y forma parte de una propuesta de democratización del conocimiento. Se sostiene con donativos voluntarios, nunca obligatorios, para [gastos médicos personales](https://gofund.me/5c133cc99) y para [asistencia humanitaria a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon). También puedes consultar mi [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas).
 :::
