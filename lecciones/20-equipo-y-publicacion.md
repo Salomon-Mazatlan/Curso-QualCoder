@@ -82,7 +82,7 @@ la diferencia conceptual. Por eso el libro de códigos se acuerda antes.
 Video 20.3. Fusión de dos proyectos, con la vista previa y la verificación posterior.
 :::
 
-::: captura
+::: captura img/captura-20-01.png
 Captura 20.1. Vista previa de la fusión, con las coincidencias de nombres señaladas.
 :::
 

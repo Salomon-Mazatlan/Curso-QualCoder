@@ -80,7 +80,7 @@ resultado suele ser un archivo corrupto.
 Video 4.2. Recorrido por la carpeta del proyecto en el explorador de archivos, con la base de datos y las subcarpetas.
 :::
 
-::: captura
+::: captura img/captura-04-01.png
 Captura 4.1. Carpeta del proyecto abierta en el explorador, con data.qda y las subcarpetas visibles.
 :::
 
@@ -126,7 +126,7 @@ aunque trabajes solo, por si más adelante se suma alguien.
 La tercera es el idioma de tus códigos. Mezclar español e inglés en el árbol de códigos
 complica los informes y las búsquedas, y no hay manera cómoda de arreglarlo después.
 
-::: captura
+::: captura img/captura-04-02.png
 Captura 4.2. Ventana principal con un proyecto recién creado y el nombre del proyecto visible en la barra
 de título.
 :::

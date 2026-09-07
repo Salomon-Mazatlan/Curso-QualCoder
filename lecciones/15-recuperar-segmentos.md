@@ -61,7 +61,7 @@ ramas, y conviene saber cuál pediste.
 Video 15.2. Construcción de un informe combinando filtros de código, caso y atributo.
 :::
 
-::: captura
+::: captura img/captura-15-01.png
 Captura 15.1. Ventana del informe de recuperación de códigos con varios filtros aplicados.
 :::
 
@@ -97,7 +97,7 @@ codificación.
 Y la búsqueda de texto sobre el corpus completo localiza términos independientemente de la
 codificación, lo que es útil para verificar si un tema aparece en lugares que no habías marcado.
 
-::: captura
+::: captura img/captura-15-02.png
 Captura 15.2. Ventana del informe de segmentos codificados con varios filtros aplicados y resultados a la
 vista.
 :::

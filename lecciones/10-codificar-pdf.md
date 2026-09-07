@@ -66,7 +66,7 @@ Video 10.2. Apertura de un PDF maquetado y marcado de texto sobre la página.
 Video 10.3. Codificación de una figura o una tabla dibujando un recuadro dentro de la página.
 :::
 
-::: captura
+::: captura img/captura-10-01.png
 Captura 10.1. Documento PDF con segmentos de texto codificados y un recuadro sobre una figura.
 :::
 
@@ -101,7 +101,7 @@ Video 10.4. Importación de un PDF con resaltados hechos en otro programa, con l
 Video 10.5. Reasignación de los resaltados importados a los códigos propios del proyecto.
 :::
 
-::: captura
+::: captura img/captura-10-02.png
 Captura 10.2. Documento importado con los resaltados detectados y la lista de anotaciones encontradas.
 :::
 
@@ -150,12 +150,13 @@ flujo continuo, como la detección de hablantes.
 La pregunta útil es si perderías información al aplanar el documento. Si la respuesta es no,
 apláñalo.
 
-::: captura
+::: captura img/captura-10-03.png
 Captura 10.3. Documento PDF con segmentos de texto codificados y un recuadro sobre una figura.
 :::
 
 ::: descarga
 - [Artículo maquetado a dos columnas](ejercicios/10-articulo-dos-columnas.pdf)
+- [El mismo artículo con resaltados previos](ejercicios/10-articulo-resaltado.pdf)
 :::
 
 ::: nota Para profundizar

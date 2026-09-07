@@ -83,7 +83,7 @@ Video 19.4. Exportación del proyecto completo a un archivo .qdpx.
 Video 19.5. Importación de un .qdpx en un proyecto vacío y verificación del resultado.
 :::
 
-::: captura
+::: captura img/captura-19-01.png
 Captura 19.1. Menú de exportación con las opciones de libro de códigos y de proyecto REFI-QDA.
 :::
 
@@ -115,7 +115,7 @@ sistema de códigos, y compartir después los informes de segmentos.
 Esta vía es menos elegante y bastante más robusta, sobre todo cuando el equipo usa programas
 distintos y ninguno quiere cambiar el suyo.
 
-::: captura
+::: captura img/captura-19-02.png
 Captura 19.2. Menú de exportación con las opciones de libro de códigos y de proyecto REFI-QDA.
 :::
 

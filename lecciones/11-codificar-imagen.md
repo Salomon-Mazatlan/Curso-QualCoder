@@ -95,7 +95,7 @@ Cuando el material viene de las personas participantes, conviene codificar dos c
 separado, el contenido de la imagen y lo que dijeron sobre ella. Son dos datos distintos y
 mezclarlos borra justamente la parte interesante.
 
-::: captura
+::: captura img/captura-11-01.png
 Captura 11.1. Ventana de codificación de imagen con dos regiones codificadas de distinto color.
 :::
 

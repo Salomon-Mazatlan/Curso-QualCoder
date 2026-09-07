@@ -116,7 +116,7 @@ según cómo estén delimitados.
 Video 16.4. Informe de co-ocurrencias y revisión del detalle de un par con muchas coincidencias.
 :::
 
-::: captura
+::: captura img/captura-16-01.png
 Captura 16.1. Matriz de co-ocurrencias con un par seleccionado y el detalle de los segmentos traslapados.
 :::
 
@@ -129,7 +129,7 @@ especializadas cuando el número de códigos hace ilegible la matriz.
 Esa exportación es útil sobre todo en corpus grandes, donde el mapa de relaciones entre códigos
 merece un tratamiento propio.
 
-::: captura
+::: captura img/captura-16-02.png
 Captura 16.2. Matriz de co-ocurrencias con un par seleccionado y el detalle de los segmentos traslapados.
 :::
 

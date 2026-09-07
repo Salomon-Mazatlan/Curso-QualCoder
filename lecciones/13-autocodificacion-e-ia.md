@@ -102,7 +102,7 @@ Video 13.5. Configuración de un proveedor de inteligencia artificial y elecció
 Video 13.6. Búsqueda por significado sobre el corpus y revisión de los candidatos que devuelve.
 :::
 
-::: captura
+::: captura img/captura-13-01.png
 Captura 13.1. Panel de configuración de IA con el nivel de acceso a los datos visible.
 :::
 
@@ -150,7 +150,7 @@ aceptaste.
 Ese registro es lo que después se convierte en un párrafo del apartado metodológico, y es
 también lo que permite que alguien más entienda cómo se construyó tu codificación.
 
-::: captura
+::: captura img/captura-13-02.png
 Captura 13.2. Panel de configuración de IA con el nivel de acceso a los datos visible.
 :::
 

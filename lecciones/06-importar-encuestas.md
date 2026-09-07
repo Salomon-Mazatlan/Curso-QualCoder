@@ -69,7 +69,7 @@ está bien entrecomillado. Si tus respuestas abiertas son largas y con párrafos
 resultado con un editor de texto antes de importar, o usa el formato de hoja de cálculo.
 :::
 
-::: captura
+::: captura img/captura-06-01.png
 Captura 6.1. Hoja de cálculo preparada, con la fila de encabezado, los nombres cortos de columna
 y el identificador en la primera columna.
 :::
@@ -91,7 +91,7 @@ Video 6.2. Importación paso a paso, con la elección del separador y la asignac
 cada campo.
 :::
 
-::: captura
+::: captura img/captura-06-02.png
 Captura 6.2. Ventana de importación con la vista previa y la columna de tipos de campo visible.
 :::
 
@@ -136,6 +136,10 @@ cuestionario. Anótalo en el memo del archivo antes de olvidarlo.
 Willis (2015) analiza qué pasa cuando quien responde entiende una pregunta de manera distinta a
 la prevista, y propone leer las respuestas abiertas también como evidencia sobre el instrumento.
 Es una lectura útil antes de codificar material de encuesta.
+:::
+
+::: descarga
+- [Encuesta de ejemplo, 40 respuestas](ejercicios/06-encuesta-ejemplo.csv)
 :::
 
 ::: reto Importa un cuestionario

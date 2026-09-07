@@ -40,7 +40,7 @@ versiones viejas o modificadas.
 Video 2.1. Descarga e instalación completa en Windows, paso a paso.
 :::
 
-::: captura
+::: captura img/captura-02-01.png
 Captura 2.1. Página de releases del proyecto, con la versión más reciente marcada como Latest y la lista de archivos descargables.
 :::
 
@@ -65,7 +65,7 @@ instalación.
 Video 2.2. Instalación completa en Windows, incluido el aviso de aplicación no reconocida.
 :::
 
-::: captura
+::: captura img/captura-02-02.png
 Captura 2.2. Aviso de seguridad de Windows, con la opción de ejecutar de todos modos.
 :::
 
@@ -133,7 +133,7 @@ abierto, porque el dato se guarda dentro del proyecto y no en las preferencias g
 programa. Lo verás en la lección 4, al crear el primero.
 :::
 
-::: captura
+::: captura img/captura-02-03.png
 Captura 2.3. Ventana de preferencias con el idioma en español y la copia de seguridad activada.
 :::
 

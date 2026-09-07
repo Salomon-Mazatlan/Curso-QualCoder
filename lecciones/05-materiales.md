@@ -68,7 +68,7 @@ sustitución de nombres desplaza las posiciones de los segmentos y descuadra el 
 Video 5.2. Limpieza de una transcripción, con el patrón de hablantes uniformado y los datos identificables sustituidos.
 :::
 
-::: captura
+::: captura img/captura-05-01.png
 Captura 5.1. Transcripción antes y después de la limpieza, con el patrón de hablantes uniforme.
 :::
 
@@ -116,7 +116,7 @@ por tipo o por fecha sin alterar nada del proyecto.
 Es un buen momento para revisar que cada archivo tenga el nombre definitivo y que no se haya
 colado nada que no forme parte del corpus.
 
-::: captura
+::: captura img/captura-05-02.png
 Captura 5.2. Ventana "Gestionar archivos" con varios documentos importados y un filtro aplicado.
 :::
 

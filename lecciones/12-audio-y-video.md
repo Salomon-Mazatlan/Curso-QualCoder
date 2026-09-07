@@ -44,7 +44,7 @@ Video 12.1. Codificación de un fragmento de audio desde la onda de sonido y sal
 Video 12.2. Selección de un tramo directamente sobre la onda de sonido y aplicación de un código.
 :::
 
-::: captura
+::: captura img/captura-12-01.png
 Captura 12.1. Módulo de audio y video con la onda de sonido y un segmento seleccionado.
 :::
 
@@ -155,7 +155,7 @@ identificadores encontrados.
 Video 12.8. Uso de los códigos de hablante para filtrar un informe y comparar lo que dijo cada participante.
 :::
 
-::: captura
+::: captura img/captura-12-02.png
 Captura 12.2. Ventana de "Marcar hablantes" con la lista de identificadores encontrados en la transcripción.
 :::
 
@@ -172,7 +172,8 @@ uniformado te permite aprovechar la misma detección.
 :::
 
 ::: descarga
-- [Fragmento de audio](ejercicios/12-fragmento-audio.mp3)
+- [Fragmento de audio, grupo focal simulado](ejercicios/12-fragmento-audio.mp3)
+- [Transcripción con marcas de tiempo](ejercicios/12-transcripcion-grupo-focal.txt)
 :::
 
 ::: reto Trabaja una grabación

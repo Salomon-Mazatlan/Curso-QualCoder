@@ -52,7 +52,7 @@ EndNote y la mayoría de las bases de datos académicas.
    completos, porque las exportaciones de algunas bases llegan con huecos.
 :::
 
-::: captura
+::: captura img/captura-07-01.png
 Captura 7.1. Archivo `.ris` abierto en un editor de texto, con los campos de autoría, año y
 título visibles.
 :::
@@ -108,7 +108,7 @@ Importar no vincula. Ese paso se hace después, y es el que hace útil todo lo a
 Video 7.4. Vinculación de referencias con sus documentos, uno por uno y en lote.
 :::
 
-::: captura
+::: captura img/captura-07-02.png
 Captura 7.2. Ventana de referencias con una seleccionada y su documento vinculado.
 :::
 
@@ -121,6 +121,10 @@ año, qué revistas concentran cierta postura.
 También cambia la forma de citar mientras escribes. Al recuperar un segmento sabes de qué
 publicación salió, así que la cita se construye sola en lugar de reconstruirse a partir del
 nombre del archivo.
+
+::: descarga
+- [Referencias de ejemplo en formato RIS](ejercicios/07-referencias-ejemplo.ris)
+:::
 
 ::: comprobacion
 - Las referencias aparecen listadas dentro del proyecto

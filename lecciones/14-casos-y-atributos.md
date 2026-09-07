@@ -65,7 +65,7 @@ Video 14.2. Creación de casos y vinculación de sus archivos.
 Video 14.3. Asignación de una porción de texto de un grupo focal al caso de su participante.
 :::
 
-::: captura
+::: captura img/captura-14-01.png
 Captura 14.1. Ventana de gestión de casos con varios casos y sus archivos vinculados.
 :::
 
@@ -114,7 +114,7 @@ Antes de crear un atributo, pregúntate qué comparación harías con él. Si no
 comparación, todavía no sabes si necesitas ese atributo.
 :::
 
-::: captura
+::: captura img/captura-14-02.png
 Captura 14.2. Tabla de atributos con varios casos y sus valores asignados.
 :::
 

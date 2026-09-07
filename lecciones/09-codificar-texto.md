@@ -114,7 +114,7 @@ El costo es que el árbol se llena de códigos con nombres largos y muy parecido
 después, agrupando esos códigos en vivo bajo códigos más abstractos, que es precisamente el
 paso donde ocurre el análisis.
 
-::: captura
+::: captura img/captura-09-01.png
 Captura 9.1. Menú contextual sobre una selección de texto, con la opción de codificación en vivo visible.
 :::
 
@@ -138,7 +138,7 @@ recuperables después, así que no se pierden.
 Video 9.6. Diferencia práctica entre el memo del código, el memo del archivo y la anotación sobre un segmento.
 :::
 
-::: captura
+::: captura img/captura-09-02.png
 Captura 9.2. Documento codificado con el margen de codificación a la vista y varias franjas de color.
 :::
 

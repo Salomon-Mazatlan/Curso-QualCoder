@@ -106,7 +106,7 @@ Video 17.4. Construcción de un modelo en el lienzo, trayendo una rama de códig
 Video 17.5. Generación de un modelo automático a partir de la jerarquía de categorías.
 :::
 
-::: captura
+::: captura img/captura-17-01.png
 Captura 17.1. Lienzo de grafos con un modelo de tres categorías y sus relaciones nombradas.
 :::
 
@@ -135,7 +135,7 @@ Para una tesis o un artículo conviene revisar tres cosas. Que el texto sea legi
 final, que la figura funcione en blanco y negro por si la revista imprime así, y que el pie de
 figura explique qué representa cada tipo de elemento.
 
-::: captura
+::: captura img/captura-17-02.png
 Captura 17.2. Lienzo de grafos con un modelo de tres categorías, sus códigos y relaciones nombradas.
 :::
 

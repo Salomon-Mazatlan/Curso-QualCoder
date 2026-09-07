@@ -63,7 +63,7 @@ cuando la decisión se toma y no cuando hay que justificarla.
 Video 18.2. Recorrido por los distintos lugares donde escribir, con un ejemplo en cada uno.
 :::
 
-::: captura
+::: captura img/captura-18-01.png
 Captura 18.1. Memo de un código abierto, con definición y criterios de inclusión y exclusión.
 :::
 
@@ -122,7 +122,7 @@ funciones automáticas usaste y qué revisaste de ellas.
 Con eso puedes escribir un apartado metodológico que describa el proceso real, en vez de la
 versión idealizada que se escribe cuando no se registró nada.
 
-::: captura
+::: captura img/captura-18-02.png
 Captura 18.2. Ventana del diario con varias entradas fechadas.
 :::
 

@@ -120,7 +120,7 @@ discusiones cuando pasan tres meses o cuando entra otra persona a codificar.
 > del tiempo a raíz de la tarea de cuidado. Incluye cambios de horario laboral y del descanso.
 > No incluye cambios económicos, que van en `presión económica`.
 
-::: captura
+::: captura img/captura-08-01.png
 Captura 8.1. Árbol de códigos con dos categorías, varios códigos con color y un sub-código desplegado.
 :::
 
@@ -136,7 +136,7 @@ Video 8.3. Creación de un sub-código y diferencia con crear una categoría int
 Video 8.4. Asignación de colores por familia temática y escritura del memo de un código.
 :::
 
-::: captura
+::: captura img/captura-08-02.png
 Captura 8.2. Menú contextual del árbol de códigos desplegado, con las opciones de creación visibles.
 :::
 

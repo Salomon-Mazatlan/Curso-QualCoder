@@ -114,7 +114,7 @@ que si vuelves buscando algo puntual, empieza por ahí.
 Video 1.2. Recorrido por la página del curso, la navegación entre lecciones y el marcado de avance.
 :::
 
-::: captura
+::: captura img/captura-01-01.png
 Captura 1.1. Visor de lecciones con la barra lateral abierta y el índice de la lección a la derecha.
 :::
 
