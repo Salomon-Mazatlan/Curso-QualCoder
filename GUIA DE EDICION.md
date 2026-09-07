@@ -74,6 +74,8 @@ fragmento o subirlo a otro servicio y enlazarlo.
 | `::: consejo` | Consejo metodológico desplegable |
 | `::: constancia` | Tarjeta con el enlace para pedir la constancia |
 | `::: resultado` | Marcador del examen final |
+| `::: ficha` | Ficha con duración, requisitos y resultado, al inicio |
+| `::: comprobacion` | Lista de comprobación con casillas, antes del cierre |
 
 Todos aceptan un título propio escrito después del nombre.
 
@@ -123,6 +125,54 @@ original y la que empieza con `+` es la traducción, que el sitio muestra preced
 
 Mantén las citas por debajo de quince palabras y una sola por fuente en todo el curso. El
 archivo `CITAS-POR-VERIFICAR.md` lleva el registro de cuál salió de qué documento.
+
+## Ficha de la lección
+
+Abre cada lección, antes de las preguntas.
+
+```
+::: ficha
+- **Duración estimada** 30 minutos
+- **Antes de empezar** el proyecto creado (lección 4)
+- **Materiales** dos o tres archivos propios
+- **Al terminar tendrás** el corpus importado y ordenado
+:::
+```
+
+El texto en negrita de cada línea es la etiqueta y el resto es el contenido.
+
+## Lista de comprobación
+
+Va justo antes del bloque `clave`. Las casillas se marcan con un clic y no guardan estado.
+
+```
+::: comprobacion
+- Importaste al menos tres archivos de tipos distintos
+- La carpeta de documentos contiene las copias
+:::
+```
+
+## Videos y capturas
+
+Cada procedimiento lleva su propio video, numerado por lección.
+
+```
+::: video https://youtu.be/ID
+Video 5.3. Importación de un audio, con la elección entre copiar o enlazar.
+:::
+```
+
+La numeración es manual. Si insertas un video en medio, renumera los siguientes para que el
+orden siga correspondiendo con el de la lección. Las capturas siguen el mismo esquema.
+
+```
+::: captura
+Captura 5.1. Ventana de gestión de archivos con un filtro aplicado.
+:::
+```
+
+Cuando insertes la imagen definitiva, sustituye el bloque `captura` por la imagen enlazada
+desde `img/`.
 
 ## Consejos metodológicos
 
