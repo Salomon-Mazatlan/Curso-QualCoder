@@ -1,3 +1,10 @@
+::: ficha
+- **Duración estimada** 30 minutos
+- **Antes de empezar** el proyecto creado (lección 4)
+- **Materiales** dos o tres archivos propios, de tipos distintos
+- **Al terminar tendrás** tu corpus importado y ordenado dentro del proyecto
+:::
+
 ::: preguntas
 - ¿Qué formatos acepta QualCoder y cómo conviene preparar cada uno?
 - ¿Cómo importo entrevistas, PDF, imágenes y multimedia?
@@ -15,7 +22,7 @@ No abras el mismo proyecto desde dos equipos a la vez. La base de datos está pe
 solo acceso y el resultado del acceso simultáneo suele ser un archivo corrupto.
 :::
 
-## Preparar antes de importar
+## 5.1 Preparar antes de importar
 
 El tiempo que inviertas limpiando archivos se recupera multiplicado. Estas cuatro
 precauciones resuelven la mayoría de los problemas.
@@ -40,7 +47,7 @@ proyecto. Si necesitas corregir la transcripción, hazlo antes de empezar a marc
 :::
 
 ::: video
-Importación de una entrevista, un PDF y una imagen, con la ventana "Gestionar archivos".
+Video 5.1. Importación de una entrevista, un PDF y una imagen, con la ventana "Gestionar archivos".
 :::
 <!-- verificar: 37481082-Qualitative-Research-Methods-a-Data-Collector-s-Field-Guide.pdf, p. 113 -->
 La guía de campo para recolectores de datos de Family Health International resume el manejo de
@@ -57,7 +64,15 @@ sustitución de nombres desplaza las posiciones de los segmentos y descuadra el 
 
 
 
-## Importar
+::: video
+Video 5.2. Limpieza de una transcripción, con el patrón de hablantes uniformado y los datos identificables sustituidos.
+:::
+
+::: captura
+Captura 5.1. Transcripción antes y después de la limpieza, con el patrón de hablantes uniforme.
+:::
+
+## 5.2 Importar
 
 La importación se hace desde "Gestionar archivos" (Manage files). Al elegir un archivo,
 QualCoder lo copia dentro de la carpeta del proyecto y lo registra en la base de datos.
@@ -80,7 +95,19 @@ transcripción. Si ya tienes la transcripción hecha, puedes sustituir ese texto
 lugar de escribirlo de nuevo.
 :::
 
-## Ordenar el corpus
+::: video
+Video 5.3. Importación de una entrevista en .docx y comprobación de la copia dentro de la carpeta del proyecto.
+:::
+
+::: video
+Video 5.4. Importación de un PDF y de una imagen, y diferencias en cómo aparecen en la lista de archivos.
+:::
+
+::: video
+Video 5.5. Importación de un audio, con la elección entre copiar el archivo al proyecto o dejarlo enlazado.
+:::
+
+## 5.3 Ordenar el corpus
 
 Con más de una docena de archivos, la lista se vuelve difícil de recorrer. La ventana de
 gestión de archivos incluye búsqueda y filtros por columna, que permiten acotar por nombre,
@@ -90,30 +117,25 @@ Es un buen momento para revisar que cada archivo tenga el nombre definitivo y qu
 colado nada que no forme parte del corpus.
 
 ::: captura
-Ventana "Gestionar archivos" con varios documentos importados y un filtro aplicado.
+Captura 5.2. Ventana "Gestionar archivos" con varios documentos importados y un filtro aplicado.
 :::
 
-## Referencias bibliográficas
-
-QualCoder 4 gestiona referencias dentro del proyecto. Puedes importar un archivo `.ris`
-exportado desde tu gestor bibliográfico, o traer las referencias desde una biblioteca local de
-Zotero.
-
-Una vez importadas, cada referencia se vincula a los documentos que le corresponden. Esto es
-especialmente útil cuando el corpus está hecho de literatura, como en una revisión
-sistemática o en un estado del arte, porque entonces cada PDF codificado queda asociado a su
-ficha completa.
-
-::: pasos
-1. Exporta tus referencias desde el gestor bibliográfico en formato RIS, o deja Zotero abierto
-   para importar desde su biblioteca local.
-2. Abre "Gestionar referencias" (Manage references) en QualCoder e importa el archivo.
-3. Revisa la vista previa de importación antes de confirmar, porque ahí se ven los campos que
-   quedaron incompletos.
-4. Vincula cada referencia con el archivo correspondiente del proyecto.
+::: video
+Video 5.6. Uso de la búsqueda y los filtros de la ventana de gestión de archivos sobre un corpus de veinte documentos.
 :::
 
-## Qué dejar fuera
+## 5.4 Referencias bibliográficas y encuestas
+
+Dos tipos de material tienen su propia lección porque el procedimiento es distinto.
+
+Las encuestas y hojas de cálculo con preguntas abiertas se importan con un asistente que crea
+casos, atributos y textos en una sola operación. Eso es la lección 6.
+
+Las referencias bibliográficas se cargan desde un archivo RIS o desde Zotero y se vinculan
+después a los documentos del proyecto, lo que resulta indispensable cuando el corpus es
+literatura. Eso es la lección 7.
+
+## 5.5 Qué dejar fuera
 
 No todo lo que tienes debe entrar al proyecto. Los datos crudos sin anonimizar, los
 consentimientos firmados y cualquier material que identifique a las personas participantes
@@ -135,7 +157,7 @@ del proyecto contiene las copias.
 ::: solucion Si un archivo no se importa
 Los `.docx` protegidos o con control de cambios activo suelen fallar. Ábrelos, acepta los
 cambios, guarda como `.docx` limpio o como `.txt`, y vuelve a intentar. Con PDF escaneados sin
-capa de texto, la lección 8 explica qué se puede y qué no.
+capa de texto, la lección 10 explica qué se puede y qué no.
 :::
 :::
 
@@ -149,6 +171,13 @@ respeta la misma estructura de carpetas en los dos.
 Los `.docx` protegidos o con control de cambios activo son la causa más frecuente. Ábrelos,
 acepta los cambios, guarda una copia limpia y vuelve a intentar. Con PDF escaneados, el
 reconocimiento óptico va antes de importar.
+:::
+
+::: comprobacion
+- Los archivos están limpios y anonimizados antes de entrar al proyecto
+- Importaste al menos tres archivos de tipos distintos
+- La carpeta de documentos del proyecto contiene las copias
+- Los nombres de archivo siguen tu convención y no vas a cambiarlos
 :::
 
 ::: clave

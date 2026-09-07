@@ -1,3 +1,10 @@
+::: ficha
+- **Duración estimada** 20 minutos
+- **Antes de empezar** el programa instalado (lección 2)
+- **Materiales** tu pregunta de investigación, aunque sea provisional
+- **Al terminar tendrás** una tabla que traduce tus tareas analíticas a operaciones del programa
+:::
+
 ::: preguntas
 - ¿Qué hace realmente un programa de análisis cualitativo?
 - ¿Cómo se traduce una pregunta de investigación en operaciones del software?
@@ -15,7 +22,7 @@ Deja activada la copia de seguridad al abrir el proyecto. Ocupa espacio en disco
 único que te salva de un error irreversible en medio de la codificación.
 :::
 
-## Lo que el programa hace y lo que no
+## 3.1 Lo que el programa hace y lo que no
 
 Un CAQDAS, por las siglas en inglés de análisis cualitativo de datos asistido por computadora,
 administra materiales y marcas. Guarda tus documentos, registra qué fragmento marcaste con
@@ -33,7 +40,7 @@ ninguna pregunta. El segundo consiste en esperar que alguna función revele los 
 sobre todo desde que hay asistentes de inteligencia artificial a la mano.
 
 ::: video
-Ejemplo de traducción, de una pregunta de investigación a un conjunto de operaciones en QualCoder.
+Video 3.1. Ejemplo de traducción, de una pregunta de investigación a un conjunto de operaciones en QualCoder.
 :::
 <!-- verificar: abductive-analysis-theorizing-qualitative-research.pdf, notas del capítulo 1 -->
 Iddo Tavory y Stefan Timmermans trabajan sobre el análisis abductivo, es decir sobre cómo se
@@ -51,7 +58,7 @@ las lecciones que siguen.
 
 
 
-## El trabajo de traducción
+## 3.2 El trabajo de traducción
 
 Christina Silver y Nicholas Woolf propusieron pensar el uso de estos programas en niveles, y
 el que más cuesta es el de traducción, donde una tarea analítica se convierte en una
@@ -80,7 +87,11 @@ que la mitad de tus tareas dependen de una función que QualCoder no tiene, es i
 útil, no un fracaso.
 :::
 
-## Qué aporta que sea libre
+::: video
+Video 3.2. Ejemplo completo de traducción, de una pregunta de investigación a la tabla de operaciones del programa.
+:::
+
+## 3.3 Qué aporta que sea libre
 
 QualCoder es software libre y guarda el proyecto en una base de datos SQLite abierta, con los
 archivos originales en carpetas normales. Eso tiene tres consecuencias prácticas.
@@ -101,7 +112,11 @@ tuya la obligación de documentar qué versión usaste y qué hiciste con ella, 
 cualquier programa comercial.
 :::
 
-## Vocabulario mínimo
+::: video
+Video 3.3. Apertura del archivo de proyecto con un visor de SQLite, para ver las tablas por dentro.
+:::
+
+## 3.4 Vocabulario mínimo
 
 Antes de seguir conviene fijar cuatro términos que este curso usa con precisión.
 
@@ -134,6 +149,12 @@ candidatos y quien decide es quien investiga.
 Si al traducir tus tareas analíticas a operaciones del programa la mitad se queda sin
 equivalente, no significa que el proyecto esté mal planteado. Significa que ya sabes qué vas a
 resolver a mano o con otra herramienta, y descubrirlo ahora sale barato.
+:::
+
+::: comprobacion
+- Escribiste tu tabla de traducción con al menos cuatro tareas
+- Cada tarea de la izquierda se enuncia sin nombrar el software
+- Distingues código, categoría, sub-código y caso
 :::
 
 ::: clave

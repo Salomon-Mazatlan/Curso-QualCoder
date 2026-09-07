@@ -1,3 +1,10 @@
+::: ficha
+- **Duración estimada** 25 minutos
+- **Antes de empezar** tener permisos para instalar programas en tu equipo
+- **Materiales** conexión a internet
+- **Al terminar tendrás** QualCoder 4 instalado, en español y con la copia de seguridad activada
+:::
+
 ::: preguntas
 - ¿Cómo instalo QualCoder 4 en mi sistema operativo?
 - ¿Qué configuro antes de crear el primer proyecto?
@@ -16,7 +23,7 @@ proyecto, y aun así conviene que los originales queden intactos en otra carpeta
 durante el curso vas a probar cosas.
 :::
 
-## De dónde se descarga
+## 2.1 De dónde se descarga
 
 Todas las versiones publicadas están en la página de releases del proyecto.
 
@@ -30,10 +37,14 @@ Descarga siempre desde esa página. Circulan copias en sitios de descargas que e
 versiones viejas o modificadas.
 
 ::: video
-Descarga e instalación completa en Windows, paso a paso.
+Video 2.1. Descarga e instalación completa en Windows, paso a paso.
 :::
 
-## Windows
+::: captura
+Captura 2.1. Página de releases del proyecto, con la versión más reciente marcada como Latest y la lista de archivos descargables.
+:::
+
+## 2.2 Windows
 
 ::: pasos
 1. Descarga el instalador `.exe` de la última versión desde la página de releases.
@@ -50,14 +61,26 @@ instalarlo, revisa la cuarentena de tu antivirus y agrega una excepción para la
 instalación.
 :::
 
-## macOS
+::: video
+Video 2.2. Instalación completa en Windows, incluido el aviso de aplicación no reconocida.
+:::
+
+::: captura
+Captura 2.2. Aviso de seguridad de Windows, con la opción de ejecutar de todos modos.
+:::
+
+## 2.3 macOS
 
 En macOS se descarga el paquete correspondiente a la versión y se arrastra a la carpeta de
 aplicaciones. Al abrirlo por primera vez el sistema bloquea la ejecución por venir de un
 desarrollador no identificado, así que hay que abrirlo desde el menú contextual con la
 opción de abrir, o autorizarlo en las preferencias de seguridad y privacidad.
 
-## Linux
+::: video
+Video 2.3. Instalación en macOS y autorización del programa en las preferencias de seguridad.
+:::
+
+## 2.4 Linux
 
 En Linux la vía habitual es ejecutar desde el código fuente, que además te deja siempre en
 la versión más reciente.
@@ -85,7 +108,11 @@ Ejecutar desde el código fuente funciona igual en Windows y macOS, y es la mejo
 quieres probar correcciones recién publicadas antes de que salga el siguiente instalador.
 :::
 
-## Primeras configuraciones
+::: video
+Video 2.4. Instalación desde el código fuente en Linux, con entorno virtual y dependencias.
+:::
+
+## 2.5 Primeras configuraciones
 
 Antes de crear un proyecto vale la pena pasar por las preferencias del programa.
 
@@ -107,13 +134,17 @@ programa. Lo verás en la lección 4, al crear el primero.
 :::
 
 ::: captura
-Ventana de preferencias con el idioma en español y la copia de seguridad activada.
+Captura 2.3. Ventana de preferencias con el idioma en español y la copia de seguridad activada.
 :::
 
 ::: nota Para profundizar
 Sobre los criterios para elegir y evaluar herramientas dentro de un proyecto, Flick (2008)
 dedica un apartado a preguntarse qué software se usa, para qué y con qué efecto sobre la
 relación con el campo. Vale la pena leerlo antes de casarse con un programa.
+:::
+
+::: video
+Video 2.5. Recorrido por las preferencias, con el cambio de idioma y la activación de la copia de seguridad.
 :::
 
 ::: reto Deja el programa listo
@@ -137,6 +168,12 @@ comprimido y deja el proyecto en uso en el disco de tu equipo.
 El instalador es más simple y va una o dos versiones por detrás. Ejecutar desde el código
 fuente exige instalar dependencias y te deja siempre en la versión más reciente, con las
 correcciones recién publicadas. Para aprender, el instalador basta.
+:::
+
+::: comprobacion
+- El programa abre y los menús están en español
+- La copia de seguridad al abrir está activada
+- Sabes desde qué página se descarga la versión más reciente
 :::
 
 ::: clave

@@ -1,3 +1,10 @@
+::: ficha
+- **Duración estimada** 20 minutos
+- **Antes de empezar** el programa instalado y configurado (lección 2)
+- **Materiales** ninguno
+- **Al terminar tendrás** tu proyecto creado, respaldado y con el diario abierto
+:::
+
 ::: preguntas
 - ¿Qué se crea exactamente cuando abro un proyecto nuevo?
 - ¿Dónde quedan mis archivos y cómo los respaldo?
@@ -16,7 +23,7 @@ son los códigos y los sub-códigos. Confundirlos produce árboles que se ven or
 recuperan nada.
 :::
 
-## Crear el proyecto
+## 4.1 Crear el proyecto
 
 Desde el menú de proyecto se elige crear uno nuevo, se escoge dónde guardarlo y se le da
 nombre. QualCoder crea entonces una carpeta terminada en `.qda` que es, en sí misma, el
@@ -26,7 +33,7 @@ Dale un nombre que sirva dentro de dos años, con el tema y el año, sin espacio
 Algo como `cuidado_mazatlan_2026.qda` funciona mejor que `proyecto final definitivo`.
 
 ::: video
-Creación de un proyecto nuevo y recorrido por la carpeta que genera en el disco.
+Video 4.1. Creación de un proyecto nuevo y recorrido por la carpeta que genera en el disco.
 :::
 <!-- verificar: Hyers, Diary methods (2018), p. 163 -->
 Lauri Hyers estudia métodos de diario en investigación social, y explica por qué conviene
@@ -43,7 +50,7 @@ te parece evidente, dentro de tres meses será exactamente lo que no puedas expl
 
 
 
-## Qué hay dentro de la carpeta
+## 4.2 Qué hay dentro de la carpeta
 
 Vale la pena mirar esa carpeta con el explorador de archivos, porque entender su estructura
 quita casi todo el miedo a perder trabajo.
@@ -69,7 +76,15 @@ proyecto desde dos equipos a la vez. La base no está pensada para acceso simult
 resultado suele ser un archivo corrupto.
 :::
 
-## Respaldo
+::: video
+Video 4.2. Recorrido por la carpeta del proyecto en el explorador de archivos, con la base de datos y las subcarpetas.
+:::
+
+::: captura
+Captura 4.1. Carpeta del proyecto abierta en el explorador, con data.qda y las subcarpetas visibles.
+:::
+
+## 4.3 Respaldo
 
 QualCoder puede generar una copia del proyecto cada vez que lo abres, si dejaste activada esa
 preferencia. Es la primera línea de defensa y no basta por sí sola, porque esas copias viven
@@ -90,7 +105,11 @@ La sincronización en la nube sirve para los respaldos comprimidos, no para el p
 uso. Sincroniza el `.zip`, nunca la carpeta abierta.
 :::
 
-## Convenciones que conviene fijar hoy
+::: video
+Video 4.3. Rutina de respaldo, comprimiendo la carpeta del proyecto y nombrando el archivo con la fecha.
+:::
+
+## 4.4 Convenciones que conviene fijar hoy
 
 Tres decisiones pequeñas evitan desorden más adelante.
 
@@ -108,18 +127,22 @@ La tercera es el idioma de tus códigos. Mezclar español e inglés en el árbol
 complica los informes y las búsquedas, y no hay manera cómoda de arreglarlo después.
 
 ::: captura
-Ventana principal con un proyecto recién creado y el nombre del proyecto visible en la barra
+Captura 4.2. Ventana principal con un proyecto recién creado y el nombre del proyecto visible en la barra
 de título.
 :::
 
-## El diario del proyecto
+## 4.5 El diario del proyecto
 
 QualCoder incluye "Diarios" (Journals), que son documentos de escritura libre dentro del proyecto. Abre uno
 el primer día y anota qué decisiones tomaste y por qué.
 
 Ese registro es lo que después te permite escribir el apartado metodológico sin inventar,
-y en investigación cualitativa es parte del rigor, no una formalidad. La lección 16 lo
+y en investigación cualitativa es parte del rigor, no una formalidad. La lección 18 lo
 retoma con detalle.
+
+::: video
+Video 4.4. Apertura del primer diario del proyecto y escritura de la entrada inicial.
+:::
 
 ::: reto Crea tu proyecto y ábrelo por fuera
 Crea el proyecto del curso, ciérralo y localiza su carpeta en el explorador de archivos.
@@ -142,6 +165,14 @@ cualquier operación masiva sobre el árbol.
 ::: consejo Para mover el proyecto, copia la carpeta completa
 La base guarda las marcas y las subcarpetas guardan las copias de los archivos. Llevarse solo
 `data.qda` rompe el proyecto. Comprime la carpeta `.qda` entera, con la fecha en el nombre.
+:::
+
+::: comprobacion
+- El proyecto está creado y localizaste su carpeta en el explorador
+- Reconoces el archivo de base de datos y la carpeta de documentos
+- Escribiste tu nombre como codificador
+- Hiciste un primer respaldo comprimido con la fecha en el nombre
+- Abriste el diario del proyecto y escribiste una entrada
 :::
 
 ::: clave

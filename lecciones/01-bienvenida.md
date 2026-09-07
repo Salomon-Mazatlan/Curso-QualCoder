@@ -1,3 +1,10 @@
+::: ficha
+- **Duración estimada** 10 minutos
+- **Antes de empezar** nada, esta es la puerta de entrada
+- **Materiales** ninguno todavía
+- **Al terminar tendrás** claro qué vas a hacer en el curso y con qué materiales
+:::
+
 ::: preguntas
 - ¿Qué voy a poder hacer al terminar este curso que hoy no puedo?
 - ¿Cuánto tiempo necesito y con qué materiales trabajo?
@@ -10,7 +17,7 @@
 - Usar el marcado de lecciones y la navegación de la página
 :::
 
-## De qué trata el curso
+## 1.1 De qué trata el curso
 
 QualCoder es un programa libre para análisis cualitativo asistido por computadora. Sirve
 para organizar entrevistas, documentos, imágenes, audio y video, marcar fragmentos con
@@ -28,7 +35,7 @@ investigación y termina mostrando dónde vive esa tarea dentro del programa, qu
 en el que uno realmente trabaja.
 
 ::: video
-Recorrido de tres minutos por la interfaz de QualCoder 4 y por lo que vas a construir
+Video 1.1. Recorrido de tres minutos por la interfaz de QualCoder 4 y por lo que vas a construir
 durante el curso.
 :::
 
@@ -46,7 +53,7 @@ Si el instrumento eres tú, el curso no puede limitarse a enseñar dónde están
 eso cada lección empieza por la decisión metodológica y termina en la función del programa que
 la ejecuta.
 
-## Cómo está organizado
+## 1.2 Cómo está organizado
 
 El curso tiene seis módulos y diecinueve lecciones. Los dos primeros son de preparación y
 fundamentos, el tercero es el más largo porque trata la codificación en sus distintos
@@ -65,7 +72,7 @@ trabajo en equipo, y el sexto es un examen de repaso con la solicitud de constan
 Cada lección se sostiene sola, así que puedes entrar directo a la que necesitas hoy. Si es
 tu primer contacto con un programa de análisis cualitativo conviene seguir el orden.
 
-## Qué necesitas tener a la mano
+## 1.3 Qué necesitas tener a la mano
 
 Una computadora con Windows, macOS o Linux, y permisos para instalar programas. La lección 2
 cubre la instalación en los tres sistemas.
@@ -83,7 +90,7 @@ Si trabajas con datos de personas, revisa antes qué autorizaciones tienes. En l
 hablamos de anonimización y de qué conviene dejar fuera del proyecto desde el inicio.
 :::
 
-## Cómo se usa esta página
+## 1.4 Cómo se usa esta página
 
 ::: pasos
 1. Usa la lista de la izquierda para moverte entre lecciones. En pantallas chicas se abre
@@ -103,12 +110,24 @@ saltar en una primera lectura. Los bloques con fondo oscuro del final resumen lo
 que si vuelves buscando algo puntual, empieza por ahí.
 :::
 
-## Una advertencia sobre las versiones
+::: video
+Video 1.2. Recorrido por la página del curso, la navegación entre lecciones y el marcado de avance.
+:::
+
+::: captura
+Captura 1.1. Visor de lecciones con la barra lateral abierta y el índice de la lección a la derecha.
+:::
+
+## 1.5 Una advertencia sobre las versiones
 
 QualCoder se actualiza seguido y algunos nombres de menú cambian entre versiones o entre
 traducciones. Cuando en el texto veas un nombre de menú entre comillas, búscalo por
 significado más que al pie de la letra. Si algo no aparece donde se indica, casi siempre
 está a un menú de distancia.
+
+::: video
+Video 1.3. Dónde se consulta el número de versión instalado, en la ventana Acerca de.
+:::
 
 ::: reto Prepara tu carpeta de trabajo
 Crea en tu computadora una carpeta llamada `curso-qualcoder`. Dentro, otra carpeta llamada
@@ -132,6 +151,12 @@ aparte por dónde te quedaste.
 Si tus entrevistas contienen nombres reales, anonimiza antes de importar y guarda los
 originales en otro lugar. Una vez codificado el texto, cualquier corrección desplaza las
 posiciones de los segmentos, así que la limpieza siempre va antes.
+:::
+
+::: comprobacion
+- Sabes cuántos módulos tiene el curso y por dónde vas a entrar
+- Tienes una carpeta de trabajo con dos o tres materiales propios
+- Los materiales son copias, no los originales
 :::
 
 ::: clave
