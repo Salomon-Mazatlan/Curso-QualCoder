@@ -93,7 +93,9 @@
     tip:        { clase: "bloque-tip",        icono: "✦", titulo: "Atajo útil" },
     clave:      { clase: "bloque-clave",      icono: "▬", titulo: "Puntos clave" },
     reto:       { clase: "bloque-reto",       icono: "◆", titulo: "Practica" },
-    captura:    { clase: "bloque-captura",    icono: "▣", titulo: "Captura sugerida" }
+    captura:    { clase: "bloque-captura",    icono: "▣", titulo: "Captura sugerida" },
+    descarga:   { clase: "bloque-descarga",   icono: "↓", titulo: "Archivos de la práctica" },
+    apoyo:      { clase: "bloque-apoyo",      icono: "♥", titulo: "Curso gratuito, sostenido con donativos" }
   };
 
   /* Convierte el texto en un arbol de nodos segun las marcas ::: */

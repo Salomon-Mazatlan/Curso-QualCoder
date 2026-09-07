@@ -121,7 +121,7 @@ window.CURSO = {
         },
         {
           id: "12-recuperar-segmentos",
-          titulo: "Recuperar segmentos y armar reportes",
+          titulo: "Recuperar segmentos y armar informes",
           archivo: "lecciones/12-recuperar-segmentos.md",
           minutos: 30,
           resumen: "Filtros por código, archivo, caso y atributo, con exportación a documento."
@@ -138,7 +138,7 @@ window.CURSO = {
           titulo: "Gráficos, nubes y grafos",
           archivo: "lecciones/14-graficos-y-grafos.md",
           minutos: 35,
-          resumen: "Visualizaciones del reporte y el lienzo de grafos para modelar relaciones."
+          resumen: "Gráficos del proyecto y el lienzo de grafos para modelar relaciones."
         }
       ]
     },
