@@ -10,6 +10,14 @@
 - Construir un rastro de auditoría de tu proceso analítico
 :::
 
+::: quiz Repaso de la lección 14
+¿Qué añade nombrar una relación en un grafo?
+- [ ] Nada, el nombre es decorativo
+- [x] Convierte una conexión vaga en una afirmación que se puede discutir
+- [ ] Permite que el programa calcule la co-ocurrencia
+> Una línea sin nombre solo dice que dos cosas están conectadas, que es casi no decir nada.
+:::
+
 ## Escribir es parte de analizar
 
 En investigación cualitativa el análisis no ocurre al final, ocurre mientras se codifica, y la
@@ -31,6 +39,12 @@ QualCoder ofrece varios lugares para escribir, y cada uno tiene su función.
 ::: video
 Recorrido por los distintos lugares donde escribir dentro de un proyecto y para qué sirve cada uno.
 :::
+<!-- verificar: Alaszewski, Using diaries for social research (2006), p. 1 -->
+::: cita Alaszewski (2006, p. 1)
+a regular, personal and contemporaneous record
++ un registro regular, personal y contemporáneo
+:::
+
 
 ## El diario
 
@@ -87,6 +101,12 @@ versión idealizada que se escribe cuando no se registró nada.
 Ventana del diario con varias entradas fechadas.
 :::
 
+<!-- verificar: Flick, Managing Quality in Qualitative Research (2008), p. 137 -->
+::: cita Flick (2008, p. 137)
+transparency starts from a detailed documentation of the research process
++ la transparencia parte de una documentación detallada del proceso de investigación
+:::
+
 ::: reto Escribe tu apartado metodológico en borrador
 Con lo que llevas del curso, escribe en el diario del proyecto un borrador de media página que
 describa cómo construiste tu sistema de códigos, qué decisiones tomaste y qué automatizaste.
@@ -105,6 +125,14 @@ respuesta?
 - [ ] En el historial de la base de datos
 > El programa registra el estado actual, no las razones. El único lugar donde vive el porqué es
 > lo que escribiste cuando tomaste la decisión.
+:::
+
+::: quiz Para pensarlo
+¿Dónde se anota que una entrevista se hizo con ruido de fondo y la participante estaba apurada?
+- [x] En el memo del archivo
+- [ ] En el memo del código principal
+- [ ] En una anotación sobre el primer segmento
+> El memo del archivo describe el documento completo, incluidas las condiciones en que se produjo.
 :::
 
 ::: clave

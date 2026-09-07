@@ -10,6 +10,14 @@
 - Exportar los resultados en un formato utilizable para escribir
 :::
 
+::: quiz Repaso de la lección 11
+¿Qué es un atributo?
+- [ ] Un código aplicado a todo un archivo
+- [x] Una característica registrada de forma estructurada, que permite filtrar y comparar
+- [ ] Una nota libre sobre un caso
+> Se asignan a casos y a archivos, y cada uno debería corresponder a una comparación que de verdad vas a hacer.
+:::
+
 ## La operación que sostiene el análisis
 
 Recuperar consiste en pedirle al proyecto todos los fragmentos que cumplen ciertas condiciones,
@@ -110,6 +118,14 @@ Exportaste un informe a hoja de cálculo y las citas no traen el nombre del caso
 - [ ] Los casos solo aparecen en la exportación a documento
 > Revisa primero que los archivos estén vinculados a sus casos. Si lo están, el informe necesita
 > que pidas incluir esa columna al generarlo.
+:::
+
+::: quiz Para pensarlo
+Generas un informe y los sesenta segmentos dicen prácticamente lo mismo. ¿Qué suele indicar?
+- [ ] Que el código está bien definido
+- [x] Que el código es demasiado literal y registra la palabra en vez de la idea
+- [ ] Que hace falta codificar más entrevistas
+> El extremo contrario, un informe donde nada se parece, indica un código demasiado amplio.
 :::
 
 ::: clave

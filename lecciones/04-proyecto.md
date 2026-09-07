@@ -10,6 +10,14 @@
 - Fijar convenciones de nombres antes de importar materiales
 :::
 
+::: quiz Repaso de la lección 3
+¿En qué se diferencia una categoría de un código?
+- [ ] La categoría se aplica al texto y el código no
+- [x] La categoría agrupa códigos y no se aplica al material
+- [ ] Son lo mismo con distinto nombre
+> Las categorías dan estructura al árbol. Lo que se aplica al material son los códigos y los sub-códigos.
+:::
+
 ## Crear el proyecto
 
 Desde el menú de proyecto se elige crear uno nuevo, se escoge dónde guardarlo y se le da
@@ -22,6 +30,12 @@ Algo como `cuidado_mazatlan_2026.qda` funciona mejor que `proyecto final definit
 ::: video
 Creación de un proyecto nuevo y recorrido por la carpeta que genera en el disco.
 :::
+<!-- verificar: Hyers, Diary methods (2018), p. 163 -->
+::: cita Hyers (2018, p. 163)
+contingent decisions, the reasoning for which may swiftly be forgotten
++ decisiones contingentes cuyo razonamiento puede olvidarse muy pronto
+:::
+
 
 ## Qué hay dentro de la carpeta
 
@@ -119,6 +133,14 @@ Si borras por accidente un código con cientos de segmentos y no tienes respaldo
 - [ ] Solo los segmentos del último día
 > El borrado de códigos escribe directamente en la base de datos. Por eso conviene respaldar
 > antes de cualquier operación masiva sobre el árbol de códigos.
+:::
+
+::: quiz Para pensarlo
+Necesitas continuar el trabajo en otra computadora. ¿Qué copias?
+- [ ] Solo el archivo `data.qda`
+- [x] La carpeta `.qda` completa, comprimida
+- [ ] La carpeta `documents` y el árbol de códigos exportado
+> La base guarda las marcas y las carpetas guardan las copias de los archivos. Separarlas rompe el proyecto.
 :::
 
 ::: clave

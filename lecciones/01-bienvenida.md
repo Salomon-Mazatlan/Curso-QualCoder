@@ -115,6 +115,14 @@ otro lugar. Trabajar sobre copias es la única precaución que de verdad evita s
 > registro, pero no se comparte entre equipos ni entre navegadores.
 :::
 
+::: quiz Para pensarlo
+Tus entrevistas contienen nombres reales y quieres practicar con ellas. ¿Qué haces?
+- [ ] Las importas tal cual, porque el proyecto es tuyo
+- [x] Trabajas sobre copias anonimizadas y dejas los originales resguardados aparte
+- [ ] Esperas a terminar el curso para usarlas
+> La anonimización va antes de importar. Después de codificar, cualquier corrección del texto desplaza los segmentos.
+:::
+
 ::: clave
 - QualCoder 4 organiza materiales, codificación, memos y informes en un solo proyecto
 - El curso son cinco módulos que siguen el orden real de un proyecto de investigación

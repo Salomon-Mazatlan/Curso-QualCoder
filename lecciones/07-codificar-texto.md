@@ -10,6 +10,14 @@
 - Escribir anotaciones y memos sobre segmentos concretos
 :::
 
+::: quiz Repaso de la lección 6
+¿Qué debería contener el memo de un código?
+- [ ] Solo el nombre del código en otras palabras
+- [x] Definición, criterio de inclusión y criterio de exclusión
+- [ ] La lista de todos los segmentos codificados
+> La prueba es simple, si otra persona puede aplicar el código igual que tú, el memo sirve.
+:::
+
 ## La ventana de codificación
 
 El módulo «Codificar texto» (Code text) tiene tres zonas. A la izquierda está el árbol de códigos,
@@ -22,6 +30,12 @@ disponible desde ahí sin necesidad de volver a «Gestionar archivos».
 ::: video
 Recorrido por la ventana de codificación de texto y primera marca sobre una entrevista.
 :::
+<!-- verificar: Willis, Analysis of the Cognitive Interview (2015), p. 95 -->
+::: cita Willis (2015, p. 95)
+analysis is itself a cognitive activity limited by the capacity of the human brain
++ el análisis es en sí mismo una actividad cognitiva limitada por la capacidad del cerebro humano
+:::
+
 
 ## Marcar un fragmento
 
@@ -125,6 +139,14 @@ Al releer los segmentos de un código encuentras que los primeros diez hablan de
 - [ ] Borrar el código y volver a codificar desde el inicio
 > La deriva de significado se corrige separando lo que se mezcló. Borrar y recomenzar tira
 > trabajo útil, y no hacer nada deja un código que no significa nada en el informe final.
+:::
+
+::: quiz Para pensarlo
+¿Qué riesgo tiene aplicar por costumbre tres códigos casi iguales al mismo fragmento?
+- [ ] Que el proyecto crezca de tamaño
+- [x] Que las co-ocurrencias muestren relaciones que solo existen en tu manera de marcar
+- [ ] Que el programa borre el segmento
+> Un mismo fragmento puede llevar varios códigos. El problema aparece cuando los códigos dicen lo mismo.
 :::
 
 ::: clave

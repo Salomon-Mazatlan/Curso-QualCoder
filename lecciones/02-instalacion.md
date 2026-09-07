@@ -10,6 +10,14 @@
 - Reconocer los problemas de arranque más comunes y su solución
 :::
 
+::: quiz Repaso de la lección 1
+¿Por qué conviene copiar los materiales a una carpeta de trabajo en vez de usar los originales?
+- [ ] Porque el programa no lee archivos de otras carpetas
+- [x] Porque durante el curso vas a probar cosas y los originales deben quedar intactos
+- [ ] Porque QualCoder borra los archivos después de importarlos
+> QualCoder copia lo que importas dentro del proyecto, y aun así conviene que los originales queden aparte, sin tocar.
+:::
+
 ## De dónde se descarga
 
 Las versiones publicadas están en el repositorio oficial del proyecto, en la sección de
@@ -125,6 +133,14 @@ repositorio del proyecto, que es la vía por la que se corrigen.
 > El proyecto es una base de datos SQLite que el programa mantiene abierta. Un servicio que
 > sincroniza archivos mientras trabajas puede corromperla. Sincroniza el respaldo, no el
 > proyecto en uso.
+:::
+
+::: quiz Para pensarlo
+El programa se cierra solo al arrancar y no muestra ningún mensaje. ¿Cuál es el primer paso?
+- [ ] Reinstalar el sistema operativo
+- [x] Ejecutarlo desde la terminal para ver el error que produce
+- [ ] Cambiar de computadora
+> Con el instalador de Windows, además, queda un registro de errores en la carpeta `.qualcoder` del usuario.
 :::
 
 ::: clave

@@ -10,6 +10,14 @@
 - Anticipar qué información no sobrevive a la conversión
 :::
 
+::: quiz Repaso de la lección 15
+¿Qué se registra en el diario del proyecto?
+- [x] Las decisiones fechadas y sus razones
+- [ ] La lista de archivos importados
+- [ ] Las frecuencias de cada código
+> Que codificaste tres entrevistas no importa. Que decidiste dividir un código, sí.
+:::
+
 ## Salidas del proyecto
 
 QualCoder exporta a distintos niveles según lo que necesites.
@@ -106,6 +114,14 @@ Vas a colaborar con una colega que usa MAXQDA y solo necesitan compartir el sist
 - [ ] Una captura de pantalla del árbol de códigos
 > Enviar el proyecto completo mueve documentos y codificación que quizá no debería salir de tu
 > equipo. El libro de códigos transmite exactamente lo que se necesita compartir.
+:::
+
+::: quiz Para pensarlo
+Importas un `.qdpx` en otro programa y la jerarquía de sub-códigos llegó aplanada. ¿Qué haces?
+- [ ] Rehaces la codificación a mano en el programa de destino
+- [x] Lo anotas, conservas el proyecto original de QualCoder y decides si compensa migrar
+- [ ] Vuelves a exportar hasta que salga bien
+> Cada programa implementa el estándar con sus particularidades, y las jerarquías profundas son lo primero que se pierde.
 :::
 
 ::: clave

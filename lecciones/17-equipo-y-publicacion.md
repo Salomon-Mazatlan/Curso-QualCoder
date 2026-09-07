@@ -10,6 +10,14 @@
 - Decidir qué materiales se publican y con qué resguardos
 :::
 
+::: quiz Repaso de la lección 16
+¿Qué es un archivo `.qdpx`?
+- [ ] Una copia de seguridad interna de QualCoder
+- [x] El formato REFI-QDA de intercambio de proyectos entre programas
+- [ ] Un informe exportado a hoja de cálculo
+> Lleva documentos, códigos, segmentos, memos, casos y variables, y lo leen también los programas comerciales.
+:::
+
 ## Codificar entre varias personas
 
 QualCoder registra el nombre de quien codifica en cada segmento, así que en un mismo proyecto
@@ -27,6 +35,12 @@ compare resultados antes de empezar en serio.
 ::: video
 Reparto del corpus, fusión de proyectos y revisión de la codificación por persona.
 :::
+<!-- verificar: Adams, Holman Jones y Ellis, Autoethnography (2014), p. 95 -->
+::: cita Adams, Holman Jones y Ellis (2014, p. 95)
+our writing must be both faithful to experience and respectful of relationships
++ nuestra escritura debe ser a la vez fiel a la experiencia y respetuosa de las relaciones
+:::
+
 
 ## Fusionar proyectos
 
@@ -91,12 +105,14 @@ comunidad, y esa mención es la forma de reconocer ese trabajo.
 
 La cita en formato APA, séptima edición, queda así.
 
-> Curtain, C. (2026). *QualCoder* (Versión 4.0) [Software]. GitHub.
-> https://github.com/ccbogel/QualCoder
+> Curtain, C., Dröge, K., Missaghieh--Poncet, J., & Salomón, L. (2026).
+> *QualCoder 4.0* [Computer software]. GitHub.
+> https://github.com/ccbogel/QualCoder/releases/tag/4.0
 
-Ajusta el año y el número de versión a los de tu instalación, que puedes consultar en la
-ventana «Acerca de» (About). En el texto se cita como (Curtain, 2026), y si además usaste
-este curso o su manual, se citan por separado.
+En el texto se cita como (Curtain et al., 2026). Ajusta el año y el número de versión a los de
+tu instalación, que puedes consultar en la ventana «Acerca de» (About), y cambia la dirección
+por la de la etiqueta de esa versión. Si además usaste este curso o su manual, se citan por
+separado.
 
 Si el proyecto lo permite, publicar también el libro de códigos y una descripción del proceso
 hace tu investigación más útil para quien venga después.
@@ -121,6 +137,14 @@ fusionar los proyectos. ¿Qué conviene hacer antes?
 - [ ] Borrar el código de uno de los proyectos
 > La fusión une por nombre. Separarlos antes conserva la diferencia y deja la decisión conceptual
 > en manos del equipo, que es donde corresponde.
+:::
+
+::: quiz Para pensarlo
+Quieres publicar el corpus completo de entrevistas. ¿Qué necesitas además de anonimizarlo?
+- [ ] Nada más, la anonimización basta
+- [x] Consentimiento explícito para ese uso, y probablemente un repositorio con acceso controlado
+- [ ] Autorización de la revista donde publicas
+> El consentimiento para participar en el estudio no incluye el consentimiento para difundir los materiales.
 :::
 
 ::: clave

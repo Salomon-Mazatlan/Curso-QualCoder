@@ -10,6 +10,14 @@
 - Documentar cada código con un memo que evite la deriva
 :::
 
+::: quiz Repaso de la lección 5
+¿Qué conviene hacer con una transcripción antes de importarla?
+- [ ] Codificarla a mano en el procesador de texto
+- [x] Anonimizarla y uniformar el patrón de los hablantes
+- [ ] Convertirla a PDF para conservar el formato
+> Corregir el contenido después de codificar desplaza las posiciones de los segmentos, así que la limpieza va antes.
+:::
+
 ## De dónde salen los códigos
 
 Hay dos caminos y casi todos los proyectos usan los dos.
@@ -29,6 +37,12 @@ importa es que sepas de dónde viene cada código, y eso se resuelve escribiénd
 ::: video
 Construcción de un árbol de códigos desde cero, con categorías, códigos y sub-códigos.
 :::
+<!-- verificar: Saldaña, Fundamentals of Qualitative Research (2011), p. 95 -->
+::: cita Saldaña (2011, p. 95)
+Coding is a heuristic — a method of discovery
++ Codificar es un heurístico, un método de descubrimiento
+:::
+
 
 ## Las tres piezas del árbol
 
@@ -111,6 +125,12 @@ dos códigos significaban cosas distintas, esa diferencia se pierde para siempre
 memo permite reconstruir qué pasó.
 :::
 
+<!-- verificar: Anfara y Mertz, Theoretical Frameworks in Qualitative Research (2015), capítulo final -->
+::: cita Anfara y Mertz (2015)
+provides powerful concepts that may be used in the coding of data
++ aporta conceptos potentes que pueden usarse en la codificación de los datos
+:::
+
 ::: reto Diseña tu primer árbol
 Crea dos categorías con tres o cuatro códigos cada una, derivados de tus objetivos de
 investigación. Añade al menos un sub-código, asigna colores por familia y escribe el memo de
@@ -132,6 +152,14 @@ necesitas aplicar ambos al texto. ¿Qué creas?
 > Las categorías agrupan pero no se aplican al material. Como necesitas marcar fragmentos con
 > esas distinciones, corresponden sub-códigos, que además conservan el vínculo con su padre al
 > contar frecuencias.
+:::
+
+::: quiz Para pensarlo
+Tienes ocho códigos aplicados una sola vez cada uno. ¿Qué suele indicar?
+- [ ] Que el corpus es demasiado pequeño
+- [x] Que al depurar probablemente se fusionen bajo códigos más generales o desaparezcan
+- [ ] Que hay que codificar más veces cada uno
+> Los códigos de aparición única son normales al inicio de una codificación inductiva y se ordenan después.
 :::
 
 ::: clave

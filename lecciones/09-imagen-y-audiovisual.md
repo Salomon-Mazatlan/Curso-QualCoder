@@ -10,6 +10,14 @@
 - Vincular transcripción y grabación con marcas de tiempo, y marcar hablantes
 :::
 
+::: quiz Repaso de la lección 8
+¿Qué se puede hacer con un PDF escaneado que no tiene capa de texto?
+- [ ] Nada, el programa lo rechaza al importar
+- [x] Codificarlo por regiones, aunque no se pueda seleccionar ni buscar texto
+- [ ] Buscar palabras dentro de él con normalidad
+> Para trabajar el contenido textual hay que pasarlo antes por reconocimiento óptico de caracteres.
+:::
+
 ## Imagen
 
 Codificar una imagen consiste en dibujar un rectángulo sobre una zona y aplicarle un código.
@@ -37,6 +45,12 @@ imagen y audio sin problema.
 ::: video
 Codificación de una fotografía por regiones y de un fragmento de audio desde la onda de sonido.
 :::
+<!-- verificar: Flick, Designing Qualitative Research (2007), p. 97 -->
+::: cita Flick (2007, p. 97)
+Images need more space than words and they provide more context
++ Las imágenes necesitan más espacio que las palabras y aportan más contexto
+:::
+
 
 ## Audio y video
 
@@ -97,6 +111,12 @@ Ventana de detección de hablantes con la lista de identificadores encontrados e
 - [Fotografía de campo](ejercicios/09-fotografia-campo.jpg)
 :::
 
+<!-- verificar: Harris, Video as method (2016), p. 19 -->
+::: cita Harris (2016, p. 19)
+without it, large video datasets can become unwieldy
++ sin ello, los conjuntos grandes de datos en video pueden volverse inmanejables
+:::
+
 ::: reto Trabaja una grabación
 Importa un audio corto, marca dos fragmentos codificados directamente sobre la onda de sonido y
 escribe la transcripción de uno de ellos con su marca de tiempo. Si tienes una transcripción
@@ -116,6 +136,14 @@ volver a ejecutar la detección.
 - [ ] Una transcripción automática de ese fragmento
 > Los materiales multimedia no se recortan ni se duplican. Se registran marcas de tiempo sobre
 > el archivo, que es lo que mantiene el proyecto manejable.
+:::
+
+::: quiz Para pensarlo
+¿Para qué sirve la onda de sonido más allá de verse bien?
+- [ ] Para medir el volumen de la grabación
+- [x] Para ubicar silencios, interrupciones y cambios de intensidad sin escuchar todo el archivo
+- [ ] Para transcribir automáticamente
+> Puedes seleccionar un tramo directamente sobre la onda y codificarlo, con su tiempo de inicio y de fin.
 :::
 
 ::: clave

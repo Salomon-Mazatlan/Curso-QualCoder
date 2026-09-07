@@ -10,6 +10,14 @@
 - Decidir con criterio qué se automatiza y qué no, y dejarlo documentado
 :::
 
+::: quiz Repaso de la lección 9
+¿Qué necesita «Marcar hablantes» para funcionar bien?
+- [ ] Que el audio tenga buena calidad
+- [x] Que la transcripción use siempre el mismo patrón para identificar a quien habla
+- [ ] Que cada hablante tenga su propio archivo
+> Mezclar `Rosa:` con `ROSA -` es la causa más común de que la detección no encuentre nada.
+:::
+
 ## Autocodificación clásica
 
 Antes de la inteligencia artificial ya existían formas de automatizar, y siguen siendo las más
@@ -32,6 +40,12 @@ Lo mecánico se automatiza, lo interpretativo no.
 ::: video
 Autocodificación por búsqueda de texto y revisión de los resultados antes de confirmar.
 :::
+<!-- verificar: Angrosino, Doing Ethnographic and Observational Research (2008), p. 75 -->
+::: cita Angrosino (2008, p. 75)
+computer programs tempt the researcher to let them do all the work
++ los programas de cómputo tientan a quien investiga a dejar que hagan todo el trabajo
+:::
+
 
 ## Qué hace la IA en QualCoder 4
 
@@ -119,6 +133,14 @@ Vas a analizar entrevistas con víctimas de violencia y quieres usar búsqueda p
 - [ ] Cualquiera, porque el programa no guarda las consultas
 > La anonimización reduce el riesgo pero no elimina el envío del contenido a un tercero. Con
 > material sensible, el procesamiento local es la única vía que no compromete el consentimiento.
+:::
+
+::: quiz Para pensarlo
+Autocodificaste un término y al revisar descartaste ocho de cada diez segmentos. ¿Qué te dice ese resultado?
+- [ ] Que la autocodificación está mal configurada
+- [x] Que la palabra aparece en contextos distintos y la automatización te da ruido, no ahorro
+- [ ] Que el corpus es demasiado grande
+> Cuando conservas casi todo, el término funciona como marcador confiable del tema. Cuando no, conviene volver a la lectura.
 :::
 
 ::: clave

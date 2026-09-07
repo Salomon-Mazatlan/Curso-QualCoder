@@ -10,6 +10,14 @@
 - Generar y examinar informes de co-ocurrencia
 :::
 
+::: quiz Repaso de la lección 12
+Al recuperar los segmentos de un código con sub-códigos, ¿qué conviene verificar?
+- [ ] Que el informe esté ordenado por fecha
+- [x] Si el informe incluye la descendencia del código o solo ese código
+- [ ] Que todos los archivos estén asignados a un caso
+> Es la diferencia entre leer un tema completo y leer una sola de sus ramas.
+:::
+
 ## Contar en investigación cualitativa
 
 Las frecuencias son legítimas mientras se sepa qué miden. Miden tu actividad de codificación,
@@ -30,6 +38,12 @@ vivan, ni que sea más importante que un tema mencionado una vez con enorme dens
 ::: video
 Informe de frecuencias, matriz de código por caso y informe «Co-ocurrencia de códigos» (Code co-occurrence).
 :::
+<!-- verificar: Bazeley, Qualitative data analysis (2013), p. 382 -->
+::: cita Bazeley (2013, p. 382)
+Beware reducing evidence to the amount of evidence
++ Cuidado con reducir la evidencia a la cantidad de evidencia
+:::
+
 
 ## Frecuencias
 
@@ -109,6 +123,14 @@ frecuencias simples parece marginal. ¿Qué conviene mirar?
 - [ ] Ninguno, las frecuencias no sirven con sub-códigos
 > Con jerarquías de códigos, el conteo propio del padre dice poco. La vista acumulada muestra el
 > peso del tema completo, que es lo que se quiere saber.
+:::
+
+::: quiz Para pensarlo
+Dos códigos co-ocurren casi siempre y al leer los fragmentos descubres que significan lo mismo. ¿Qué haces?
+- [ ] Lo reportas como hallazgo
+- [x] Los fusionas y ajustas el memo del que queda
+- [ ] Eliminas uno de los dos sin más
+> Eliminar sin fusionar pierde los segmentos. La fusión los conserva bajo el código que sobrevive.
 :::
 
 ::: clave

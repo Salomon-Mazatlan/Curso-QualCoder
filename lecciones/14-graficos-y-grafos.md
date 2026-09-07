@@ -10,6 +10,14 @@
 - Exportar figuras utilizables en un artículo o una tesis
 :::
 
+::: quiz Repaso de la lección 13
+¿Qué miden las frecuencias de codificación?
+- [ ] La prevalencia del fenómeno en la población
+- [x] Tu actividad de codificación, condicionada por tu criterio de segmentación
+- [ ] La importancia analítica de cada tema
+> Por eso no se reportan como si fueran resultados de una muestra representativa.
+:::
+
 ## Gráficos
 
 QualCoder incluye el módulo «Gráficos» (Charts), que representa lo que ya viste en los informes,
@@ -41,6 +49,12 @@ palabras irrelevantes y explica qué muestra.
 ::: video
 Generación de gráficos de distribución y de una nube de palabras filtrada.
 :::
+<!-- verificar: Boucher y Holian, Emerging forms of representing qualitative data (2001), p. 208 -->
+::: cita Boucher y Holian (2001, p. 208)
+exploring alternative ways of presenting qualitative research findings
++ explorar formas alternativas de presentar los hallazgos de la investigación cualitativa
+:::
+
 
 ## El lienzo de grafos
 
@@ -109,6 +123,14 @@ grafo.
 - [ ] El grafo solo admite códigos, el informe admite casos
 > La co-ocurrencia es un dato sobre cómo codificaste. La relación de un grafo es una
 > interpretación tuya, y por eso lleva nombre y se puede discutir.
+:::
+
+::: quiz Para pensarlo
+Tu grafo tiene cuarenta nodos y resulta ilegible. ¿Qué conviene hacer?
+- [ ] Reducir el tamaño de la letra
+- [x] Quitar todo lo que no participe en la relación que quieres mostrar y hacer un segundo grafo si hace falta
+- [ ] Exportarlo a mayor resolución
+> Un modelo publicable rara vez pasa de quince nodos, y casi siempre se reorganiza a mano.
 :::
 
 ::: clave

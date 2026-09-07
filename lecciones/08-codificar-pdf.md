@@ -10,6 +10,14 @@
 - Reconocer las limitaciones de los documentos sin capa de texto
 :::
 
+::: quiz Repaso de la lección 7
+¿Qué es codificar en vivo?
+- [ ] Codificar mientras se graba la entrevista
+- [x] Usar como nombre del código las palabras exactas de quien participó
+- [ ] Codificar sin haber leído el documento completo
+> Mantiene el lenguaje del campo, y después esos códigos se agrupan bajo otros más abstractos.
+:::
+
 ## Por qué el PDF va aparte
 
 En una transcripción el orden del texto es evidente. En un PDF hay columnas, notas al pie,
@@ -113,6 +121,14 @@ específicos en su interior. ¿Qué haces primero?
 - [ ] Codificarlos por regiones sin más
 > Sin capa de texto no hay nada que buscar. El reconocimiento óptico se hace antes de importar,
 > y su revisión es parte del trabajo porque los errores de lectura se arrastran a todo el análisis.
+:::
+
+::: quiz Para pensarlo
+Tienes una transcripción exportada a PDF, sin columnas ni figuras. ¿Cómo la trabajas?
+- [ ] En «Codificar PDF», para conservar la maqueta
+- [x] La conviertes a texto plano y la importas como documento de texto
+- [ ] La codificas por regiones de imagen
+> Si aplanar el documento no pierde información, el módulo de texto es más ágil y permite detectar hablantes.
 :::
 
 ::: clave

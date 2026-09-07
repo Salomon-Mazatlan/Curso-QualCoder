@@ -10,6 +10,14 @@
 - Vincular referencias bibliográficas a los documentos del proyecto
 :::
 
+::: quiz Repaso de la lección 4
+¿Por qué no conviene abrir el mismo proyecto desde dos equipos a la vez?
+- [ ] Porque la licencia lo impide
+- [x] Porque la base de datos no admite acceso simultáneo y puede corromperse
+- [ ] Porque el programa duplica los códigos
+> El proyecto es una base SQLite que el programa mantiene abierta, pensada para un solo acceso.
+:::
+
 ## Preparar antes de importar
 
 El tiempo que inviertas limpiando archivos se recupera multiplicado. Estas cuatro
@@ -37,6 +45,12 @@ proyecto. Si necesitas corregir la transcripción, hazlo antes de empezar a marc
 ::: video
 Importación de una entrevista, un PDF y una imagen, con la ventana «Gestionar archivos».
 :::
+<!-- verificar: 37481082-Qualitative-Research-Methods-a-Data-Collector-s-Field-Guide.pdf, p. 113 -->
+::: cita Family Health International (2005, p. 113)
+Remove identifying information from the transcript
++ Elimina de la transcripción la información que identifique a las personas
+:::
+
 
 ## Importar
 
@@ -128,6 +142,14 @@ dos computadoras. ¿Qué conviene?
 - [ ] Convertirlos a audio y descartar el video
 > Copiar haría el proyecto inmanejable. Enlazar funciona si respetas la ruta en ambos equipos,
 > y si no, el programa te pedirá localizar el archivo de nuevo.
+:::
+
+::: quiz Para pensarlo
+Un `.docx` con control de cambios activo no se importa. ¿Qué haces?
+- [ ] Lo renombras a `.txt` sin abrirlo
+- [x] Aceptas los cambios, lo guardas limpio y vuelves a importarlo
+- [ ] Lo importas como PDF
+> Los documentos protegidos o con marcas de revisión son la causa más común de fallos al importar.
 :::
 
 ::: clave

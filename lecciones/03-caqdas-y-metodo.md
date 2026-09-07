@@ -10,6 +10,14 @@
 - Evitar los dos errores más comunes al empezar con un CAQDAS
 :::
 
+::: quiz Repaso de la lección 2
+¿Qué preferencia conviene dejar activada antes de crear el primer proyecto?
+- [x] La copia de seguridad al abrir el proyecto
+- [ ] El modo de pantalla completa
+- [ ] La actualización automática del programa
+> Ocupa espacio en disco y es lo que te salva de un error irreversible durante la codificación.
+:::
+
 ## Lo que el programa hace y lo que no
 
 Un CAQDAS, por las siglas en inglés de análisis cualitativo de datos asistido por computadora,
@@ -30,6 +38,12 @@ sobre todo desde que hay asistentes de inteligencia artificial a la mano.
 ::: video
 Ejemplo de traducción, de una pregunta de investigación a un conjunto de operaciones en QualCoder.
 :::
+<!-- verificar: abductive-analysis-theorizing-qualitative-research.pdf, notas del capítulo 1 -->
+::: cita Tavory y Timmermans (2014), notas del cap. 1
+they do not tell you what codes to attach to the data
++ no te dicen qué códigos aplicar a los datos
+:::
+
 
 ## El trabajo de traducción
 
@@ -111,6 +125,14 @@ todavía no está traducida.
 - [ ] Sustituye la escritura de memos analíticos
 > Las funciones automáticas proponen candidatos, y quien decide si un fragmento pertenece a
 > un tema sigue siendo la persona que investiga.
+:::
+
+::: quiz Para pensarlo
+Al llenar tu tabla de traducción, la mitad de las tareas no encuentra equivalente en el programa. ¿Qué significa?
+- [ ] Que el proyecto está mal planteado
+- [x] Que ya sabes qué vas a resolver a mano o con otra herramienta
+- [ ] Que hay que abandonar QualCoder
+> El ejercicio también sirve para elegir software con criterio, y descubrir un hueco a tiempo es información útil.
 :::
 
 ::: clave

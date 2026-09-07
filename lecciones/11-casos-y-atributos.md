@@ -10,6 +10,14 @@
 - Filtrar el análisis por atributo para comparar grupos
 :::
 
+::: quiz Repaso de la lección 10
+¿Qué conviene registrar cada vez que usas una función automática?
+- [ ] Nada, el programa deja su propio historial
+- [x] Qué función usaste, sobre qué archivos, con qué parámetros y cuánto conservaste
+- [ ] Solo el número de segmentos generados
+> Ese registro es el que después se convierte en un párrafo del apartado metodológico.
+:::
+
 ## Archivo, caso y por qué no son lo mismo
 
 Un archivo es un documento. Un caso es una unidad de análisis, y puede reunir varios archivos.
@@ -113,6 +121,14 @@ cada uno. ¿Qué haces?
 - [ ] Creas seis códigos con los nombres de los participantes
 > Partir el archivo rompe la secuencia de la conversación. Asignar porciones a casos conserva el
 > archivo íntegro y permite filtrar por participante en cualquier informe.
+:::
+
+::: quiz Para pensarlo
+Tienes normativas y notas de prensa que no pertenecen a ninguna persona entrevistada. ¿Los asignas a un caso?
+- [ ] Sí, creas un caso llamado «contexto»
+- [x] No, pueden quedar fuera, sabiendo que no aparecerán en los informes filtrados por caso
+- [ ] No, y conviene eliminarlos del proyecto
+> No todos los archivos tienen que pertenecer a un caso. Lo importante es saber qué queda fuera de cada filtro.
 :::
 
 ::: clave
