@@ -44,9 +44,19 @@ img/                     capturas de pantalla
 
 ## Agregar los videos
 
-Cada lección trae ya un bloque `::: video`. Pega el enlace de YouTube junto a la marca y
-listo. Mientras no haya enlace se muestra un recuadro que indica que ahí va un video, así que
-el curso se puede publicar e ir completando después. El detalle está en `GUIA-DE-EDICION.md`.
+Hay 99 bloques `::: video`, uno por procedimiento, y ahora mismo todos apuntan al mismo video
+de prueba para que puedas ver cómo queda la página mientras grabas.
+
+Conforme grabes, sustituye el enlace de cada bloque por el suyo. Para localizar los que faltan,
+desde la carpeta del curso.
+
+```bash
+grep -rn "p2pWR1IrKbg" lecciones/ | wc -l    # cuántos siguen con el video de prueba
+grep -rn "p2pWR1IrKbg" lecciones/03*.md      # los de una lección concreta
+```
+
+Si prefieres publicar con los huecos a la vista, borra el enlace y deja solo `::: video`. En
+ese caso se muestra un recuadro que avisa de que ahí va un video.
 
 ## Subir los archivos de práctica
 

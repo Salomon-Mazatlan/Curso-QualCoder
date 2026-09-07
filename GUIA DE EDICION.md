@@ -163,7 +163,17 @@ Video 5.3. Importación de un audio, con la elección entre copiar o enlazar.
 ```
 
 La numeración es manual. Si insertas un video en medio, renumera los siguientes para que el
-orden siga correspondiendo con el de la lección. Las capturas siguen el mismo esquema.
+orden siga correspondiendo con el de la lección.
+
+Los 99 bloques traen de momento un mismo video de prueba, para ver cómo queda la página
+mientras grabas. Para sustituirlos, busca y reemplaza el identificador en toda la carpeta de
+lecciones.
+
+```bash
+grep -rl "p2pWR1IrKbg" lecciones/          # ver qué lecciones lo usan todavía
+```
+
+Las capturas siguen el mismo esquema.
 
 ```
 ::: captura
@@ -171,8 +181,14 @@ Captura 5.1. Ventana de gestión de archivos con un filtro aplicado.
 :::
 ```
 
-Cuando insertes la imagen definitiva, sustituye el bloque `captura` por la imagen enlazada
-desde `img/`.
+La ruta de la imagen va en la misma línea de apertura y el pie en el cuerpo. En la página se
+muestra con un botón de ampliar, y al hacer clic la captura se abre a pantalla completa sobre
+la misma página, sin salir de la lección. Con más de una captura en la lección, el visor deja
+pasar de una a otra con las flechas del teclado, y se cierra con Escape o haciendo clic fuera
+de la imagen.
+
+Para poner las capturas reales, sustituye los archivos de `img/` conservando el nombre. No hace
+falta tocar las lecciones.
 
 ## Consejos metodológicos
 
