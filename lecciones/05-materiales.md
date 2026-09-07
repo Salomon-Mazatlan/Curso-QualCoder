@@ -10,12 +10,9 @@
 - Vincular referencias bibliográficas a los documentos del proyecto
 :::
 
-::: quiz Repaso de la lección 4
-¿Por qué no conviene abrir el mismo proyecto desde dos equipos a la vez?
-- [ ] Porque la licencia lo impide
-- [x] Porque la base de datos no admite acceso simultáneo y puede corromperse
-- [ ] Porque el programa duplica los códigos
-> El proyecto es una base SQLite que el programa mantiene abierta, pensada para un solo acceso.
+::: consejo Antes de seguir, un repaso
+No abras el mismo proyecto desde dos equipos a la vez. La base de datos está pensada para un
+solo acceso y el resultado del acceso simultáneo suele ser un archivo corrupto.
 :::
 
 ## Preparar antes de importar
@@ -46,10 +43,18 @@ proyecto. Si necesitas corregir la transcripción, hazlo antes de empezar a marc
 Importación de una entrevista, un PDF y una imagen, con la ventana "Gestionar archivos".
 :::
 <!-- verificar: 37481082-Qualitative-Research-Methods-a-Data-Collector-s-Field-Guide.pdf, p. 113 -->
+La guía de campo para recolectores de datos de Family Health International resume el manejo de
+materiales en una secuencia de pasos, y uno de ellos ocupa siempre el mismo lugar, antes de que
+el archivo salga de las manos de quien transcribe.
+
 ::: cita Family Health International (2005, p. 113)
 Remove identifying information from the transcript
 + Elimina de la transcripción la información que identifique a las personas
 :::
+
+Esa es la posición correcta también aquí, antes de importar. Después de codificar, cualquier
+sustitución de nombres desplaza las posiciones de los segmentos y descuadra el proyecto.
+
 
 
 ## Importar
@@ -134,22 +139,16 @@ capa de texto, la lección 8 explica qué se puede y qué no.
 :::
 :::
 
-::: quiz
-Trabajas con entrevistas en video de 2 GB cada una y necesitas que el proyecto viaje entre
-dos computadoras. ¿Qué conviene?
-- [ ] Copiar los videos al proyecto para que nada se pierda
-- [x] Enlazarlos y llevar los archivos en la misma estructura de carpetas en ambos equipos
-- [ ] Convertirlos a audio y descartar el video
-> Copiar haría el proyecto inmanejable. Enlazar funciona si respetas la ruta en ambos equipos,
-> y si no, el programa te pedirá localizar el archivo de nuevo.
+::: consejo Copiar o enlazar el multimedia
+Copiar hace el proyecto autosuficiente y pesado. Enlazar lo mantiene ligero, con el riesgo de
+que el archivo cambie de lugar. Con grabaciones grandes que viajan entre equipos, enlaza y
+respeta la misma estructura de carpetas en los dos.
 :::
 
-::: quiz Para pensarlo
-Un `.docx` con control de cambios activo no se importa. ¿Qué haces?
-- [ ] Lo renombras a `.txt` sin abrirlo
-- [x] Aceptas los cambios, lo guardas limpio y vuelves a importarlo
-- [ ] Lo importas como PDF
-> Los documentos protegidos o con marcas de revisión son la causa más común de fallos al importar.
+::: consejo Si un archivo no se importa
+Los `.docx` protegidos o con control de cambios activo son la causa más frecuente. Ábrelos,
+acepta los cambios, guarda una copia limpia y vuelve a intentar. Con PDF escaneados, el
+reconocimiento óptico va antes de importar.
 :::
 
 ::: clave

@@ -1,31 +1,33 @@
 ::: preguntas
 - ¿Cómo instalo QualCoder 4 en mi sistema operativo?
 - ¿Qué configuro antes de crear el primer proyecto?
-- ¿Qué hago si el programa no abre?
+- ¿De dónde descargo la versión correcta?
 :::
 
 ::: objetivos
 - Instalar QualCoder 4 en Windows, macOS o Linux
 - Dejar el idioma, la carpeta de trabajo y las preferencias listas
-- Reconocer los problemas de arranque más comunes y su solución
+- Localizar la página de releases y elegir el archivo que corresponde a tu sistema
 :::
 
-::: quiz Repaso de la lección 1
-¿Por qué conviene copiar los materiales a una carpeta de trabajo en vez de usar los originales?
-- [ ] Porque el programa no lee archivos de otras carpetas
-- [x] Porque durante el curso vas a probar cosas y los originales deben quedar intactos
-- [ ] Porque QualCoder borra los archivos después de importarlos
-> QualCoder copia lo que importas dentro del proyecto, y aun así conviene que los originales queden aparte, sin tocar.
+::: consejo Antes de seguir, un repaso
+Trabaja con copias de tus materiales. QualCoder guarda una copia de cada archivo dentro del
+proyecto, y aun así conviene que los originales queden intactos en otra carpeta, porque
+durante el curso vas a probar cosas.
 :::
 
 ## De dónde se descarga
 
-Las versiones publicadas están en el repositorio oficial del proyecto, en la sección de
-releases. Ahí encontrarás el instalador para Windows y los archivos para los demás sistemas,
-junto con las notas de la versión, que conviene leer porque señalan los cambios recientes.
+Todas las versiones publicadas están en la página de releases del proyecto.
 
-Descarga siempre desde el repositorio del proyecto. Circulan copias en sitios de descargas
-que empaquetan versiones viejas o modificadas.
+[github.com/ccbogel/QualCoder/releases](https://github.com/ccbogel/QualCoder/releases)
+
+Ahí encontrarás el instalador para Windows y los archivos para los demás sistemas, junto con
+las notas de cada versión, que conviene leer porque señalan los cambios recientes y los
+problemas conocidos. La versión más reciente aparece arriba, marcada como Latest.
+
+Descarga siempre desde esa página. Circulan copias en sitios de descargas que empaquetan
+versiones viejas o modificadas.
 
 ::: video
 Descarga e instalación completa en Windows, paso a paso.
@@ -108,17 +110,11 @@ programa. Lo verás en la lección 4, al crear el primero.
 Ventana de preferencias con el idioma en español y la copia de seguridad activada.
 :::
 
-## Cuando algo no arranca
-
-Si al abrir no pasa nada o la ventana se cierra sola, ejecuta el programa desde la terminal
-para ver el mensaje de error. Con el instalador de Windows, el registro de errores queda en
-la carpeta de configuración del usuario, dentro de una carpeta llamada `.qualcoder`.
-
-Los tres tropiezos más frecuentes tienen solución rápida. Una instalación incompleta de las
-dependencias se resuelve repitiendo la instalación de requisitos. La ausencia de VLC impide
-abrir audio y video, aunque el resto del programa funcione. Y una carpeta de proyecto en una
-unidad de red o en un servicio de sincronización activa produce errores de bloqueo de la base
-de datos, que se corrigen moviendo el proyecto a un disco local.
+::: nota Para profundizar
+Sobre los criterios para elegir y evaluar herramientas dentro de un proyecto, Flick (2008)
+dedica un apartado a preguntarse qué software se usa, para qué y con qué efecto sobre la
+relación con el campo. Vale la pena leerlo antes de casarse con un programa.
+:::
 
 ::: reto Deja el programa listo
 Instala QualCoder 4, cambia el idioma a español, activa la copia de seguridad al abrir y
@@ -131,26 +127,20 @@ repositorio del proyecto, que es la vía por la que se corrigen.
 :::
 :::
 
-::: quiz
-¿Por qué conviene dejar el proyecto en un disco local y no en una carpeta sincronizada con la nube?
-- [ ] Porque el programa no puede leer archivos remotos
-- [x] Porque la sincronización en segundo plano bloquea la base de datos y provoca errores
-- [ ] Porque los proyectos ocupan demasiado espacio
-> El proyecto es una base de datos SQLite que el programa mantiene abierta. Un servicio que
-> sincroniza archivos mientras trabajas puede corromperla. Sincroniza el respaldo, no el
-> proyecto en uso.
+::: consejo El proyecto va en disco local
+Una carpeta sincronizada con la nube provoca errores de bloqueo, porque el servicio escribe
+sobre la base de datos mientras el programa la tiene abierta. Sincroniza el respaldo
+comprimido y deja el proyecto en uso en el disco de tu equipo.
 :::
 
-::: quiz Para pensarlo
-El programa se cierra solo al arrancar y no muestra ningún mensaje. ¿Cuál es el primer paso?
-- [ ] Reinstalar el sistema operativo
-- [x] Ejecutarlo desde la terminal para ver el error que produce
-- [ ] Cambiar de computadora
-> Con el instalador de Windows, además, queda un registro de errores en la carpeta `.qualcoder` del usuario.
+::: consejo Instalador o código fuente
+El instalador es más simple y va una o dos versiones por detrás. Ejecutar desde el código
+fuente exige instalar dependencias y te deja siempre en la versión más reciente, con las
+correcciones recién publicadas. Para aprender, el instalador basta.
 :::
 
 ::: clave
-- Descarga siempre desde el repositorio oficial y revisa las notas de la versión
+- Descarga desde la página de releases del proyecto y revisa las notas de la versión
 - Los avisos de seguridad de Windows y macOS son esperables porque el programa no está firmado comercialmente
 - Configura idioma, tipografía y copia de seguridad antes de empezar, y deja el nombre del codificador para cuando exista un proyecto
 - Trabaja sobre disco local, nunca dentro de una carpeta sincronizada

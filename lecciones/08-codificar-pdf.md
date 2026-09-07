@@ -10,12 +10,10 @@
 - Reconocer las limitaciones de los documentos sin capa de texto
 :::
 
-::: quiz Repaso de la lección 7
-¿Qué es codificar en vivo?
-- [ ] Codificar mientras se graba la entrevista
-- [x] Usar como nombre del código las palabras exactas de quien participó
-- [ ] Codificar sin haber leído el documento completo
-> Mantiene el lenguaje del campo, y después esos códigos se agrupan bajo otros más abstractos.
+::: consejo Antes de seguir, un repaso
+Codificar en vivo consiste en usar las palabras exactas de quien participó como nombre del
+código. Sirve para quedarse cerca del lenguaje del campo en las primeras lecturas, y esos
+códigos se agrupan después bajo otros más abstractos.
 :::
 
 ## Por qué el PDF va aparte
@@ -102,6 +100,13 @@ Documento PDF con segmentos de texto codificados y un recuadro sobre una figura.
 - [Artículo maquetado a dos columnas](ejercicios/08-articulo-dos-columnas.pdf)
 :::
 
+::: nota Para profundizar
+Saldaña (2011) trata los documentos como un tipo de dato con derecho propio, no como relleno
+del corpus, y sugiere registrar dónde se obtuvo cada uno y qué revela más allá de su contenido
+literal. Rapley, en el volumen sobre análisis de documentos del SAGE Qualitative Research Kit,
+desarrolla el punto con detalle.
+:::
+
 ::: reto Codifica un artículo
 Importa un PDF con maqueta a dos columnas, codifica tres fragmentos de texto y encierra una
 figura o una tabla en un recuadro codificado. Después comprueba en el informe de códigos que
@@ -113,22 +118,17 @@ cortos, dentro de una misma columna, en lugar de arrastrar a lo largo de toda la
 :::
 :::
 
-::: quiz
-Tienes veinte informes en PDF escaneados de los años noventa y necesitas buscar términos
-específicos en su interior. ¿Qué haces primero?
-- [ ] Importarlos y usar la búsqueda de texto del módulo de PDF
-- [x] Pasarlos por reconocimiento óptico de caracteres y revisar el resultado antes de importar
-- [ ] Codificarlos por regiones sin más
-> Sin capa de texto no hay nada que buscar. El reconocimiento óptico se hace antes de importar,
-> y su revisión es parte del trabajo porque los errores de lectura se arrastran a todo el análisis.
+::: consejo Un escaneo sin capa de texto es una imagen
+Se puede codificar por regiones y no se puede buscar ni seleccionar texto. Si necesitas el
+contenido textual, pasa el documento por reconocimiento óptico de caracteres antes de
+importarlo, y revisa el resultado, porque los errores de lectura ensucian todas las búsquedas.
 :::
 
-::: quiz Para pensarlo
-Tienes una transcripción exportada a PDF, sin columnas ni figuras. ¿Cómo la trabajas?
-- [ ] En "Codificar PDF", para conservar la maqueta
-- [x] La conviertes a texto plano y la importas como documento de texto
-- [ ] La codificas por regiones de imagen
-> Si aplanar el documento no pierde información, el módulo de texto es más ágil y permite detectar hablantes.
+::: consejo Cuándo aplanar el documento
+Si el PDF es solo una transcripción exportada, sin columnas ni figuras, conviértelo a texto
+plano e impórtalo como documento de texto. El módulo de texto es más ágil y permite
+operaciones que dependen del flujo continuo. La pregunta útil es si perderías información al
+aplanarlo.
 :::
 
 ::: clave

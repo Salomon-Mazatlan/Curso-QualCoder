@@ -10,12 +10,10 @@
 - Fijar convenciones de nombres antes de importar materiales
 :::
 
-::: quiz Repaso de la lección 3
-¿En qué se diferencia una categoría de un código?
-- [ ] La categoría se aplica al texto y el código no
-- [x] La categoría agrupa códigos y no se aplica al material
-- [ ] Son lo mismo con distinto nombre
-> Las categorías dan estructura al árbol. Lo que se aplica al material son los códigos y los sub-códigos.
+::: consejo Antes de seguir, un repaso
+Una categoría agrupa códigos y no se aplica al material. Lo que se aplica a los fragmentos
+son los códigos y los sub-códigos. Confundirlos produce árboles que se ven ordenados y no
+recuperan nada.
 :::
 
 ## Crear el proyecto
@@ -31,10 +29,18 @@ Algo como `cuidado_mazatlan_2026.qda` funciona mejor que `proyecto final definit
 Creación de un proyecto nuevo y recorrido por la carpeta que genera en el disco.
 :::
 <!-- verificar: Hyers, Diary methods (2018), p. 163 -->
+Lauri Hyers estudia métodos de diario en investigación social, y explica por qué conviene
+escribir sobre la marcha en lugar de reconstruir al final. Su argumento es que un proyecto se
+compone de decisiones pequeñas, tomadas una tras otra, que en el momento parecen obvias.
+
 ::: cita Hyers (2018, p. 163)
 contingent decisions, the reasoning for which may swiftly be forgotten
 + decisiones contingentes cuyo razonamiento puede olvidarse muy pronto
 :::
+
+De ahí que el diario se abra el primer día y no cuando el análisis ya está avanzado. Lo que hoy
+te parece evidente, dentro de tres meses será exactamente lo que no puedas explicar.
+
 
 
 ## Qué hay dentro de la carpeta
@@ -112,7 +118,7 @@ QualCoder incluye "Diarios" (Journals), que son documentos de escritura libre de
 el primer día y anota qué decisiones tomaste y por qué.
 
 Ese registro es lo que después te permite escribir el apartado metodológico sin inventar,
-y en investigación cualitativa es parte del rigor, no una formalidad. La lección 15 lo
+y en investigación cualitativa es parte del rigor, no una formalidad. La lección 16 lo
 retoma con detalle.
 
 ::: reto Crea tu proyecto y ábrelo por fuera
@@ -127,21 +133,15 @@ archivos que importes después.
 :::
 :::
 
-::: quiz
-Si borras por accidente un código con cientos de segmentos y no tienes respaldo, ¿qué recuperas?
-- [ ] Todo, con la función de deshacer del programa
-- [x] Nada de esa codificación, aunque los archivos originales siguen intactos
-- [ ] Solo los segmentos del último día
-> El borrado de códigos escribe directamente en la base de datos. Por eso conviene respaldar
-> antes de cualquier operación masiva sobre el árbol de códigos.
+::: consejo Borrar códigos no tiene vuelta atrás
+El borrado y la fusión escriben directamente en la base de datos, sin deshacer. Los archivos
+originales siguen intactos, y la codificación de ese código se pierde. Respalda antes de
+cualquier operación masiva sobre el árbol.
 :::
 
-::: quiz Para pensarlo
-Necesitas continuar el trabajo en otra computadora. ¿Qué copias?
-- [ ] Solo el archivo `data.qda`
-- [x] La carpeta `.qda` completa, comprimida
-- [ ] La carpeta `documents` y el árbol de códigos exportado
-> La base guarda las marcas y las carpetas guardan las copias de los archivos. Separarlas rompe el proyecto.
+::: consejo Para mover el proyecto, copia la carpeta completa
+La base guarda las marcas y las subcarpetas guardan las copias de los archivos. Llevarse solo
+`data.qda` rompe el proyecto. Comprime la carpeta `.qda` entera, con la fecha en el nombre.
 :::
 
 ::: clave

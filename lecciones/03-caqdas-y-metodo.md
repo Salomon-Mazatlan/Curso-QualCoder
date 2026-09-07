@@ -10,12 +10,9 @@
 - Evitar los dos errores más comunes al empezar con un CAQDAS
 :::
 
-::: quiz Repaso de la lección 2
-¿Qué preferencia conviene dejar activada antes de crear el primer proyecto?
-- [x] La copia de seguridad al abrir el proyecto
-- [ ] El modo de pantalla completa
-- [ ] La actualización automática del programa
-> Ocupa espacio en disco y es lo que te salva de un error irreversible durante la codificación.
+::: consejo Antes de seguir, un repaso
+Deja activada la copia de seguridad al abrir el proyecto. Ocupa espacio en disco y es lo
+único que te salva de un error irreversible en medio de la codificación.
 :::
 
 ## Lo que el programa hace y lo que no
@@ -39,10 +36,19 @@ sobre todo desde que hay asistentes de inteligencia artificial a la mano.
 Ejemplo de traducción, de una pregunta de investigación a un conjunto de operaciones en QualCoder.
 :::
 <!-- verificar: abductive-analysis-theorizing-qualitative-research.pdf, notas del capítulo 1 -->
+Iddo Tavory y Stefan Timmermans trabajan sobre el análisis abductivo, es decir sobre cómo se
+construye teoría a partir de observaciones. Al revisar lo que aportan los programas de análisis
+cualitativo, señalan que hacen bastante con los datos y no hacen lo único que importaría.
+
 ::: cita Tavory y Timmermans (2014), notas del cap. 1
 they do not tell you what codes to attach to the data
 + no te dicen qué códigos aplicar a los datos
 :::
+
+La frase describe con precisión el reparto de tareas de este curso. El programa aplica, guarda,
+filtra y recupera. Decidir qué código merece cada fragmento, y por qué, es trabajo tuyo en todas
+las lecciones que siguen.
+
 
 
 ## El trabajo de traducción
@@ -118,21 +124,16 @@ todavía no está traducida.
 :::
 :::
 
-::: quiz
-¿Cuál de estas afirmaciones describe correctamente lo que aporta un CAQDAS?
-- [ ] Identifica los temas relevantes del corpus automáticamente
-- [x] Administra materiales y marcas, y devuelve el corpus filtrado según tus criterios
-- [ ] Sustituye la escritura de memos analíticos
-> Las funciones automáticas proponen candidatos, y quien decide si un fragmento pertenece a
-> un tema sigue siendo la persona que investiga.
+::: consejo El programa administra, tú interpretas
+Ninguna función decide si dos testimonios hablan de lo mismo, ni si una categoría se
+sostiene, ni cuándo dejaste de encontrar información nueva. Las funciones automáticas proponen
+candidatos y quien decide es quien investiga.
 :::
 
-::: quiz Para pensarlo
-Al llenar tu tabla de traducción, la mitad de las tareas no encuentra equivalente en el programa. ¿Qué significa?
-- [ ] Que el proyecto está mal planteado
-- [x] Que ya sabes qué vas a resolver a mano o con otra herramienta
-- [ ] Que hay que abandonar QualCoder
-> El ejercicio también sirve para elegir software con criterio, y descubrir un hueco a tiempo es información útil.
+::: consejo Un hueco en la tabla de traducción es información
+Si al traducir tus tareas analíticas a operaciones del programa la mitad se queda sin
+equivalente, no significa que el proyecto esté mal planteado. Significa que ya sabes qué vas a
+resolver a mano o con otra herramienta, y descubrirlo ahora sale barato.
 :::
 
 ::: clave

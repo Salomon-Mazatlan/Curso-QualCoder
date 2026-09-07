@@ -10,12 +10,10 @@
 - Documentar cada código con un memo que evite la deriva
 :::
 
-::: quiz Repaso de la lección 5
-¿Qué conviene hacer con una transcripción antes de importarla?
-- [ ] Codificarla a mano en el procesador de texto
-- [x] Anonimizarla y uniformar el patrón de los hablantes
-- [ ] Convertirla a PDF para conservar el formato
-> Corregir el contenido después de codificar desplaza las posiciones de los segmentos, así que la limpieza va antes.
+::: consejo Antes de seguir, un repaso
+Anonimiza y uniforma las transcripciones antes de importarlas. El patrón de los hablantes
+tiene que ser idéntico en todo el archivo, porque de eso depende que después se puedan
+atribuir las intervenciones.
 :::
 
 ## De dónde salen los códigos
@@ -38,10 +36,19 @@ importa es que sepas de dónde viene cada código, y eso se resuelve escribiénd
 Construcción de un árbol de códigos desde cero, con categorías, códigos y sub-códigos.
 :::
 <!-- verificar: Saldaña, Fundamentals of Qualitative Research (2011), p. 95 -->
+Johnny Saldaña, que escribió el manual de codificación más usado en investigación cualitativa,
+define la operación de una manera que conviene tener presente antes de crear el primer código.
+
 ::: cita Saldaña (2011, p. 95)
 Coding is a heuristic
 + Codificar es un heurístico
 :::
+
+Un heurístico no es una clasificación ni una etiqueta administrativa. Es un procedimiento para
+encontrar algo, y eso implica que el árbol de códigos va a cambiar conforme encuentres cosas.
+Un árbol que no se mueve en todo el proyecto suele significar que dejó de servir para
+descubrir.
+
 
 
 ## Las tres piezas del árbol
@@ -126,10 +133,19 @@ memo permite reconstruir qué pasó.
 :::
 
 <!-- verificar: Anfara y Mertz, Theoretical Frameworks in Qualitative Research (2015), capítulo final -->
+En el camino deductivo, los códigos no salen de la nada. Vincent Anfara y Norma Mertz revisaron
+cómo opera un marco teórico en la investigación cualitativa y señalan que su efecto llega hasta
+la operación concreta de codificar.
+
 ::: cita Anfara y Mertz (2015)
 provides powerful concepts that may be used in the coding of data
 + aporta conceptos potentes que pueden usarse en la codificación de los datos
 :::
+
+Ese es el criterio para decidir si un código deductivo está justificado. Si viene de un concepto
+del marco teórico y puedes decir de cuál, tiene lugar en el árbol. Si viene de la costumbre o de
+lo que hiciste en otro proyecto, conviene revisarlo.
+
 
 ::: reto Diseña tu primer árbol
 Crea dos categorías con tres o cuatro códigos cada una, derivados de tus objetivos de
@@ -143,23 +159,16 @@ afinarlas.
 :::
 :::
 
-::: quiz
-Quieres distinguir dentro de `apoyo recibido` entre apoyo económico y apoyo presencial, y
-necesitas aplicar ambos al texto. ¿Qué creas?
-- [ ] Dos categorías dentro de la categoría `apoyo recibido`
-- [x] Dos sub-códigos del código `apoyo recibido`
-- [ ] Dos códigos nuevos sin relación con el original
-> Las categorías agrupan pero no se aplican al material. Como necesitas marcar fragmentos con
-> esas distinciones, corresponden sub-códigos, que además conservan el vínculo con su padre al
-> contar frecuencias.
+::: consejo Categoría, código y sub-código
+Cuando necesitas marcar fragmentos con una distinción interna de un tema, lo que corresponde
+es un sub-código, no una categoría. El sub-código se aplica al material y conserva el vínculo
+con su padre al contar frecuencias.
 :::
 
-::: quiz Para pensarlo
-Tienes ocho códigos aplicados una sola vez cada uno. ¿Qué suele indicar?
-- [ ] Que el corpus es demasiado pequeño
-- [x] Que al depurar probablemente se fusionen bajo códigos más generales o desaparezcan
-- [ ] Que hay que codificar más veces cada uno
-> Los códigos de aparición única son normales al inicio de una codificación inductiva y se ordenan después.
+::: consejo Los códigos de aparición única son normales
+Al inicio de una codificación inductiva es habitual acumular códigos usados una sola vez. No
+se borran de inmediato. Al depurar, la mayoría se agrupa bajo códigos más generales y unos
+pocos resultan ser los casos desviantes más interesantes del corpus.
 :::
 
 ::: clave

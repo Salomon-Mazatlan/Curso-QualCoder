@@ -27,17 +27,31 @@ Aquí no vamos a repasar la interfaz botón por botón. Cada lección arranca co
 investigación y termina mostrando dónde vive esa tarea dentro del programa, que es el orden
 en el que uno realmente trabaja.
 
-::: video https://www.youtube.com/watch?v=p2pWR1IrKbg&t=1s
-
-Instalación de QualCoder 3.8 (Win): crear proyecto, configurar usuario, idioma, archivos y codificar.
+::: video
+Recorrido de tres minutos por la interfaz de QualCoder 4 y por lo que vas a construir
+durante el curso.
 :::
+
+Una advertencia antes de empezar. Ningún programa de análisis cualitativo, ni el más caro ni el
+más nuevo, sustituye a quien investiga. Svend Brinkmann lo formula al hablar de entrevistas, y
+vale igual para el análisis.
+
+<!-- verificar: Brinkmann, Qualitative Interviewing (2013), p. 29 -->
+::: cita Brinkmann (2013, p. 29)
+the interviewer herself is the research instrument
++ la entrevistadora misma es el instrumento de investigación
+:::
+
+Si el instrumento eres tú, el curso no puede limitarse a enseñar dónde están los botones. Por
+eso cada lección empieza por la decisión metodológica y termina en la función del programa que
+la ejecuta.
 
 ## Cómo está organizado
 
-El curso tiene cinco módulos y diecisiete lecciones. Los dos primeros módulos son de
-preparación y fundamentos, el tercero es el más largo porque trata la codificación en sus
-distintos formatos, el cuarto pasa al análisis y el quinto cierra con la salida de los
-datos y el trabajo en equipo.
+El curso tiene seis módulos y diecinueve lecciones. Los dos primeros son de preparación y
+fundamentos, el tercero es el más largo porque trata la codificación en sus distintos
+formatos, el cuarto pasa al análisis, el quinto cierra con la salida de los datos y el
+trabajo en equipo, y el sexto es un examen de repaso con la solicitud de constancia.
 
 | Módulo | Lo que resuelve |
 |---|---|
@@ -46,6 +60,7 @@ datos y el trabajo en equipo.
 | 3. Codificación | Texto, PDF, imagen, audio, video e IA |
 | 4. Análisis | Casos, informes, co-ocurrencias y visualizaciones |
 | 5. Cerrar y compartir | Memos, exportación, equipo y publicación |
+| 6. Evaluación final | Examen de retroalimentación y constancia |
 
 Cada lección se sostiene sola, así que puedes entrar directo a la que necesitas hoy. Si es
 tu primer contacto con un programa de análisis cualitativo conviene seguir el orden.
@@ -83,8 +98,9 @@ hablamos de anonimización y de qué conviene dejar fuera del proyecto desde el 
 :::
 
 ::: tip
-Los bloques con fondo oscuro al final de cada lección resumen lo esencial. Si vuelves a la
-página buscando algo puntual, empieza por ahí.
+Los bloques verdes desplegables son consejos metodológicos. Se abren con un clic y se pueden
+saltar en una primera lectura. Los bloques con fondo oscuro del final resumen lo esencial, así
+que si vuelves buscando algo puntual, empieza por ahí.
 :::
 
 ## Una advertencia sobre las versiones
@@ -106,21 +122,16 @@ otro lugar. Trabajar sobre copias es la única precaución que de verdad evita s
 :::
 :::
 
-::: quiz
-¿Qué pasa con tu avance en el curso si abres la página en otra computadora?
-- [ ] Se sincroniza porque está guardado en el servidor
-- [x] Empieza en cero, porque el avance vive en el navegador que usaste
-- [ ] Se pierde también en el equipo original
-> El marcado de lecciones usa el almacenamiento local del navegador. Es cómodo y no requiere
-> registro, pero no se comparte entre equipos ni entre navegadores.
+::: consejo El avance vive en tu navegador
+El marcado de lecciones usa el almacenamiento local, sin registro ni cuenta. Es cómodo y no
+viaja contigo a otro equipo ni a otro navegador. Si vas a alternar entre computadoras, anota
+aparte por dónde te quedaste.
 :::
 
-::: quiz Para pensarlo
-Tus entrevistas contienen nombres reales y quieres practicar con ellas. ¿Qué haces?
-- [ ] Las importas tal cual, porque el proyecto es tuyo
-- [x] Trabajas sobre copias anonimizadas y dejas los originales resguardados aparte
-- [ ] Esperas a terminar el curso para usarlas
-> La anonimización va antes de importar. Después de codificar, cualquier corrección del texto desplaza los segmentos.
+::: consejo Practica con copias, nunca con los originales
+Si tus entrevistas contienen nombres reales, anonimiza antes de importar y guarda los
+originales en otro lugar. Una vez codificado el texto, cualquier corrección desplaza las
+posiciones de los segmentos, así que la limpieza siempre va antes.
 :::
 
 ::: clave
