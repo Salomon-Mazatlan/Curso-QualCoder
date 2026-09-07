@@ -1,84 +1,79 @@
 # Investigación cualitativa con QualCoder 4
 
-Curso en español de acceso abierto, en formato de sitio estático, listo para publicarse en
-GitHub Pages. Diecisiete lecciones repartidas en cinco módulos, con espacios preparados para
-insertar videos de YouTube, ejercicios y autoevaluaciones.
+Curso gratuito en español para analizar datos cualitativos con
+[QualCoder](https://github.com/ccbogel/QualCoder), el programa libre de análisis cualitativo
+asistido por computadora. Diecisiete lecciones que van de la instalación a la exportación del
+proyecto, con ejercicios, archivos de práctica y demostraciones en video.
 
-El sitio no necesita compilarse. Son archivos HTML, CSS, JavaScript y Markdown, así que se
-publica tal cual.
+Está pensado para quien investiga con entrevistas, notas de campo, documentos, imágenes o
+grabaciones, sin importar si es su primer programa de análisis cualitativo o si viene de
+ATLAS.ti, NVivo o MAXQDA.
 
-## Publicarlo en GitHub Pages
+## Temario
 
-1. Crea un repositorio nuevo en GitHub, por ejemplo `curso-qualcoder4`.
-2. Sube todo el contenido de esta carpeta a la raíz del repositorio, incluido el archivo
-   `.nojekyll`, que es lo que evita que GitHub intente procesar los archivos `.md`.
-3. Entra en Settings, sección Pages.
-4. En Source elige Deploy from a branch, con la rama `main` y la carpeta `/ (root)`.
-5. Guarda y espera un minuto. La dirección queda como
-   `https://TU-USUARIO.github.io/curso-qualcoder4/`.
+**Módulo 1. Antes de empezar**
+1. Cómo funciona este curso
+2. Instalar QualCoder 4 y dejarlo listo
 
-Si prefieres el dominio de SoftCualitativo, agrega un archivo `CNAME` con el subdominio que
-vayas a usar y configura el registro DNS correspondiente.
+**Módulo 2. Fundamentos**
+3. Qué resuelve un CAQDAS y qué sigue siendo tuyo
+4. El proyecto por dentro
+5. Cargar los materiales
 
-## Verlo en tu computadora antes de publicar
+**Módulo 3. Codificación**
+6. Diseñar el sistema de códigos
+7. Codificar texto
+8. Codificar PDF
+9. Imagen, audio y video
+10. Autocodificación y asistencia de IA
 
-Las lecciones se cargan con `fetch`, así que abrir `index.html` con doble clic no funciona.
-Levanta un servidor local desde la carpeta del curso.
+**Módulo 4. Análisis**
+11. Casos, atributos y grupos
+12. Recuperar segmentos y armar informes
+13. Frecuencias, matrices y co-ocurrencias
+14. Gráficos, nubes y grafos
 
-```bash
-python -m http.server 8000
-```
+**Módulo 5. Cerrar y compartir**
+15. Memos, diarios y rastro del proceso
+16. Exportar, QDPX e interoperabilidad
+17. Trabajo en equipo y publicación abierta
 
-Después abre `http://localhost:8000` en el navegador.
+Cada lección incluye objetivos, procedimientos paso a paso con los nombres que tienen en la
+interfaz de QualCoder en español y su equivalente en inglés, un ejercicio con solución, una
+autoevaluación y un resumen final. El avance se guarda en el navegador, sin registro ni cuenta.
 
-## Estructura
+## Qué necesitas
 
-```
-index.html              portada con el temario
-curso.html              visor de lecciones
-.nojekyll               desactiva el procesado de GitHub Pages
-assets/indice.js        índice del curso, módulos y lecciones
-assets/estilos.css      hoja de estilos
-assets/curso.js         carga de lecciones, videos, cuestionarios y avance
-assets/vendor/          marked.min.js, el conversor de Markdown, con su licencia MIT
-lecciones/*.md          contenido de cada lección
-```
+Una computadora con Windows, macOS o Linux, y materiales cualitativos propios. Con dos o tres
+archivos alcanza para todo el curso, y las lecciones que lo requieren traen archivos de
+práctica descargables.
 
-## Añadir los videos
+## Curso gratuito, donativos voluntarios
 
-Cada lección trae ya los espacios marcados. Busca en el archivo `.md` los bloques que
-empiezan con `::: video` y pega el enlace de YouTube junto a la marca.
+Esta iniciativa es una propuesta de democratización del conocimiento. Las herramientas y la
+formación en análisis de datos cualitativos deben estar al alcance de todas y todos, así que
+el curso es gratuito y se mantiene con donativos voluntarios, nunca obligatorios.
 
-```
-::: video https://youtu.be/ID_DEL_VIDEO
-Texto del pie de video.
-:::
-```
+- Gastos médicos personales | Personal medical expenses, https://gofund.me/5c133cc99
+- Asistencia humanitaria a migrantes y personas desplazadas | Humanitarian assistance for
+  migrants and displaced persons, https://www.paypal.com/paypalme/lorenzosalomon
+- Perfil de recaudación, https://www.gofundme.com/u/lorenzo-salomon-cardenas
 
-Mientras no haya enlace se muestra un recuadro que indica dónde va el video, así que puedes
-publicar el curso e ir agregándolos después. El detalle completo de esta y las demás marcas
-está en `GUIA-DE-EDICION.md`.
+Tu participación en el curso ya es una forma valiosa de contribuir.
 
-## Modificar el temario
+## Cómo citar el software
 
-El archivo `assets/indice.js` define módulos, lecciones, duraciones y resúmenes. Para agregar
-una lección, crea su archivo en `lecciones/` y añade su entrada en ese índice. El campo
-`archivo` debe coincidir con la ruta real.
+> Curtain, C. (2026). *QualCoder* (Versión 4.0) [Software]. GitHub.
+> https://github.com/ccbogel/QualCoder
 
-Para cambiar los colores del sitio, edita las variables del inicio de `assets/estilos.css`.
-Las cinco variables `--marca-1` a `--marca-5` son los colores de los módulos.
+Ajusta el año y el número de versión a los de tu instalación. QualCoder es software libre
+desarrollado por Colin Curtain y su comunidad de colaboradores, independiente de este material
+de formación.
 
-## Avance de quien estudia
+## Licencia
 
-El curso marca las lecciones terminadas usando el almacenamiento local del navegador. No hay
-registro, cuentas ni servidor, y por lo mismo el avance no viaja entre equipos.
+El contenido de las lecciones es original y se distribuye bajo Creative Commons Atribución
+Compartir Igual 4.0, así que puede adaptarse y reutilizarse citando la fuente. El sitio incluye
+la biblioteca `marked`, con licencia MIT, cuyo texto está en `assets/vendor/`.
 
-## Autoría y licencia
-
-El contenido de las lecciones es original y fue escrito para este curso. Se distribuye bajo
-una licencia Creative Commons Atribución Compartir Igual 4.0, de modo que cualquiera pueda
-adaptarlo citando la fuente.
-
-QualCoder es un programa libre desarrollado por Colin Curtain y su comunidad de
-colaboradores, independiente de este material de formación. El sitio incluye la biblioteca
-`marked`, con licencia MIT, cuyo texto está en `assets/vendor/`.
+Para publicar o modificar este sitio, revisa `GUIA-DE-PUBLICACION.md` y `GUIA-DE-EDICION.md`.
