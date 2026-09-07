@@ -44,7 +44,7 @@ datos y el trabajo en equipo.
 | 1. Antes de empezar | Instalar y configurar |
 | 2. Fundamentos | Método, proyecto y carga de materiales |
 | 3. Codificación | Texto, PDF, imagen, audio, video e IA |
-| 4. Análisis | Casos, reportes, co-ocurrencias y visualizaciones |
+| 4. Análisis | Casos, informes, co-ocurrencias y visualizaciones |
 | 5. Cerrar y compartir | Memos, exportación, equipo y publicación |
 
 Cada lección se sostiene sola, así que puedes entrar directo a la que necesitas hoy. Si es
@@ -59,6 +59,9 @@ También necesitas materiales para practicar. Con dos o tres archivos alcanza pa
 curso, y es mejor si son tuyos, porque el ejercicio de codificar cobra sentido cuando el
 contenido te importa. Sirven transcripciones de entrevista en `.txt` o `.docx`, notas de
 campo, documentos en PDF, fotografías o un audio corto.
+
+Varias lecciones traen archivos de práctica descargables, señalados con una flecha, por si
+prefieres empezar con material listo antes de usar el tuyo.
 
 ::: nota
 Si trabajas con datos de personas, revisa antes qué autorizaciones tienes. En la lección 5
@@ -113,8 +116,12 @@ otro lugar. Trabajar sobre copias es la única precaución que de verdad evita s
 :::
 
 ::: clave
-- QualCoder 4 organiza materiales, codificación, memos y reportes en un solo proyecto
+- QualCoder 4 organiza materiales, codificación, memos y informes en un solo proyecto
 - El curso son cinco módulos que siguen el orden real de un proyecto de investigación
 - Practicar con materiales propios hace que la codificación tenga sentido
 - El avance se guarda en tu navegador, sin registro ni cuenta
+:::
+
+::: apoyo Curso gratuito, donativos voluntarios
+Bienvenida y bienvenido. Este curso es gratuito y forma parte de una propuesta de democratización del conocimiento. Se sostiene con donativos voluntarios, nunca obligatorios, para [gastos médicos personales](https://gofund.me/5c133cc99) y para [asistencia humanitaria a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon). El [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas) reúne ambas campañas.
 :::

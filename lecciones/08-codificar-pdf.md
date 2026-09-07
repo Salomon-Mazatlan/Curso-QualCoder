@@ -30,7 +30,7 @@ El funcionamiento es equivalente al del texto, con el árbol de códigos a la iz
 documento al centro, ahora paginado.
 
 ::: pasos
-1. Abre el documento en el módulo de PDF y elige si quieres desplazarte por página o de
+1. Abre el documento en el módulo «Codificar PDF» (Code pdf) y elige si quieres desplazarte por página o de
    corrido.
 2. Selecciona texto sobre la página y aplica el código desde el árbol o el menú contextual.
 3. Para codificar una figura o una tabla, dibuja un recuadro sobre esa zona y aplícale el
@@ -42,7 +42,7 @@ documento al centro, ahora paginado.
 ::: nota
 Los recuadros se registran con su página y sus coordenadas. Por eso una región codificada
 vuelve a aparecer exactamente donde estaba al reabrir el documento, y por eso aparece en los
-reportes junto con los segmentos de texto.
+informes junto con los segmentos de texto.
 :::
 
 ## Traer resaltados hechos fuera
@@ -78,7 +78,7 @@ llevas medio corpus trabajado.
 
 ## Cuándo conviene texto plano
 
-El módulo de PDF no siempre es la mejor opción. Si el documento es simplemente una transcripción
+El módulo «Codificar PDF» (Code pdf) no siempre es la mejor opción. Si el documento es simplemente una transcripción
 exportada a PDF, sin maqueta significativa, conviene convertirla a texto plano e importarla como
 documento de texto, porque el módulo de texto es más ágil y permite operaciones que dependen del
 flujo continuo, como la detección de hablantes.
@@ -90,9 +90,13 @@ apláñalo.
 Documento PDF con segmentos de texto codificados y un recuadro sobre una figura.
 :::
 
+::: descarga
+- [Artículo maquetado a dos columnas](ejercicios/08-articulo-dos-columnas.pdf)
+:::
+
 ::: reto Codifica un artículo
 Importa un PDF con maqueta a dos columnas, codifica tres fragmentos de texto y encierra una
-figura o una tabla en un recuadro codificado. Después comprueba en el reporte de códigos que
+figura o una tabla en un recuadro codificado. Después comprueba en el informe de códigos que
 las tres marcas de texto y la región aparecen juntas.
 
 ::: solucion Si el texto se selecciona en desorden
@@ -116,4 +120,8 @@ específicos en su interior. ¿Qué haces primero?
 - Los subrayados y notas hechos en otros programas se detectan al importar y se reasignan a tus códigos
 - Los PDF escaneados solo se codifican por regiones mientras no tengan capa de texto
 - Si aplanar el documento no pierde información, el módulo de texto es más ágil
+:::
+
+::: apoyo Apoyo voluntario
+Acceso gratuito, hoy y siempre. Los donativos voluntarios van a [gastos médicos](https://gofund.me/5c133cc99) y a [asistencia a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

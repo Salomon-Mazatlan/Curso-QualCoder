@@ -77,14 +77,14 @@ Tres decisiones pequeñas evitan desorden más adelante.
 La primera es el nombre de los archivos. Un esquema como `E03_rosa_2026-03-14.txt`, con
 código de participante, seudónimo y fecha, permite ordenar y localizar sin abrir nada. Cámbialo
 antes de importar, porque el nombre con el que entra el archivo es el que verás en todos los
-reportes.
+informes.
 
 La segunda es el nombre del codificador. Aparece en cada segmento y es lo que permite después
 comparar entre personas. Si trabajas solo, igual escribe tu nombre, porque quizá más adelante
 se sume alguien.
 
 La tercera es el idioma de tus códigos. Mezclar español e inglés en el árbol de códigos
-complica los reportes y las búsquedas, y no hay manera cómoda de arreglarlo después.
+complica los informes y las búsquedas, y no hay manera cómoda de arreglarlo después.
 
 ::: captura
 Ventana principal con un proyecto recién creado y el nombre del proyecto visible en la barra
@@ -93,7 +93,7 @@ de título.
 
 ## El diario del proyecto
 
-QualCoder incluye diarios, que son documentos de escritura libre dentro del proyecto. Abre uno
+QualCoder incluye «Diarios» (Journals), que son documentos de escritura libre dentro del proyecto. Abre uno
 el primer día y anota qué decisiones tomaste y por qué.
 
 Ese registro es lo que después te permite escribir el apartado metodológico sin inventar,
@@ -126,4 +126,8 @@ Si borras por accidente un código con cientos de segmentos y no tienes respaldo
 - Respaldar el proyecto es comprimir esa carpeta y guardarla fuera del equipo
 - Los nombres de archivo y el idioma de los códigos se deciden antes de importar
 - El diario del proyecto es el registro de tus decisiones y se abre desde el primer día
+:::
+
+::: apoyo Apoyo voluntario
+Aquí no hay cuotas ni matrícula. Si te resulta útil, puedes apoyar en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia a personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

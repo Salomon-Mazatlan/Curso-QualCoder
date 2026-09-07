@@ -34,7 +34,7 @@ Recorrido por los distintos lugares donde escribir dentro de un proyecto y para 
 
 ## El diario
 
-El diario es un documento de escritura libre dentro del proyecto, con fecha, donde se registra
+El «Diario» (Journal) es un documento de escritura libre dentro del proyecto, con fecha, donde se registra
 el proceso más que el contenido. Puedes tener más de uno, por ejemplo uno metodológico y otro
 de campo.
 
@@ -112,4 +112,8 @@ respuesta?
 - El diario registra decisiones fechadas, no actividades
 - Un memo sirve si otra persona puede aplicar el código igual que tú
 - El rastro de auditoría es lo que sostiene la credibilidad del análisis
+:::
+
+::: apoyo Acceso sin barreras
+Ninguna parte de este curso está detrás de un pago. Colaborar es opcional, en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

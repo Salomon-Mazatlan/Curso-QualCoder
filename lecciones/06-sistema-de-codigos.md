@@ -140,3 +140,7 @@ necesitas aplicar ambos al texto. ¿Qué creas?
 - El memo con definición y criterios es lo que evita la deriva del significado
 - Fusionar y borrar ramas es irreversible, así que se respalda antes
 :::
+
+::: apoyo Donativos, siempre voluntarios
+Curso abierto, sin pago de por medio. Colaborar es opcional, en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
+:::

@@ -12,12 +12,12 @@
 
 ## La ventana de codificación
 
-El módulo de codificación de texto tiene tres zonas. A la izquierda está el árbol de códigos,
+El módulo «Codificar texto» (Code text) tiene tres zonas. A la izquierda está el árbol de códigos,
 al centro el documento, y alrededor del texto un margen donde se dibujan franjas de color que
 indican qué segmentos están codificados y con qué.
 
 Arriba se elige el archivo a codificar, y la lista completa de documentos del proyecto está
-disponible desde ahí sin necesidad de volver a la gestión de archivos.
+disponible desde ahí sin necesidad de volver a «Gestionar archivos».
 
 ::: video
 Recorrido por la ventana de codificación de texto y primera marca sobre una entrevista.
@@ -49,10 +49,10 @@ suele terminar con un árbol que describe la entrevista uno en vez del fenómeno
 ## Cuánto texto abarca un segmento
 
 La unidad la decides tú, y conviene ser consistente. Un segmento debe poder leerse solo y
-seguir teniendo sentido, porque así es como lo vas a ver después en los reportes.
+seguir teniendo sentido, porque así es como lo vas a ver después en los informes.
 
-Marcar tres palabras produce reportes ilegibles, donde ya no se sabe de qué se hablaba. Marcar
-dos páginas produce reportes donde el código dejó de señalar algo específico. La frase o el
+Marcar tres palabras produce informes ilegibles, donde ya no se sabe de qué se hablaba. Marcar
+dos páginas produce informes donde el código dejó de señalar algo específico. La frase o el
 párrafo suelen ser la unidad razonable.
 
 ::: aviso
@@ -93,12 +93,16 @@ recuperables después, así que no se pierden.
 
 ## Revisar lo codificado
 
-Codificar sin revisar produce deriva. Cada tanto conviene abrir el reporte de un código y leer
+Codificar sin revisar produce deriva. Cada tanto conviene abrir el informe de un código y leer
 seguidos todos sus segmentos, sacados de sus documentos.
 
 Ese ejercicio muestra de inmediato si el código se mantuvo estable o si al final del corpus
 empezaste a meter ahí cosas distintas. Cuando eso pasa, casi siempre la solución es dividir el
 código en dos y ajustar el memo. La lección 12 desarrolla esta forma de recuperación.
+
+::: descarga
+- [Entrevista para codificar](ejercicios/07-entrevista-cuidado.txt)
+:::
 
 ::: reto Codifica tu primera entrevista
 Toma una transcripción, léela completa sin marcar y después codifícala con los códigos que
@@ -120,12 +124,16 @@ Al releer los segmentos de un código encuentras que los primeros diez hablan de
 - [x] Dividirlo en dos códigos y precisar los memos con criterios de exclusión
 - [ ] Borrar el código y volver a codificar desde el inicio
 > La deriva de significado se corrige separando lo que se mezcló. Borrar y recomenzar tira
-> trabajo útil, y no hacer nada deja un código que no significa nada en el reporte final.
+> trabajo útil, y no hacer nada deja un código que no significa nada en el informe final.
 :::
 
 ::: clave
 - Se selecciona el fragmento y se aplica el código desde el árbol o desde el buscador rápido
-- El segmento debe entenderse fuera de su contexto, porque así aparecerá en los reportes
+- El segmento debe entenderse fuera de su contexto, porque así aparecerá en los informes
 - La codificación en vivo conserva el lenguaje del campo y se agrupa después
 - Releer los segmentos de un código es la forma de detectar la deriva a tiempo
+:::
+
+::: apoyo Democratizar el análisis cualitativo
+Las herramientas y la formación en análisis cualitativo deberían estar al alcance de cualquiera. Puedes sostener esa idea en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia humanitaria](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

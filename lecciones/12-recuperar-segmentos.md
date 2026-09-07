@@ -5,8 +5,8 @@
 :::
 
 ::: objetivos
-- Generar reportes de segmentos codificados con filtros combinados
-- Leer un reporte con criterio analítico y no solo como lista de citas
+- Generar informes de segmentos codificados con filtros combinados
+- Leer un informe con criterio analítico y no solo como lista de citas
 - Exportar los resultados en un formato utilizable para escribir
 :::
 
@@ -20,18 +20,18 @@ hacer esta pregunta y recibir una respuesta completa en segundos, en vez de reco
 manualmente cientos de páginas.
 
 ::: video
-Reporte de segmentos codificados con filtros combinados y exportación a documento.
+Informe de segmentos codificados con filtros combinados y exportación a documento.
 :::
 
-## Armar el reporte
+## Armar el informe
 
 ::: pasos
-1. Abre el reporte de segmentos codificados.
+1. Abre el informe «Recuperación de códigos» (Code retrieval).
 2. Selecciona los códigos que te interesan, uno o varios.
 3. Acota por archivos o por casos si quieres restringir el universo.
 4. Añade filtros por atributo para comparar grupos.
 5. Elige si quieres ver también los memos y las anotaciones asociadas.
-6. Genera el reporte y revísalo antes de exportar.
+6. Genera el informe y revísalo antes de exportar.
 :::
 
 Los filtros se combinan, y ahí está su potencia. Una consulta como los segmentos del código
@@ -39,14 +39,14 @@ Los filtros se combinan, y ahí está su potencia. Una consulta como los segment
 persona, es una sola operación.
 
 ::: nota
-Cuando trabajas con sub-códigos, revisa si el reporte incluye la descendencia del código
+Cuando trabajas con sub-códigos, revisa si el informe incluye la descendencia del código
 seleccionado o solo ese código. Es la diferencia entre leer un tema completo y leer una de sus
 ramas, y conviene saber cuál pediste.
 :::
 
-## Leer un reporte
+## Leer un informe
 
-Un reporte de sesenta segmentos no es un resultado, es material para trabajar. Al leerlo
+Un informe de sesenta segmentos no es un resultado, es material para trabajar. Al leerlo
 conviene buscar cuatro cosas.
 
 La variación interna, es decir si todos los segmentos dicen lo mismo o hay maneras distintas de
@@ -58,32 +58,32 @@ De esa lectura sale la escritura. Casi siempre implica volver al árbol de códi
 algo, y ese ir y venir es el trabajo analítico propiamente dicho.
 
 ::: tip
-Un reporte donde todos los segmentos dicen exactamente lo mismo suele indicar un código
-demasiado literal, que registra la palabra y no la idea. Un reporte donde nada se parece indica
+Un informe donde todos los segmentos dicen exactamente lo mismo suele indicar un código
+demasiado literal, que registra la palabra y no la idea. Un informe donde nada se parece indica
 un código demasiado amplio.
 :::
 
-## Otros reportes útiles
+## Otros informes útiles
 
-Además de la recuperación por código, hay reportes que responden preguntas distintas.
+Además de la recuperación por código, hay informes que responden preguntas distintas.
 
-El conteo de codificaciones por archivo muestra qué documentos concentran el trabajo, y sirve
+El informe «Conteo de códigos por archivo» (Code count by file) muestra qué documentos concentran el trabajo, y sirve
 para detectar entrevistas que quedaron a medio codificar.
 
-El resumen de archivos da una vista general del corpus, con su extensión y su nivel de
+El informe «Resumen de archivos» (File summary) da una vista general del corpus, con su extensión y su nivel de
 codificación.
 
 Y la búsqueda de texto sobre el corpus completo localiza términos independientemente de la
 codificación, lo que es útil para verificar si un tema aparece en lugares que no habías marcado.
 
 ::: captura
-Ventana del reporte de segmentos codificados con varios filtros aplicados y resultados a la
+Ventana del informe de segmentos codificados con varios filtros aplicados y resultados a la
 vista.
 :::
 
 ## Exportar para escribir
 
-Los reportes se exportan a formatos de documento y a hoja de cálculo. Para escribir conviene
+Los informes se exportan a formatos de documento y a hoja de cálculo. Para escribir conviene
 un documento de texto, porque conserva el contexto y permite comentar al margen. Para revisar
 sistemáticamente conviene una hoja de cálculo, donde cada segmento ocupa una fila con su
 archivo, su caso y su código.
@@ -92,11 +92,11 @@ Al exportar, comprueba que cada segmento conserva su procedencia. Una cita sin i
 archivo o de caso no sirve para escribir, porque no puedes atribuirla ni volver a ella.
 
 ::: reto Tu primera consulta comparada
-Genera dos reportes del mismo código, uno para cada valor de un atributo que hayas definido.
+Genera dos informes del mismo código, uno para cada valor de un atributo que hayas definido.
 Léelos en paralelo y escribe tres líneas sobre en qué se diferencian. Guarda esas líneas como
 memo del código.
 
-::: solucion Si los dos reportes se parecen demasiado
+::: solucion Si los dos informes se parecen demasiado
 Puede significar que la diferencia no está en ese código, o que el atributo no discrimina como
 esperabas. Prueba con otro código antes de descartar la comparación, porque los contrastes rara
 vez aparecen en el primer intento.
@@ -104,17 +104,21 @@ vez aparecen en el primer intento.
 :::
 
 ::: quiz
-Exportaste un reporte a hoja de cálculo y las citas no traen el nombre del caso. ¿Qué pasó?
+Exportaste un informe a hoja de cálculo y las citas no traen el nombre del caso. ¿Qué pasó?
 - [ ] La exportación no admite esa información
-- [x] Faltó incluir el caso en las opciones del reporte, o los archivos no están asignados a casos
+- [x] Faltó incluir el caso en las opciones del informe, o los archivos no están asignados a casos
 - [ ] Los casos solo aparecen en la exportación a documento
-> Revisa primero que los archivos estén vinculados a sus casos. Si lo están, el reporte necesita
+> Revisa primero que los archivos estén vinculados a sus casos. Si lo están, el informe necesita
 > que pidas incluir esa columna al generarlo.
 :::
 
 ::: clave
 - Recuperar segmentos con filtros combinados es la operación que justifica codificar
-- Con sub-códigos conviene verificar si el reporte incluye la descendencia
-- La lectura del reporte busca variación, excepciones, distribución y calidad de la marca
+- Con sub-códigos conviene verificar si el informe incluye la descendencia
+- La lectura del informe busca variación, excepciones, distribución y calidad de la marca
 - Toda cita exportada debe conservar de qué archivo y de qué caso proviene
+:::
+
+::: apoyo Sin costo para quien estudia
+Sin costo, sin registro y sin publicidad. Las aportaciones voluntarias se reciben en [gastos médicos](https://gofund.me/5c133cc99) y en [asistencia a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

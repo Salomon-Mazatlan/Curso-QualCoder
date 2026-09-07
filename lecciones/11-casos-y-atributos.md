@@ -30,7 +30,7 @@ Creación de casos, vinculación de archivos y asignación de atributos a cada c
 ## Crear casos
 
 ::: pasos
-1. Abre la gestión de casos y crea uno con el nombre de la unidad, por ejemplo un seudónimo.
+1. Abre «Gestionar casos» (Manage cases) y crea uno con el nombre de la unidad, por ejemplo un seudónimo.
 2. Vincúlale los archivos que le corresponden.
 3. Si un archivo contiene material de varios casos, como un grupo focal, asigna al caso solo la
    porción de texto que le pertenece.
@@ -69,7 +69,7 @@ sexo y descubrir después que la comparación relevante era otra.
 
 ## Comparar
 
-Con casos y atributos definidos, los reportes dejan de mostrar el corpus completo y pasan a
+Con casos y atributos definidos, los informes dejan de mostrar el corpus completo y pasan a
 responder preguntas.
 
 Puedes pedir los segmentos de un código solo en los casos con determinado valor de atributo,
@@ -89,6 +89,10 @@ comparación, todavía no sabes si necesitas ese atributo.
 Tabla de atributos con varios casos y sus valores asignados.
 :::
 
+::: descarga
+- [Tabla de atributos de los casos](ejercicios/11-atributos-casos.csv)
+:::
+
 ::: reto Estructura tu corpus
 Crea un caso por cada unidad de análisis de tu proyecto y vincúlale sus archivos. Define dos
 atributos que correspondan a comparaciones que de verdad piensas hacer, y asígnales valores.
@@ -96,7 +100,7 @@ Después recupera los segmentos de un código filtrando por uno de esos atributo
 
 ::: solucion Si un archivo no puede asignarse a un caso
 Suele pasar con documentos de contexto, como normativas o notas de prensa. No todos los
-archivos tienen que pertenecer a un caso. Déjalos fuera y recuerda que en los reportes filtrados
+archivos tienen que pertenecer a un caso. Déjalos fuera y recuerda que en los informes filtrados
 por caso no aparecerán.
 :::
 :::
@@ -108,12 +112,16 @@ cada uno. ¿Qué haces?
 - [x] Creas seis casos y asignas a cada uno la porción de texto de su participante
 - [ ] Creas seis códigos con los nombres de los participantes
 > Partir el archivo rompe la secuencia de la conversación. Asignar porciones a casos conserva el
-> archivo íntegro y permite filtrar por participante en cualquier reporte.
+> archivo íntegro y permite filtrar por participante en cualquier informe.
 :::
 
 ::: clave
 - El caso es la unidad de análisis y puede reunir varios archivos, o solo una parte de uno
 - Los atributos se registran con valores consistentes y sirven para filtrar
 - Cada atributo debe corresponder a una comparación que realmente vas a hacer
-- La comparación entre grupos ocurre al leer los reportes filtrados, no en un cálculo
+- La comparación entre grupos ocurre al leer los informes filtrados, no en un cálculo
+:::
+
+::: apoyo Apoyo voluntario
+Material de acceso abierto. Si está en tus posibilidades, apoya en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

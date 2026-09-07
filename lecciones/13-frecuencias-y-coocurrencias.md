@@ -7,7 +7,7 @@
 ::: objetivos
 - Interpretar frecuencias sin convertir el análisis en estadística improvisada
 - Leer matrices de código por caso y por archivo
-- Generar y examinar reportes de co-ocurrencia
+- Generar y examinar informes de co-ocurrencia
 :::
 
 ## Contar en investigación cualitativa
@@ -22,18 +22,18 @@ casi sin uso y probablemente sobran. Detectar códigos enormes que hay que divid
 tema atraviesa todo el corpus o vive en un solo caso.
 
 ::: aviso
-Nunca reportes frecuencias de codificación como si fueran prevalencias del fenómeno. Que
+Nunca informes frecuencias de codificación como si fueran prevalencias del fenómeno. Que
 `presión económica` aparezca en dieciocho segmentos no significa que dieciocho personas la
 vivan, ni que sea más importante que un tema mencionado una vez con enorme densidad.
 :::
 
 ::: video
-Reporte de frecuencias, matriz de código por caso y reporte de co-ocurrencias.
+Informe de frecuencias, matriz de código por caso y informe «Co-ocurrencia de códigos» (Code co-occurrence).
 :::
 
 ## Frecuencias
 
-El reporte de frecuencias lista los códigos con su número de segmentos y su distribución. Con
+El informe «Frecuencias de códigos» (Code frequencies) lista los códigos con su número de segmentos y su distribución. Con
 sub-códigos activos, puedes ver el conteo propio de cada uno o el acumulado que suma la
 descendencia al código padre.
 
@@ -59,7 +59,7 @@ decidir dónde mirar, no para concluir.
 ## Co-ocurrencias
 
 Dos códigos co-ocurren cuando se aplican al mismo fragmento o a fragmentos que se traslapan. El
-reporte de co-ocurrencias construye una matriz de todos los pares y muestra cuántas veces
+informe de co-ocurrencias construye una matriz de todos los pares y muestra cuántas veces
 ocurre cada uno.
 
 Un par con muchas co-ocurrencias suele indicar una de tres cosas. Que los dos temas aparecen
@@ -68,7 +68,7 @@ mismo y conviene fusionarlos. O que tienes por costumbre aplicarlos juntos, que 
 codificación y no un resultado.
 
 Distinguir cuál de las tres es requiere abrir el detalle y leer los fragmentos donde ocurre el
-traslape. El reporte permite hacerlo desde la propia matriz.
+traslape. El informe permite hacerlo desde la propia matriz.
 
 ::: nota
 Las co-ocurrencias también consideran los segmentos codificados en imagen, así que un código
@@ -78,7 +78,7 @@ según cómo estén delimitados.
 
 ## Salidas para seguir trabajando
 
-Los resultados de estos reportes se exportan a hoja de cálculo, y la red de co-ocurrencias
+Los resultados de estos informes se exportan a hoja de cálculo, y la red de co-ocurrencias
 puede exportarse a formatos de análisis de redes, para trabajarla en herramientas
 especializadas cuando el número de códigos hace ilegible la matriz.
 
@@ -90,7 +90,7 @@ Matriz de co-ocurrencias con un par seleccionado y el detalle de los segmentos t
 :::
 
 ::: reto Interpreta un par
-Genera el reporte de co-ocurrencias de tu proyecto y elige el par con más coincidencias. Abre
+Genera el informe de co-ocurrencias de tu proyecto y elige el par con más coincidencias. Abre
 el detalle, lee los fragmentos y decide cuál de las tres explicaciones aplica. Escribe la
 conclusión en el diario del proyecto.
 
@@ -116,4 +116,8 @@ frecuencias simples parece marginal. ¿Qué conviene mirar?
 - Con sub-códigos, el conteo acumulado revela el peso real de un tema
 - Las matrices indican dónde mirar y no sustituyen la lectura de los segmentos
 - Una co-ocurrencia alta puede ser hallazgo, redundancia o hábito de codificación
+:::
+
+::: apoyo Formas de contribuir
+Compartir este curso con quien lo necesite ya es una forma de contribuir. Si además puedes donar, aquí van [gastos médicos](https://gofund.me/5c133cc99) y [asistencia humanitaria](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

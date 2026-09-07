@@ -35,12 +35,12 @@ proyecto. Si necesitas corregir la transcripción, hazlo antes de empezar a marc
 :::
 
 ::: video
-Importación de una entrevista, un PDF y una imagen, con la ventana de gestión de archivos.
+Importación de una entrevista, un PDF y una imagen, con la ventana «Gestionar archivos».
 :::
 
 ## Importar
 
-La importación se hace desde el módulo de gestión de archivos. Al elegir un archivo,
+La importación se hace desde «Gestionar archivos» (Manage files). Al elegir un archivo,
 QualCoder lo copia dentro de la carpeta del proyecto y lo registra en la base de datos.
 
 | Tipo | Formatos habituales | Nota |
@@ -71,7 +71,7 @@ Es un buen momento para revisar que cada archivo tenga el nombre definitivo y qu
 colado nada que no forme parte del corpus.
 
 ::: captura
-Ventana de gestión de archivos con varios documentos importados y un filtro aplicado.
+Ventana «Gestionar archivos» con varios documentos importados y un filtro aplicado.
 :::
 
 ## Referencias bibliográficas
@@ -88,7 +88,7 @@ ficha completa.
 ::: pasos
 1. Exporta tus referencias desde el gestor bibliográfico en formato RIS, o deja Zotero abierto
    para importar desde su biblioteca local.
-2. Abre la gestión de referencias en QualCoder e importa el archivo.
+2. Abre «Gestionar referencias» (Manage references) en QualCoder e importa el archivo.
 3. Revisa la vista previa de importación antes de confirmar, porque ahí se ven los campos que
    quedaron incompletos.
 4. Vincula cada referencia con el archivo correspondiente del proyecto.
@@ -102,6 +102,11 @@ conviene mantenerlos aparte, con su propio resguardo.
 
 Adentro va lo que vas a analizar. Afuera va lo que necesitas conservar por razones éticas o
 legales, con acceso restringido.
+
+::: descarga
+- [Entrevista de ejemplo, texto plano](ejercicios/05-entrevista-ejemplo.txt)
+- [Nota de campo de ejemplo](ejercicios/05-nota-de-campo.docx)
+:::
 
 ::: reto Arma tu corpus de práctica
 Importa al menos tres archivos de tipos distintos, por ejemplo una transcripción, un PDF y una
@@ -128,6 +133,10 @@ dos computadoras. ¿Qué conviene?
 ::: clave
 - Limpiar y anonimizar antes de importar evita descuadrar la codificación después
 - QualCoder copia los archivos al proyecto, salvo el multimedia que decidas enlazar
-- Los filtros de la gestión de archivos hacen manejable un corpus grande
+- Los filtros de «Gestionar archivos» hacen manejable un corpus grande
 - Las referencias bibliográficas se importan desde RIS o desde Zotero y se vinculan a los documentos
+:::
+
+::: apoyo Cómo se sostiene el curso
+Este material se mantiene con donativos voluntarios. Se reciben para [gastos médicos](https://gofund.me/5c133cc99) y para [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

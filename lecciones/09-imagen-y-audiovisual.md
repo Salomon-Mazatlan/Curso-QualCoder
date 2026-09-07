@@ -21,7 +21,7 @@ rectángulo que abarca la imagen completa dice algo distinto a uno que aísla un
 diferencia debe quedar escrita en el memo del código.
 
 ::: pasos
-1. Abre la imagen en el módulo correspondiente.
+1. Abre la imagen en «Codificar imagen» (Code image).
 2. Dibuja un rectángulo sobre la zona que te interesa.
 3. Aplícale el código desde el árbol.
 4. Escribe un memo del segmento cuando el recorte necesite explicación, por ejemplo por qué
@@ -29,7 +29,7 @@ diferencia debe quedar escrita en el memo del código.
 :::
 
 ::: nota
-Las regiones codificadas de imagen entran en los reportes junto con los segmentos de texto, y
+Las regiones codificadas de imagen entran en los informes junto con los segmentos de texto, y
 también cuentan en los análisis de co-ocurrencia. Un código puede vivir a la vez en texto,
 imagen y audio sin problema.
 :::
@@ -40,7 +40,7 @@ Codificación de una fotografía por regiones y de un fragmento de audio desde l
 
 ## Audio y video
 
-El módulo audiovisual muestra el reproductor, la onda de sonido y, cuando existe, la
+El módulo «Codificar A/V» (Code audio/video) muestra el reproductor, la onda de sonido y, cuando existe, la
 transcripción asociada.
 
 La onda de sonido es más útil de lo que parece. Los silencios, las interrupciones y los cambios
@@ -74,22 +74,27 @@ codificado el texto ya no conviene corregirlo.
 ## Marcar hablantes
 
 En una entrevista o en un grupo focal casi siempre necesitas saber quién dijo qué. QualCoder
-incluye una función que detecta los identificadores de hablante en la transcripción y crea con
+incluye «Marcar hablantes» (Mark speakers), que detecta los identificadores de hablante en la transcripción y crea con
 ellos códigos agrupados en una categoría propia.
 
 ::: pasos
 1. Asegúrate de que la transcripción usa siempre el mismo patrón para identificar a quien habla.
-2. Ejecuta la detección de hablantes sobre el archivo o sobre un conjunto de archivos.
+2. Ejecuta «Marcar hablantes» sobre el archivo o sobre un conjunto de archivos.
 3. Revisa la lista de identificadores encontrados antes de aplicar, porque suelen colarse
    variantes de escritura del mismo nombre.
 4. Aplica, y comprueba que cada intervención quedó atribuida.
 :::
 
-A partir de ahí puedes filtrar cualquier reporte por hablante, lo que en grupos focales es la
+A partir de ahí puedes filtrar cualquier informe por hablante, lo que en grupos focales es la
 diferencia entre un análisis y un montón de citas sin dueño.
 
 ::: captura
 Ventana de detección de hablantes con la lista de identificadores encontrados en la transcripción.
+:::
+
+::: descarga
+- [Fragmento de audio](ejercicios/09-fragmento-audio.mp3)
+- [Fotografía de campo](ejercicios/09-fotografia-campo.jpg)
 :::
 
 ::: reto Trabaja una grabación
@@ -114,8 +119,12 @@ volver a ejecutar la detección.
 :::
 
 ::: clave
-- Las imágenes se codifican por regiones rectangulares y esos segmentos entran en los reportes
+- Las imágenes se codifican por regiones rectangulares y esos segmentos entran en los informes
 - La onda de sonido permite ubicar y seleccionar pasajes sin escuchar todo el archivo
 - Las marcas de tiempo en la transcripción sincronizan texto y grabación
 - La detección de hablantes exige un patrón de escritura uniforme en la transcripción
+:::
+
+::: apoyo Acceso libre
+Nada de lo que hay aquí se cobra. Quien quiera aportar puede hacerlo en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

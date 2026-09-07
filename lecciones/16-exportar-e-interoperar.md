@@ -5,7 +5,7 @@
 :::
 
 ::: objetivos
-- Exportar códigos, segmentos y reportes en formatos utilizables
+- Exportar códigos, segmentos y informes en formatos utilizables
 - Intercambiar proyectos completos mediante el estándar REFI-QDA
 - Anticipar qué información no sobrevive a la conversión
 :::
@@ -18,7 +18,7 @@ El árbol de códigos se exporta como libro de códigos, con nombres, jerarquía
 que se entrega como anexo de una tesis o lo que se comparte con quien va a codificar contigo.
 
 Los segmentos codificados salen como documento de texto o como hoja de cálculo, con su
-procedencia. Los reportes de frecuencias, matrices y co-ocurrencias salen a hoja de cálculo. Y
+procedencia. Los informes de frecuencias, matrices y co-ocurrencias salen a hoja de cálculo. Y
 los grafos salen como imagen o como diagrama editable.
 
 ::: tip
@@ -78,7 +78,7 @@ perder el trabajo hecho.
 
 No siempre hace falta mover el proyecto entero. Para muchas colaboraciones basta con
 intercambiar el libro de códigos, de modo que cada quien trabaje en su herramienta con el mismo
-sistema de códigos, y compartir después los reportes de segmentos.
+sistema de códigos, y compartir después los informes de segmentos.
 
 Esta vía es menos elegante y bastante más robusta, sobre todo cuando el equipo usa programas
 distintos y ninguno quiere cambiar el suyo.
@@ -109,8 +109,12 @@ Vas a colaborar con una colega que usa MAXQDA y solo necesitan compartir el sist
 :::
 
 ::: clave
-- El libro de códigos, los segmentos y los reportes se exportan por separado según el uso
+- El libro de códigos, los segmentos y los informes se exportan por separado según el uso
 - REFI-QDA en formato `.qdpx` intercambia proyectos completos entre programas
 - Siempre se verifica la importación, sobre todo sub-códigos, memos y multimedia
 - Conserva el proyecto original de QualCoder aunque exportes o migres
+:::
+
+::: apoyo Apoyo voluntario
+Formación cualitativa al alcance de cualquiera. Puedes apoyarla en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia a personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

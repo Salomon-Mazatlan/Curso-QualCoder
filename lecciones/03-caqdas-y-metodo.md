@@ -46,8 +46,8 @@ objetivo salen operaciones concretas.
 |---|---|
 | Distinguir participantes por condición | Casos con atributos, por ejemplo apoyo familiar sí o no |
 | Marcar los fragmentos sobre uso del tiempo | Códigos agrupados en una categoría |
-| Comparar los dos grupos | Reporte de segmentos filtrado por atributo |
-| Ver qué temas aparecen juntos | Reporte de co-ocurrencias |
+| Comparar los dos grupos | Informe filtrado por atributo |
+| Ver qué temas aparecen juntos | Informe de co-ocurrencias |
 | Registrar por qué decidiste algo | Memo del código y diario del proyecto |
 
 Cuando la tabla está escrita, el trabajo con el programa deja de ser exploratorio y se vuelve
@@ -118,4 +118,8 @@ todavía no está traducida.
 - Traducir tareas analíticas a operaciones concretas antes de codificar ahorra semanas
 - El formato abierto del proyecto protege el acceso a tus datos a largo plazo
 - Código, categoría, sub-código y caso significan cosas distintas y conviene no mezclarlas
+:::
+
+::: apoyo Conocimiento abierto
+Formación libre, sostenida con aportaciones voluntarias. Los destinos son [gastos médicos](https://gofund.me/5c133cc99) y [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon).
 :::

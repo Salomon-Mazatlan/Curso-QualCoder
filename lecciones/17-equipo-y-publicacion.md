@@ -35,7 +35,7 @@ Cuando cada quien trabajó en su copia, hay que juntar el trabajo en un solo pro
 ::: pasos
 1. Respalda los dos proyectos antes de empezar.
 2. Abre el proyecto que será el destino de la fusión.
-3. Ejecuta la fusión indicando el proyecto de origen.
+3. Ejecuta «Fusionar proyectos» (Merge projects) indicando el proyecto de origen.
 4. Revisa la vista previa, que indica qué se va a incorporar y dónde hay coincidencias de
    nombres.
 5. Confirma y verifica después una muestra de archivos, códigos y segmentos.
@@ -49,8 +49,7 @@ la diferencia conceptual. Por eso el libro de códigos se acuerda antes.
 
 ## Comparar la codificación
 
-Cuando varias personas codificaron el mismo material, el reporte de comparación entre
-codificadores muestra dónde coinciden y dónde no.
+Cuando varias personas codificaron el mismo material, el informe «Comparación de codificadores» (Coder comparison) muestra dónde coinciden y dónde no.
 
 El número que arroja importa menos que la conversación que provoca. Los desacuerdos señalan
 definiciones ambiguas, y la respuesta correcta casi nunca es que alguien codificó mal, sino que
@@ -90,6 +89,15 @@ En el apartado metodológico corresponde indicar el programa y la versión con l
 igual que se cita cualquier instrumento. QualCoder es software libre desarrollado por una
 comunidad, y esa mención es la forma de reconocer ese trabajo.
 
+La cita en formato APA, séptima edición, queda así.
+
+> Curtain, C. (2026). *QualCoder* (Versión 4.0) [Software]. GitHub.
+> https://github.com/ccbogel/QualCoder
+
+Ajusta el año y el número de versión a los de tu instalación, que puedes consultar en la
+ventana «Acerca de» (About). En el texto se cita como (Curtain, 2026), y si además usaste
+este curso o su manual, se citan por separado.
+
 Si el proyecto lo permite, publicar también el libro de códigos y una descripción del proceso
 hace tu investigación más útil para quien venga después.
 
@@ -120,4 +128,8 @@ fusionar los proyectos. ¿Qué conviene hacer antes?
 - La fusión de proyectos une los códigos que comparten nombre, sin revisar su definición
 - Los desacuerdos entre codificadores señalan definiciones incompletas
 - Publicar el libro de códigos aporta transparencia aunque el corpus siga cerrado
+:::
+
+::: apoyo Cierre y agradecimiento
+Gracias por llegar hasta aquí. El curso seguirá siendo gratuito, y quien pueda sostenerlo lo hace en [gastos médicos](https://gofund.me/5c133cc99), en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon) o desde el [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas).
 :::

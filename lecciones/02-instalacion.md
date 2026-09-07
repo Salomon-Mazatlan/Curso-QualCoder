@@ -133,3 +133,7 @@ repositorio del proyecto, que es la vía por la que se corrigen.
 - Configura idioma, nombre de codificador y copia de seguridad antes de empezar
 - Trabaja sobre disco local, nunca dentro de una carpeta sincronizada
 :::
+
+::: apoyo Sostener el curso
+El curso no tiene costo ni requiere registro. Quien pueda y quiera colaborar lo hace en [gastos médicos](https://gofund.me/5c133cc99) o en [asistencia a migrantes y personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
+:::

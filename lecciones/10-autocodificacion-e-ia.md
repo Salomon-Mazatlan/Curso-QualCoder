@@ -127,3 +127,7 @@ Vas a analizar entrevistas con víctimas de violencia y quieres usar búsqueda p
 - El nivel de acceso a los datos y la elección entre nube y modelo local definen la confidencialidad
 - Todo lo automatizado se registra en el diario para poder explicarlo después
 :::
+
+::: apoyo Cómo se sostiene el curso
+El curso se sostiene con lo que aporta quien puede, sin obligación. Hay dos destinos, [gastos médicos](https://gofund.me/5c133cc99) y [asistencia a personas desplazadas](https://www.paypal.com/paypalme/lorenzosalomon).
+:::
