@@ -63,12 +63,14 @@ Tu participación en el curso ya es una forma valiosa de contribuir.
 
 ## Cómo citar el software
 
-> Curtain, C. (2026). *QualCoder* (Versión 4.0) [Software]. GitHub.
-> https://github.com/ccbogel/QualCoder
+> Curtain, C., Dröge, K., Missaghieh--Poncet, J., & Salomón, L. (2026).
+> *QualCoder 4.0* [Computer software]. GitHub.
+> https://github.com/ccbogel/QualCoder/releases/tag/4.0
 
-Ajusta el año y el número de versión a los de tu instalación. QualCoder es software libre
-desarrollado por Colin Curtain y su comunidad de colaboradores, independiente de este material
-de formación.
+En el texto se cita como (Curtain et al., 2026). Ajusta el año y el número de versión a los de
+tu instalación. QualCoder es software libre desarrollado por Colin Curtain junto con Kai Dröge,
+Justin Missaghieh--Poncet, Lorenzo Salomón y su comunidad de colaboradores, independiente de
+este material de formación.
 
 ## Licencia
 
