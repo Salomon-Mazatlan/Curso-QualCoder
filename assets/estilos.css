@@ -599,6 +599,16 @@ img { max-width: 100%; height: auto; }
 }
 .bloque-captura .titulo-bloque .icono { background: var(--tinta-3); }
 
+.captura-imagen { margin: 30px 0; }
+.captura-imagen img {
+  width: 100%; border: var(--trazo) solid var(--borde); box-shadow: var(--relieve);
+  display: block; background: var(--superficie);
+}
+.captura-imagen figcaption {
+  margin-top: 12px; font-size: .86rem; color: var(--tinta-2);
+  border-left: 3px solid var(--amarillo); padding-left: 12px;
+}
+
 .bloque-descarga { background: var(--superficie-2); }
 .bloque-descarga .titulo-bloque .icono { background: var(--verde); }
 .bloque-descarga ul { list-style: none; padding-left: 0; }

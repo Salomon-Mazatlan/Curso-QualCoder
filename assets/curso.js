@@ -284,6 +284,18 @@
         hijosHtml(nodo) + "</details>";
     }
 
+    if (nodo.tipo === "captura" && /\.(png|jpe?g|gif|webp|svg)$/i.test(nodo.arg || "")) {
+      var pie = nodo.hijos
+        .filter(function (h) { return h.tipo === "texto"; })
+        .map(function (h) { return h.valor.trim(); })
+        .join(" ")
+        .trim();
+      return '<figure class="captura-imagen">' +
+        '<img loading="lazy" src="' + esc(nodo.arg) + '" alt="' + esc(pie) + '">' +
+        (pie ? "<figcaption>" + esc(pie) + "</figcaption>" : "") +
+        "</figure>";
+    }
+
     var def = BLOQUES[nodo.tipo];
     if (!def) return hijosHtml(nodo);
 
