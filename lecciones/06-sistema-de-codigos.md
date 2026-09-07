@@ -1,0 +1,142 @@
+::: preguntas
+- ¿Cómo decido qué códigos crear y cuántos necesito?
+- ¿Cuándo uso una categoría y cuándo un sub-código?
+- ¿Cómo mantengo el árbol de códigos ordenado a lo largo del proyecto?
+:::
+
+::: objetivos
+- Elegir entre estrategias inductivas y deductivas según tu diseño
+- Construir un árbol con categorías, códigos y sub-códigos
+- Documentar cada código con un memo que evite la deriva
+:::
+
+## De dónde salen los códigos
+
+Hay dos caminos y casi todos los proyectos usan los dos.
+
+En el camino inductivo los códigos salen del material. Lees, encuentras algo que llama la
+atención y lo nombras con las palabras más cercanas posibles a lo que dice quien participó.
+El árbol crece desordenado al principio y se ordena después, cuando ya sabes qué tienes.
+
+En el camino deductivo los códigos salen de tu marco teórico, de la literatura o de la guía de
+entrevista, y existen antes de leer el primer documento. El árbol nace ordenado, con el riesgo
+de que solo veas lo que ya esperabas encontrar.
+
+La combinación habitual consiste en partir de un conjunto deductivo pequeño, que refleja los
+objetivos, y dejar espacio para códigos inductivos que aparezcan durante la lectura. Lo que
+importa es que sepas de dónde viene cada código, y eso se resuelve escribiéndolo en su memo.
+
+::: video
+Construcción de un árbol de códigos desde cero, con categorías, códigos y sub-códigos.
+:::
+
+## Las tres piezas del árbol
+
+QualCoder 4 organiza el árbol con tres tipos de elemento, y usarlos bien es la diferencia
+entre un sistema legible y un desorden.
+
+Una **categoría** agrupa. No se aplica a ningún fragmento y sirve para dar estructura, por
+ejemplo `Organización del tiempo`. Las categorías pueden anidarse dentro de otras.
+
+Un **código** se aplica al material. Es la unidad de trabajo, por ejemplo `rutina reorganizada`.
+
+Un **sub-código** es un código que cuelga de otro código, y expresa una relación de mayor a
+menor detalle. Bajo `rutina reorganizada` podrían ir `horario laboral ajustado` y
+`actividades abandonadas`. El sub-código se aplica al material igual que cualquier código, y
+al contar frecuencias puedes sumarlo o no a su código padre.
+
+::: nota
+Los sub-códigos son una de las novedades de la versión 4 y resuelven un problema viejo. Antes,
+para expresar una jerarquía dentro de un mismo tema había que crear categorías intermedias que
+no se podían aplicar al texto, lo que obligaba a duplicar nombres.
+:::
+
+## Cuántos códigos
+
+No hay número correcto, hay señales de alarma.
+
+Si tienes más de cien códigos antes de terminar la primera entrevista, probablemente estás
+describiendo en vez de analizar. Si tienes cinco códigos después de veinte entrevistas,
+probablemente estás perdiendo matices.
+
+Una referencia práctica de trabajo consiste en llegar a un conjunto de entre treinta y sesenta
+códigos activos, agrupados en cinco a diez categorías, para un corpus mediano. Muchos códigos
+que se aplicaron una sola vez suelen fusionarse o desaparecer al depurar.
+
+::: tip
+Antes de crear un código nuevo, pregúntate si ya existe uno que hace lo mismo con otro nombre.
+La lista de códigos del árbol se puede filtrar escribiendo, y ese hábito evita la mitad de los
+duplicados.
+:::
+
+## Construir el árbol
+
+El árbol de códigos vive en el panel lateral de los módulos de codificación, y es el mismo en
+texto, PDF, imagen y audiovisual, así que lo que crees en uno aparece en todos.
+
+::: pasos
+1. Haz clic derecho sobre el árbol para crear una categoría, y ponle un nombre que agrupe sin
+   describir.
+2. Crea los códigos dentro de esa categoría, con nombres cortos y en un solo idioma.
+3. Para crear un sub-código, usa la opción correspondiente sobre el código padre.
+4. Asigna colores por familia temática, no al azar, porque el color es lo que vas a reconocer
+   al vuelo mientras codificas.
+5. Escribe el memo de cada código en cuanto lo crees, con una definición, un criterio de
+   inclusión y otro de exclusión.
+:::
+
+El memo del código es la pieza que sostiene la coherencia. Una definición como esta evita
+discusiones cuando pasan tres meses o cuando entra otra persona a codificar.
+
+> **rutina reorganizada.** Fragmentos donde se describe un cambio en la organización cotidiana
+> del tiempo a raíz de la tarea de cuidado. Incluye cambios de horario laboral y del descanso.
+> No incluye cambios económicos, que van en `presión económica`.
+
+::: captura
+Árbol de códigos con dos categorías, varios códigos con color y un sub-código desplegado.
+:::
+
+## Mantener el orden
+
+El árbol se reorganiza durante todo el proyecto, y el programa acompaña esa reorganización.
+Puedes arrastrar códigos entre categorías, renombrarlos, fusionar dos códigos que resultaron
+ser el mismo, y eliminar una rama completa cuando una línea temática se descarta.
+
+Las operaciones de fusión y de borrado de rama modifican muchos segmentos a la vez y no tienen
+vuelta atrás, así que respalda el proyecto antes de hacerlas.
+
+::: aviso
+Al fusionar dos códigos, los segmentos del código que desaparece pasan al que queda. Si los
+dos códigos significaban cosas distintas, esa diferencia se pierde para siempre y solo tu
+memo permite reconstruir qué pasó.
+:::
+
+::: reto Diseña tu primer árbol
+Crea dos categorías con tres o cuatro códigos cada una, derivados de tus objetivos de
+investigación. Añade al menos un sub-código, asigna colores por familia y escribe el memo de
+tres códigos con definición, criterio de inclusión y criterio de exclusión.
+
+::: solucion Cómo revisar lo que hiciste
+Lee los memos de dos códigos de la misma categoría e imagina un fragmento ambiguo. Si al
+leerlos no puedes decidir a cuál pertenece, las definiciones todavía se traslapan y hay que
+afinarlas.
+:::
+:::
+
+::: quiz
+Quieres distinguir dentro de `apoyo recibido` entre apoyo económico y apoyo presencial, y
+necesitas aplicar ambos al texto. ¿Qué creas?
+- [ ] Dos categorías dentro de la categoría `apoyo recibido`
+- [x] Dos sub-códigos del código `apoyo recibido`
+- [ ] Dos códigos nuevos sin relación con el original
+> Las categorías agrupan pero no se aplican al material. Como necesitas marcar fragmentos con
+> esas distinciones, corresponden sub-códigos, que además conservan el vínculo con su padre al
+> contar frecuencias.
+:::
+
+::: clave
+- Casi todo proyecto combina códigos deductivos e inductivos, y conviene saber de dónde viene cada uno
+- Las categorías agrupan, los códigos y sub-códigos se aplican al material
+- El memo con definición y criterios es lo que evita la deriva del significado
+- Fusionar y borrar ramas es irreversible, así que se respalda antes
+:::
