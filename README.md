@@ -16,13 +16,11 @@ ATLAS.ti, NVivo o MAXQDA.
 2. Instalar QualCoder 4 y dejarlo listo
 
 **Módulo 2. Fundamentos**
-
 3. Qué resuelve un CAQDAS y qué sigue siendo tuyo
 4. El proyecto por dentro
 5. Cargar los materiales
 
 **Módulo 3. Codificación**
-
 6. Diseñar el sistema de códigos
 7. Codificar texto
 8. Codificar PDF
@@ -30,14 +28,12 @@ ATLAS.ti, NVivo o MAXQDA.
 10. Autocodificación y asistencia de IA
 
 **Módulo 4. Análisis**
-
 11. Casos, atributos y grupos
 12. Recuperar segmentos y armar informes
 13. Frecuencias, matrices y co-ocurrencias
 14. Gráficos, nubes y grafos
 
 **Módulo 5. Cerrar y compartir**
-
 15. Memos, diarios y rastro del proceso
 16. Exportar, QDPX e interoperabilidad
 17. Trabajo en equipo y publicación abierta
