@@ -15,9 +15,9 @@ con guiones medios como separador.
 | `05-nota-de-campo.docx` | 5 | Importar un documento con formato |
 | `07-entrevista-cuidado.txt` | 7 | Codificar texto |
 | `08-articulo-dos-columnas.pdf` | 8 | Codificar sobre la maqueta de un PDF |
-| `09-fragmento-audio.mp3` | 9 | Codificar desde la onda de sonido |
 | `09-fotografia-campo.jpg` | 9 | Codificar regiones de imagen |
-| `11-atributos-casos.csv` | 11 | Cargar atributos de los casos |
+| `10-fragmento-audio.mp3` | 10 | Codificar desde la onda de sonido |
+| `12-atributos-casos.csv` | 12 | Cargar atributos de los casos |
 
 Sube los archivos a esta carpeta con esos nombres y los enlaces de las lecciones funcionarán
 sin tocar nada más. Para agregar otros, revisa el apartado de archivos de práctica de
