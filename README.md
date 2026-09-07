@@ -78,4 +78,4 @@ El contenido de las lecciones es original y se distribuye bajo Creative Commons 
 Compartir Igual 4.0, así que puede adaptarse y reutilizarse citando la fuente. El sitio incluye
 la biblioteca `marked`, con licencia MIT, cuyo texto está en `assets/vendor/`.
 
-Para publicar o modificar este sitio, revisa `GUIA-DE-PUBLICACION.md` y `GUIA-DE-EDICION.md`.
+Para publicar o modificar este sitio, revisa `GUIA DE PUBLICACION.md` y `GUIA DE EDICION.md`.
