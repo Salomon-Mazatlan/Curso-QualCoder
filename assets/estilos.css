@@ -612,6 +612,22 @@ img { max-width: 100%; height: auto; }
   font-family: var(--mono); color: var(--verde);
 }
 
+.bloque-cita {
+  background: var(--superficie-2);
+  border-left: 6px solid var(--amarillo);
+  font-size: .95rem;
+}
+.bloque-cita .titulo-bloque .icono { background: var(--amarillo); color: var(--tinta); }
+.bloque-cita .original {
+  font-family: var(--serif); font-style: italic;
+  font-size: 1.06rem; line-height: 1.5;
+}
+.bloque-cita .traduccion { color: var(--tinta-2); }
+.bloque-cita .fuente {
+  font-family: var(--mono); font-size: .74rem; color: var(--tinta-3);
+  border-top: var(--trazo) dashed var(--linea); padding-top: 10px;
+}
+
 .bloque-apoyo {
   margin: 40px 0 0; padding: 14px 18px;
   border: var(--trazo) dashed var(--borde); background: transparent;

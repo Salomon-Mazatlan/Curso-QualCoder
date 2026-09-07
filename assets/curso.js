@@ -95,7 +95,8 @@
     reto:       { clase: "bloque-reto",       icono: "◆", titulo: "Practica" },
     captura:    { clase: "bloque-captura",    icono: "▣", titulo: "Captura sugerida" },
     descarga:   { clase: "bloque-descarga",   icono: "↓", titulo: "Archivos de la práctica" },
-    apoyo:      { clase: "bloque-apoyo",      icono: "♥", titulo: "Curso gratuito, sostenido con donativos" }
+    apoyo:      { clase: "bloque-apoyo",      icono: "♥", titulo: "Curso gratuito, sostenido con donativos" },
+    cita:       { clase: "bloque-cita",       icono: "❞", titulo: "Cita" }
   };
 
   /* Convierte el texto en un arbol de nodos segun las marcas ::: */
@@ -194,10 +195,31 @@
     }).join("");
 
     return '<div class="quiz">' +
-      '<p class="titulo-bloque"><span class="icono">◇</span>Compruébalo</p>' +
+      '<p class="titulo-bloque"><span class="icono">◇</span>' +
+      esc(nodo.arg || "Compruébalo") + "</p>" +
       '<p class="pregunta">' + esc(pregunta) + "</p>" +
       '<ul class="opciones">' + lista + "</ul>" +
       '<div class="respuesta" hidden>' + (explicacion.length ? md(explicacion.join("\n")) : "") + "</div>" +
+      "</div>";
+  }
+
+  function dibujarCita(nodo) {
+    var cuerpo = nodo.hijos.filter(function (h) { return h.tipo === "texto"; })
+      .map(function (h) { return h.valor; }).join("\n");
+    var original = [];
+    var traduccion = [];
+    cuerpo.split("\n").forEach(function (l) {
+      if (/^\s*\+\s+/.test(l)) traduccion.push(l.replace(/^\s*\+\s+/, ""));
+      else if (l.trim()) original.push(l.trim());
+    });
+
+    return '<div class="bloque bloque-cita">' +
+      '<p class="titulo-bloque"><span class="icono">❞</span>' +
+      esc(nodo.arg || "Cita textual") + "</p>" +
+      '<p class="original">“' + esc(original.join(" ")) + '”</p>' +
+      (traduccion.length
+        ? '<p class="traduccion">Traducción propia. «' + esc(traduccion.join(" ")) + '»</p>'
+        : "") +
       "</div>";
   }
 
@@ -206,6 +228,7 @@
     if (nodo.tipo === "raiz") return hijosHtml(nodo);
     if (nodo.tipo === "video") return dibujarVideo(nodo);
     if (nodo.tipo === "quiz") return dibujarQuiz(nodo);
+    if (nodo.tipo === "cita") return dibujarCita(nodo);
 
     if (nodo.tipo === "pasos") {
       return '<div class="envoltura-pasos">' + hijosHtml(nodo).replace(/<ol>/, '<ol class="pasos">') + "</div>";
