@@ -16,12 +16,10 @@ El programa se descarga gratis desde la
 ## Temario
 
 **Módulo 1. Antes de empezar**
-
 1. Cómo funciona este curso
 2. Instalar QualCoder 4 y dejarlo listo
 
 **Módulo 2. Fundamentos y materiales**
-
 3. Qué resuelve un CAQDAS y qué sigue siendo tuyo
 4. El proyecto por dentro
 5. Cargar los materiales
@@ -29,7 +27,6 @@ El programa se descarga gratis desde la
 7. Referencias bibliográficas
 
 **Módulo 3. Codificación**
-
 8. Diseñar el sistema de códigos
 9. Codificar texto
 10. Codificar PDF
@@ -38,20 +35,17 @@ El programa se descarga gratis desde la
 13. Autocodificación y asistencia de IA
 
 **Módulo 4. Análisis**
-
 14. Casos, atributos y grupos
 15. Recuperar segmentos y armar informes
 16. Frecuencias, matrices y co-ocurrencias
 17. Gráficos, nubes y grafos
 
 **Módulo 5. Cerrar y compartir**
-
 18. Memos, diarios y rastro del proceso
 19. Exportar, QDPX e interoperabilidad
 20. Trabajo en equipo y publicación abierta
 
 **Módulo 6. Evaluación final**
-
 21. Examen de retroalimentación y constancia
 
 ## Cómo son las lecciones
