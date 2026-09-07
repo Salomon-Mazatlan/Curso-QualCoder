@@ -28,6 +28,7 @@ investigación y termina mostrando dónde vive esa tarea dentro del programa, qu
 en el que uno realmente trabaja.
 
 ::: video https://www.youtube.com/watch?v=p2pWR1IrKbg&t=1s
+
 Instalación de QualCoder 3.8 (Win): crear proyecto, configurar usuario, idioma, archivos y codificar.
 :::
 
