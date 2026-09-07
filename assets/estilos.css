@@ -628,6 +628,59 @@ img { max-width: 100%; height: auto; }
   border-top: var(--trazo) dashed var(--linea); padding-top: 10px;
 }
 
+.bloque-consejo {
+  background: var(--superficie-2);
+  border-left: 6px solid var(--verde);
+  padding: 0;
+}
+.bloque-consejo summary {
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer; list-style: none;
+  padding: 15px 22px;
+  font-family: var(--display); font-weight: 700; font-size: .92rem;
+  letter-spacing: -.01em;
+}
+.bloque-consejo summary::-webkit-details-marker { display: none; }
+.bloque-consejo summary::after {
+  content: "+"; margin-left: auto;
+  font-family: var(--mono); font-size: 1.1rem; color: var(--tinta-3);
+}
+.bloque-consejo details[open] summary::after { content: "−"; }
+.bloque-consejo summary:hover { background: var(--amarillo); }
+.bloque-consejo summary .icono {
+  display: grid; place-items: center; width: 20px; height: 20px;
+  font-size: .72rem; color: #fff; background: var(--verde); flex: none;
+}
+.bloque-consejo details > *:not(summary) {
+  margin: 0; padding: 0 22px 6px 52px; font-size: .95rem; color: var(--tinta-2);
+}
+.bloque-consejo details > *:last-child { padding-bottom: 18px; }
+
+.bloque-constancia { background: var(--acento-suave); box-shadow: var(--relieve); }
+.bloque-constancia .titulo-bloque .icono { background: var(--azul); }
+.bloque-constancia .accion { margin-top: 16px; }
+
+.panel-resultado {
+  margin: 28px 0; padding: 18px 22px;
+  border: var(--trazo) solid var(--borde); background: var(--tinta);
+  color: var(--papel); box-shadow: var(--relieve);
+  position: sticky; top: calc(var(--barra) + 10px); z-index: 20;
+}
+.panel-resultado .marcador {
+  margin: 0 0 10px; font-family: var(--display); font-size: 1.15rem; font-weight: 700;
+}
+.panel-resultado .riel-examen {
+  height: 10px; background: rgba(255, 255, 255, .18);
+  border: var(--trazo) solid rgba(255, 255, 255, .3);
+}
+.panel-resultado .relleno-examen {
+  display: block; height: 100%; width: 0; background: var(--amarillo);
+  transition: width .3s ease;
+}
+.panel-resultado .pendiente {
+  margin: 10px 0 0; font-family: var(--mono); font-size: .76rem; opacity: .8;
+}
+
 .bloque-apoyo {
   margin: 40px 0 0; padding: 14px 18px;
   border: var(--trazo) dashed var(--borde); background: transparent;

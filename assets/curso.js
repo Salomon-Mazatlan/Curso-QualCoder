@@ -96,7 +96,8 @@
     captura:    { clase: "bloque-captura",    icono: "▣", titulo: "Captura sugerida" },
     descarga:   { clase: "bloque-descarga",   icono: "↓", titulo: "Archivos de la práctica" },
     apoyo:      { clase: "bloque-apoyo",      icono: "♥", titulo: "Curso gratuito, sostenido con donativos" },
-    cita:       { clase: "bloque-cita",       icono: "❞", titulo: "Cita" }
+    cita:       { clase: "bloque-cita",       icono: "❞", titulo: "Cita" },
+    consejo:    { clase: "bloque-consejo",    icono: "✦", titulo: "Consejo metodológico" }
   };
 
   /* Convierte el texto en un arbol de nodos segun las marcas ::: */
@@ -229,6 +230,31 @@
     if (nodo.tipo === "video") return dibujarVideo(nodo);
     if (nodo.tipo === "quiz") return dibujarQuiz(nodo);
     if (nodo.tipo === "cita") return dibujarCita(nodo);
+
+    if (nodo.tipo === "consejo") {
+      return '<div class="bloque bloque-consejo"><details><summary>' +
+        '<span class="icono">✦</span><span>' + esc(nodo.arg || "Consejo metodológico") +
+        "</span></summary>" + hijosHtml(nodo) + "</details></div>";
+    }
+
+    if (nodo.tipo === "resultado") {
+      return '<div class="panel-resultado" id="panel-resultado">' +
+        '<p class="marcador"><span data-aciertos>0</span> de <span data-total>0</span> ' +
+        "correctas</p>" +
+        '<div class="riel-examen"><span class="relleno-examen"></span></div>' +
+        '<p class="pendiente" data-pendientes></p></div>';
+    }
+
+    if (nodo.tipo === "constancia") {
+      return '<div class="bloque bloque-constancia">' +
+        '<p class="titulo-bloque"><span class="icono">✔</span>Constancia de culminación</p>' +
+        hijosHtml(nodo) +
+        (nodo.arg
+          ? '<p class="accion"><a class="boton" href="' + esc(nodo.arg) +
+            '" target="_blank" rel="noopener">Solicitar la constancia</a></p>'
+          : "") +
+        "</div>";
+    }
 
     if (nodo.tipo === "pasos") {
       return '<div class="envoltura-pasos">' + hijosHtml(nodo).replace(/<ol>/, '<ol class="pasos">') + "</div>";
@@ -369,7 +395,33 @@
       if (b.getAttribute("data-correcta") !== "1") b.classList.add("incorrecta");
       var r = quiz.querySelector(".respuesta");
       if (r) r.hidden = false;
+      actualizarExamen();
     });
+  }
+
+  function actualizarExamen() {
+    var panel = document.getElementById("panel-resultado");
+    if (!panel) return;
+    var quizzes = document.querySelectorAll("#contenido .quiz");
+    var total = quizzes.length;
+    var aciertos = 0;
+    var respondidas = 0;
+    Array.prototype.forEach.call(quizzes, function (q) {
+      var elegida = q.querySelector(".opciones button.incorrecta");
+      var contestada = q.querySelector(".opciones button[disabled]");
+      if (!contestada) return;
+      respondidas++;
+      if (!elegida) aciertos++;
+    });
+    panel.querySelector("[data-aciertos]").textContent = aciertos;
+    panel.querySelector("[data-total]").textContent = total;
+    panel.querySelector(".relleno-examen").style.width =
+      (total ? Math.round((respondidas / total) * 100) : 0) + "%";
+    var faltan = total - respondidas;
+    panel.querySelector("[data-pendientes]").textContent =
+      faltan === 0
+        ? "Respondiste las " + total + " preguntas."
+        : "Faltan " + faltan + " preguntas por responder.";
   }
 
   function anclas(articulo) {
@@ -437,6 +489,7 @@
       .then(function (texto) {
         articulo.innerHTML = convertir(texto);
         anclas(articulo);
+        actualizarExamen();
         pintarIndice(articulo);
         vigilarIndice(articulo);
         pintarPie(leccion);
