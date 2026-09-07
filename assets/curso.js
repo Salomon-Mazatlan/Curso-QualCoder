@@ -97,7 +97,8 @@
     descarga:   { clase: "bloque-descarga",   icono: "↓", titulo: "Archivos de la práctica" },
     apoyo:      { clase: "bloque-apoyo",      icono: "♥", titulo: "Curso gratuito, sostenido con donativos" },
     cita:       { clase: "bloque-cita",       icono: "❞", titulo: "Cita" },
-    consejo:    { clase: "bloque-consejo",    icono: "✦", titulo: "Consejo metodológico" }
+    consejo:    { clase: "bloque-consejo",    icono: "✦", titulo: "Consejo metodológico" },
+    ficha:      { clase: "bloque-ficha",      icono: "▤", titulo: "Ficha de la lección" }
   };
 
   /* Convierte el texto en un arbol de nodos segun las marcas ::: */
@@ -235,6 +236,24 @@
       return '<div class="bloque bloque-consejo"><details><summary>' +
         '<span class="icono">✦</span><span>' + esc(nodo.arg || "Consejo metodológico") +
         "</span></summary>" + hijosHtml(nodo) + "</details></div>";
+    }
+
+    if (nodo.tipo === "comprobacion") {
+      var lineas = nodo.hijos
+        .filter(function (h) { return h.tipo === "texto"; })
+        .map(function (h) { return h.valor; })
+        .join("\n")
+        .split("\n")
+        .filter(function (l) { return /^\s*[-*]\s+/.test(l); })
+        .map(function (l) { return l.replace(/^\s*[-*]\s+/, ""); });
+
+      return '<div class="bloque bloque-comprobacion">' +
+        '<p class="titulo-bloque"><span class="icono">☑</span>' +
+        esc(nodo.arg || "Comprueba antes de seguir") + "</p><ul>" +
+        lineas.map(function (t) {
+          return "<li><label><input type=\"checkbox\"><span>" + esc(t) + "</span></label></li>";
+        }).join("") +
+        "</ul></div>";
     }
 
     if (nodo.tipo === "resultado") {
