@@ -27,9 +27,8 @@ Aquí no vamos a repasar la interfaz botón por botón. Cada lección arranca co
 investigación y termina mostrando dónde vive esa tarea dentro del programa, que es el orden
 en el que uno realmente trabaja.
 
-::: video
-Recorrido de tres minutos por la interfaz de QualCoder 4 y por lo que vas a construir
-durante el curso.
+::: video https://www.youtube.com/watch?v=p2pWR1IrKbg&t=1s
+Instalación de QualCoder 3.8 (Win): crear proyecto, configurar usuario, idioma, archivos y codificar.
 :::
 
 ## Cómo está organizado
