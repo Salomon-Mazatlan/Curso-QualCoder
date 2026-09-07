@@ -69,6 +69,17 @@ las mismas variables para el tema oscuro.
 Las tipografías se cargan en el `<head>` de `index.html` y de `curso.html`, y se asignan en
 `--display`, `--serif` y `--mono`.
 
+## El enlace de la constancia
+
+La lección 19 termina con una tarjeta que apunta a un formulario. Está puesto como
+`https://forms.gle/CAMBIA-ESTE-ENLACE` y hay que sustituirlo por el tuyo, en el bloque
+`::: constancia` de `lecciones/19-examen-y-constancia.md`.
+
+Sirve cualquier formulario que recoja nombre completo, correo e institución. La emisión es
+manual, así que conviene que el formulario avise del tiempo de respuesta. El examen no envía
+resultados a ningún lado, la calificación se calcula y se muestra solo en el navegador de quien
+lo contesta.
+
 ## Actualizar los enlaces de donativos
 
 Aparecen en tres lugares. En el bloque `::: apoyo` al final de cada lección, en el pie de

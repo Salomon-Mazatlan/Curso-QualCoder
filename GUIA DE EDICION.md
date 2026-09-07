@@ -71,6 +71,9 @@ fragmento o subirlo a otro servicio y enlazarlo.
 | `::: quiz` | Pregunta de opción múltiple interactiva |
 | `::: apoyo` | Nota de donativos al final de la lección |
 | `::: cita` | Cita textual con su traducción propia |
+| `::: consejo` | Consejo metodológico desplegable |
+| `::: constancia` | Tarjeta con el enlace para pedir la constancia |
+| `::: resultado` | Marcador del examen final |
 
 Todos aceptan un título propio escrito después del nombre.
 
@@ -109,22 +112,37 @@ El bloque de solución cierra primero y el del reto después.
 
 ```
 ::: cita Saldaña (2011, p. 95)
-Coding is a heuristic — a method of discovery
-+ Codificar es un heurístico, un método de descubrimiento
+Coding is a heuristic
++ Codificar es un heurístico
 :::
 ```
 
 El título del bloque es la referencia. Las líneas normales forman la cita en su idioma
 original y la que empieza con `+` es la traducción, que el sitio muestra precedida por
-«Traducción propia». Si la fuente está en español, se omite la línea con `+`.
+"Traducción propia". Si la fuente está en español, se omite la línea con `+`.
 
 Mantén las citas por debajo de quince palabras y una sola por fuente en todo el curso. El
 archivo `CITAS-POR-VERIFICAR.md` lleva el registro de cuál salió de qué documento.
 
-## Autoevaluación
+## Consejos metodológicos
 
 ```
-::: quiz
+::: consejo El proyecto va en disco local
+Una carpeta sincronizada con la nube provoca errores de bloqueo.
+:::
+```
+
+Se muestra plegado, con el título visible, y se abre con un clic. Es el formato de los apuntes
+que complementan el desarrollo sin interrumpir la lectura. Cada lección lleva tres, uno de
+repaso de la lección anterior después de los objetivos, uno en medio del desarrollo y uno antes
+de los puntos clave.
+
+## Examen final y constancia
+
+El bloque `::: quiz` se usa solo en la lección 19. Las demás lecciones no llevan preguntas.
+
+```
+::: quiz Pregunta 1
 ¿Texto de la pregunta?
 - [ ] Opción incorrecta
 - [x] Opción correcta
@@ -134,17 +152,25 @@ archivo `CITAS-POR-VERIFICAR.md` lleva el registro de cuál salió de qué docum
 ```
 
 La primera línea suelta es la pregunta, la opción con `[x]` es la correcta y las líneas que
-empiezan con `>` forman la explicación.
+empiezan con `>` forman la explicación, que conviene cerrar indicando a qué lección volver.
 
-El título es opcional y sirve para distinguir los tipos de pregunta.
+El marcador que lleva la cuenta se coloca con un bloque vacío, al inicio de la lección.
 
 ```
-::: quiz Repaso de la lección 5
-::: quiz Para pensarlo
+::: resultado
+:::
 ```
 
-Cada lección lleva tres, una de repaso de la lección anterior justo después de los objetivos,
-una de comprobación al final del desarrollo y una de profundización antes de los puntos clave.
+Cuenta automáticamente todas las preguntas de la página, así que no hay que configurarlo al
+agregar o quitar preguntas.
+
+La tarjeta de la constancia lleva el enlace del formulario en la misma línea de apertura.
+
+```
+::: constancia https://forms.gle/TU-FORMULARIO
+Texto que explica qué datos hay que llenar.
+:::
+```
 
 ## Nota de donativos
 
@@ -165,16 +191,17 @@ lección, el original en inglés entre paréntesis, porque hay quien tiene la in
 traducir.
 
 ```
-«Gestionar archivos» (Manage files)
-«Codificar texto» (Code text)
-«Recuperación de códigos» (Code retrieval)
+"Gestionar archivos" (Manage files)
+"Codificar texto" (Code text)
+"Recuperación de códigos" (Code retrieval)
 ```
 
 ## Estructura recomendada
 
-Primero `preguntas`, `objetivos` y el `quiz` de repaso. Después el desarrollo con encabezados
-`##`, el video donde el procedimiento se entienda mejor viéndolo, la `cita` que sostiene el
-argumento, la `descarga` si la lección tiene archivos, el `reto`, el `quiz` de comprobación,
-el `quiz` de profundización, el bloque `clave` y al final el `apoyo`.
+Primero `preguntas`, `objetivos` y el `consejo` de repaso. Después el desarrollo con
+encabezados `##`, el video donde el procedimiento se entienda mejor viéndolo, la `cita` que
+sostiene el argumento con un párrafo antes y otro después, un `consejo` en medio, la `descarga`
+si la lección tiene archivos, el `reto`, un último `consejo`, el bloque `clave` y al final el
+`apoyo`.
 
 Los encabezados `##` y `###` alimentan el índice lateral derecho de forma automática.

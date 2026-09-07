@@ -1,51 +1,64 @@
-# Investigación cualitativa con QualCoder 4
+# Introducción al análisis de datos cualitativos con QualCoder
 
 Curso gratuito en español para analizar datos cualitativos con
 [QualCoder](https://github.com/ccbogel/QualCoder), el programa libre de análisis cualitativo
-asistido por computadora. Diecisiete lecciones que van de la instalación a la exportación del
-proyecto, con ejercicios, archivos de práctica y demostraciones en video.
+asistido por computadora. Diecinueve lecciones que van de la instalación a la exportación del
+proyecto, con ejercicios, archivos de práctica, demostraciones en video, consejos
+metodológicos y un examen final con constancia de culminación.
 
 Está pensado para quien investiga con entrevistas, notas de campo, documentos, imágenes o
 grabaciones, sin importar si es su primer programa de análisis cualitativo o si viene de
 ATLAS.ti, NVivo o MAXQDA.
 
+El programa se descarga gratis desde la
+[página de releases](https://github.com/ccbogel/QualCoder/releases) del proyecto.
+
 ## Temario
 
 **Módulo 1. Antes de empezar**
-
 1. Cómo funciona este curso
 2. Instalar QualCoder 4 y dejarlo listo
 
 **Módulo 2. Fundamentos**
-
 3. Qué resuelve un CAQDAS y qué sigue siendo tuyo
 4. El proyecto por dentro
 5. Cargar los materiales
 
 **Módulo 3. Codificación**
-
 6. Diseñar el sistema de códigos
 7. Codificar texto
 8. Codificar PDF
-9. Imagen, audio y video
-10. Autocodificación y asistencia de IA
+9. Codificar imagen
+10. Audio y video
+11. Autocodificación y asistencia de IA
 
 **Módulo 4. Análisis**
-
-11. Casos, atributos y grupos
-12. Recuperar segmentos y armar informes
-13. Frecuencias, matrices y co-ocurrencias
-14. Gráficos, nubes y grafos
+12. Casos, atributos y grupos
+13. Recuperar segmentos y armar informes
+14. Frecuencias, matrices y co-ocurrencias
+15. Gráficos, nubes y grafos
 
 **Módulo 5. Cerrar y compartir**
+16. Memos, diarios y rastro del proceso
+17. Exportar, QDPX e interoperabilidad
+18. Trabajo en equipo y publicación abierta
 
-15. Memos, diarios y rastro del proceso
-16. Exportar, QDPX e interoperabilidad
-17. Trabajo en equipo y publicación abierta
+**Módulo 6. Evaluación final**
+19. Examen de retroalimentación y constancia
 
-Cada lección incluye objetivos, procedimientos paso a paso con los nombres que tienen en la
-interfaz de QualCoder en español y su equivalente en inglés, un ejercicio con solución, una
-autoevaluación y un resumen final. El avance se guarda en el navegador, sin registro ni cuenta.
+## Cómo son las lecciones
+
+Cada una abre con las preguntas que la guían y los objetivos, y desarrolla el procedimiento con
+los nombres que tienen en la interfaz de QualCoder en español y su equivalente en inglés. A lo
+largo del texto hay consejos metodológicos desplegables, citas comentadas de la literatura
+sobre investigación cualitativa, un ejercicio con solución y un resumen final.
+
+El módulo 6 cierra con un examen de quince preguntas sobre todo el curso. Cada respuesta
+explica por qué es correcta y remite a la lección correspondiente, así que funciona como repaso
+más que como evaluación. Al final está el enlace para solicitar la constancia de culminación,
+que se emite de forma manual.
+
+El avance se guarda en el navegador, sin registro ni cuenta.
 
 ## Qué necesitas
 
@@ -83,4 +96,4 @@ El contenido de las lecciones es original y se distribuye bajo Creative Commons 
 Compartir Igual 4.0, así que puede adaptarse y reutilizarse citando la fuente. El sitio incluye
 la biblioteca `marked`, con licencia MIT, cuyo texto está en `assets/vendor/`.
 
-Para publicar o modificar este sitio, revisa `GUIA DE PUBLICACION.md` y `GUIA DE EDICION.md`.
+Para publicar o modificar este sitio, revisa `GUIA-DE-PUBLICACION.md` y `GUIA-DE-EDICION.md`.
