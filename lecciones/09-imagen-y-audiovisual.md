@@ -29,7 +29,7 @@ rectángulo que abarca la imagen completa dice algo distinto a uno que aísla un
 diferencia debe quedar escrita en el memo del código.
 
 ::: pasos
-1. Abre la imagen en «Codificar imagen» (Code image).
+1. Abre la imagen en "Codificar imagen" (Code image).
 2. Dibuja un rectángulo sobre la zona que te interesa.
 3. Aplícale el código desde el árbol.
 4. Escribe un memo del segmento cuando el recorte necesite explicación, por ejemplo por qué
@@ -54,7 +54,7 @@ Images need more space than words and they provide more context
 
 ## Audio y video
 
-El módulo «Codificar A/V» (Code audio/video) muestra el reproductor, la onda de sonido y, cuando existe, la
+El módulo "Codificar A/V" (Code audio/video) muestra el reproductor, la onda de sonido y, cuando existe, la
 transcripción asociada.
 
 La onda de sonido es más útil de lo que parece. Los silencios, las interrupciones y los cambios
@@ -88,12 +88,12 @@ codificado el texto ya no conviene corregirlo.
 ## Marcar hablantes
 
 En una entrevista o en un grupo focal casi siempre necesitas saber quién dijo qué. QualCoder
-incluye «Marcar hablantes» (Mark speakers), que detecta los identificadores de hablante en la transcripción y crea con
+incluye "Marcar hablantes" (Mark speakers), que detecta los identificadores de hablante en la transcripción y crea con
 ellos códigos agrupados en una categoría propia.
 
 ::: pasos
 1. Asegúrate de que la transcripción usa siempre el mismo patrón para identificar a quien habla.
-2. Ejecuta «Marcar hablantes» sobre el archivo o sobre un conjunto de archivos.
+2. Ejecuta "Marcar hablantes" sobre el archivo o sobre un conjunto de archivos.
 3. Revisa la lista de identificadores encontrados antes de aplicar, porque suelen colarse
    variantes de escritura del mismo nombre.
 4. Aplica, y comprueba que cada intervención quedó atribuida.

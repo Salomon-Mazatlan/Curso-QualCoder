@@ -11,7 +11,7 @@
 :::
 
 ::: quiz Repaso de la lección 9
-¿Qué necesita «Marcar hablantes» para funcionar bien?
+¿Qué necesita "Marcar hablantes" para funcionar bien?
 - [ ] Que el audio tenga buena calidad
 - [x] Que la transcripción use siempre el mismo patrón para identificar a quien habla
 - [ ] Que cada hablante tenga su propio archivo

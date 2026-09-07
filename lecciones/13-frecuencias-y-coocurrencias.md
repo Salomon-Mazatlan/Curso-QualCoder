@@ -36,7 +36,7 @@ vivan, ni que sea más importante que un tema mencionado una vez con enorme dens
 :::
 
 ::: video
-Informe de frecuencias, matriz de código por caso y informe «Co-ocurrencia de códigos» (Code co-occurrence).
+Informe de frecuencias, matriz de código por caso y informe "Co-ocurrencia de códigos" (Code co-occurrence).
 :::
 <!-- verificar: Bazeley, Qualitative data analysis (2013), p. 382 -->
 ::: cita Bazeley (2013, p. 382)
@@ -47,7 +47,7 @@ Beware reducing evidence to the amount of evidence
 
 ## Frecuencias
 
-El informe «Frecuencias de códigos» (Code frequencies) lista los códigos con su número de segmentos y su distribución. Con
+El informe "Frecuencias de códigos" (Code frequencies) lista los códigos con su número de segmentos y su distribución. Con
 sub-códigos activos, puedes ver el conteo propio de cada uno o el acumulado que suma la
 descendencia al código padre.
 

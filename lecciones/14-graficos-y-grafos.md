@@ -6,7 +6,7 @@
 
 ::: objetivos
 - Generar gráficos y nubes de palabras con criterio
-- Construir un modelo en el lienzo «Grafo» (View graph) y nombrar sus relaciones
+- Construir un modelo en el lienzo "Grafo" (View graph) y nombrar sus relaciones
 - Exportar figuras utilizables en un artículo o una tesis
 :::
 
@@ -20,7 +20,7 @@
 
 ## Gráficos
 
-QualCoder incluye el módulo «Gráficos» (Charts), que representa lo que ya viste en los informes,
+QualCoder incluye el módulo "Gráficos" (Charts), que representa lo que ya viste en los informes,
 con distribuciones de códigos por caso, por archivo y por categoría.
 
 Sirven para dos cosas distintas. Durante el análisis, para detectar de un vistazo
@@ -58,14 +58,14 @@ exploring alternative ways of presenting qualitative research findings
 
 ## El lienzo de grafos
 
-El lienzo «Grafo» (View graph) es distinto de todo lo anterior, porque no representa un cálculo sino un
+El lienzo "Grafo" (View graph) es distinto de todo lo anterior, porque no representa un cálculo sino un
 modelo que tú construyes. Es el espacio donde el análisis se vuelve visible.
 
 Sobre el lienzo puedes colocar códigos, categorías, casos, archivos, memos y bloques de texto
 libre, moverlos, agruparlos y conectarlos con líneas que expresan relaciones.
 
 ::: pasos
-1. Abre «Grafo» (View graph) y trae la rama de códigos que quieres modelar.
+1. Abre "Grafo" (View graph) y trae la rama de códigos que quieres modelar.
 2. Acomoda los elementos con alguno de los modos de organización, o a mano si prefieres control
    total.
 3. Conecta los elementos que se relacionan y ponle nombre a cada relación.
@@ -117,7 +117,7 @@ grafo.
 :::
 
 ::: quiz
-¿Cuál es la diferencia principal entre el informe «Co-ocurrencia de códigos» (Code co-occurrence) y un grafo del lienzo?
+¿Cuál es la diferencia principal entre el informe "Co-ocurrencia de códigos" (Code co-occurrence) y un grafo del lienzo?
 - [ ] Ninguna, el grafo es la versión visual del informe
 - [x] El informe muestra coincidencias calculadas, el grafo muestra relaciones que tú afirmas
 - [ ] El grafo solo admite códigos, el informe admite casos

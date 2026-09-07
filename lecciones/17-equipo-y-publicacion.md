@@ -49,7 +49,7 @@ Cuando cada quien trabajó en su copia, hay que juntar el trabajo en un solo pro
 ::: pasos
 1. Respalda los dos proyectos antes de empezar.
 2. Abre el proyecto que será el destino de la fusión.
-3. Ejecuta «Fusionar proyectos» (Merge projects) indicando el proyecto de origen.
+3. Ejecuta "Fusionar proyectos" (Merge projects) indicando el proyecto de origen.
 4. Revisa la vista previa, que indica qué se va a incorporar y dónde hay coincidencias de
    nombres.
 5. Confirma y verifica después una muestra de archivos, códigos y segmentos.
@@ -63,7 +63,7 @@ la diferencia conceptual. Por eso el libro de códigos se acuerda antes.
 
 ## Comparar la codificación
 
-Cuando varias personas codificaron el mismo material, el informe «Comparación de codificadores» (Coder comparison) muestra dónde coinciden y dónde no.
+Cuando varias personas codificaron el mismo material, el informe "Comparación de codificadores" (Coder comparison) muestra dónde coinciden y dónde no.
 
 El número que arroja importa menos que la conversación que provoca. Los desacuerdos señalan
 definiciones ambiguas, y la respuesta correcta casi nunca es que alguien codificó mal, sino que
@@ -110,7 +110,7 @@ La cita en formato APA, séptima edición, queda así.
 > https://github.com/ccbogel/QualCoder/releases/tag/4.0
 
 En el texto se cita como (Curtain et al., 2026). Ajusta el año y el número de versión a los de
-tu instalación, que puedes consultar en la ventana «Acerca de» (About), y cambia la dirección
+tu instalación, que puedes consultar en la ventana "Acerca de" (About), y cambia la dirección
 por la de la etiqueta de esa versión. Si además usaste este curso o su manual, se citan por
 separado.
 

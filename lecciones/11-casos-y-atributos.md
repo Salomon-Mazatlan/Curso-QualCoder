@@ -38,7 +38,7 @@ Creación de casos, vinculación de archivos y asignación de atributos a cada c
 ## Crear casos
 
 ::: pasos
-1. Abre «Gestionar casos» (Manage cases) y crea uno con el nombre de la unidad, por ejemplo un seudónimo.
+1. Abre "Gestionar casos" (Manage cases) y crea uno con el nombre de la unidad, por ejemplo un seudónimo.
 2. Vincúlale los archivos que le corresponden.
 3. Si un archivo contiene material de varios casos, como un grupo focal, asigna al caso solo la
    porción de texto que le pertenece.
@@ -125,7 +125,7 @@ cada uno. ¿Qué haces?
 
 ::: quiz Para pensarlo
 Tienes normativas y notas de prensa que no pertenecen a ninguna persona entrevistada. ¿Los asignas a un caso?
-- [ ] Sí, creas un caso llamado «contexto»
+- [ ] Sí, creas un caso llamado "contexto"
 - [x] No, pueden quedar fuera, sabiendo que no aparecerán en los informes filtrados por caso
 - [ ] No, y conviene eliminarlos del proyecto
 > No todos los archivos tienen que pertenecer a un caso. Lo importante es saber qué queda fuera de cada filtro.

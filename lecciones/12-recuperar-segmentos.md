@@ -34,7 +34,7 @@ Informe de segmentos codificados con filtros combinados y exportación a documen
 ## Armar el informe
 
 ::: pasos
-1. Abre el informe «Recuperación de códigos» (Code retrieval).
+1. Abre el informe "Recuperación de códigos" (Code retrieval).
 2. Selecciona los códigos que te interesan, uno o varios.
 3. Acota por archivos o por casos si quieres restringir el universo.
 4. Añade filtros por atributo para comparar grupos.
@@ -75,10 +75,10 @@ un código demasiado amplio.
 
 Además de la recuperación por código, hay informes que responden preguntas distintas.
 
-El informe «Conteo de códigos por archivo» (Code count by file) muestra qué documentos concentran el trabajo, y sirve
+El informe "Conteo de códigos por archivo" (Code count by file) muestra qué documentos concentran el trabajo, y sirve
 para detectar entrevistas que quedaron a medio codificar.
 
-El informe «Resumen de archivos» (File summary) da una vista general del corpus, con su extensión y su nivel de
+El informe "Resumen de archivos" (File summary) da una vista general del corpus, con su extensión y su nivel de
 codificación.
 
 Y la búsqueda de texto sobre el corpus completo localiza términos independientemente de la

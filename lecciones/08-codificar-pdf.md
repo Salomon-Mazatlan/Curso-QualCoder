@@ -38,7 +38,7 @@ El funcionamiento es equivalente al del texto, con el árbol de códigos a la iz
 documento al centro, ahora paginado.
 
 ::: pasos
-1. Abre el documento en el módulo «Codificar PDF» (Code pdf) y elige si quieres desplazarte por página o de
+1. Abre el documento en el módulo "Codificar PDF" (Code pdf) y elige si quieres desplazarte por página o de
    corrido.
 2. Selecciona texto sobre la página y aplica el código desde el árbol o el menú contextual.
 3. Para codificar una figura o una tabla, dibuja un recuadro sobre esa zona y aplícale el
@@ -86,7 +86,7 @@ llevas medio corpus trabajado.
 
 ## Cuándo conviene texto plano
 
-El módulo «Codificar PDF» (Code pdf) no siempre es la mejor opción. Si el documento es simplemente una transcripción
+El módulo "Codificar PDF" (Code pdf) no siempre es la mejor opción. Si el documento es simplemente una transcripción
 exportada a PDF, sin maqueta significativa, conviene convertirla a texto plano e importarla como
 documento de texto, porque el módulo de texto es más ágil y permite operaciones que dependen del
 flujo continuo, como la detección de hablantes.
@@ -125,7 +125,7 @@ específicos en su interior. ¿Qué haces primero?
 
 ::: quiz Para pensarlo
 Tienes una transcripción exportada a PDF, sin columnas ni figuras. ¿Cómo la trabajas?
-- [ ] En «Codificar PDF», para conservar la maqueta
+- [ ] En "Codificar PDF", para conservar la maqueta
 - [x] La conviertes a texto plano y la importas como documento de texto
 - [ ] La codificas por regiones de imagen
 > Si aplanar el documento no pierde información, el módulo de texto es más ágil y permite detectar hablantes.

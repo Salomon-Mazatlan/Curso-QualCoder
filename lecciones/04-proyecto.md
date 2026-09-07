@@ -93,9 +93,10 @@ código de participante, seudónimo y fecha, permite ordenar y localizar sin abr
 antes de importar, porque el nombre con el que entra el archivo es el que verás en todos los
 informes.
 
-La segunda es el nombre del codificador. Aparece en cada segmento y es lo que permite después
-comparar entre personas. Si trabajas solo, igual escribe tu nombre, porque quizá más adelante
-se sume alguien.
+La segunda es el nombre del codificador, que ahora sí puedes escribir. La opción no estaba
+disponible mientras no había proyecto, porque el dato se guarda dentro de él. Aparece en cada
+segmento y es lo que permite después comparar entre personas, así que conviene escribirlo
+aunque trabajes solo, por si más adelante se suma alguien.
 
 La tercera es el idioma de tus códigos. Mezclar español e inglés en el árbol de códigos
 complica los informes y las búsquedas, y no hay manera cómoda de arreglarlo después.
@@ -107,7 +108,7 @@ de título.
 
 ## El diario del proyecto
 
-QualCoder incluye «Diarios» (Journals), que son documentos de escritura libre dentro del proyecto. Abre uno
+QualCoder incluye "Diarios" (Journals), que son documentos de escritura libre dentro del proyecto. Abre uno
 el primer día y anota qué decisiones tomaste y por qué.
 
 Ese registro es lo que después te permite escribir el apartado metodológico sin inventar,

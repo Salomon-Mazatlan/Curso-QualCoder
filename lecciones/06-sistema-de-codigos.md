@@ -39,8 +39,8 @@ Construcción de un árbol de códigos desde cero, con categorías, códigos y s
 :::
 <!-- verificar: Saldaña, Fundamentals of Qualitative Research (2011), p. 95 -->
 ::: cita Saldaña (2011, p. 95)
-Coding is a heuristic — a method of discovery
-+ Codificar es un heurístico, un método de descubrimiento
+Coding is a heuristic
++ Codificar es un heurístico
 :::
 
 

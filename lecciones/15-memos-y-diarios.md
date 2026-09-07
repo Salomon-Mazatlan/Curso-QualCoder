@@ -48,7 +48,7 @@ a regular, personal and contemporaneous record
 
 ## El diario
 
-El «Diario» (Journal) es un documento de escritura libre dentro del proyecto, con fecha, donde se registra
+El "Diario" (Journal) es un documento de escritura libre dentro del proyecto, con fecha, donde se registra
 el proceso más que el contenido. Puedes tener más de uno, por ejemplo uno metodológico y otro
 de campo.
 

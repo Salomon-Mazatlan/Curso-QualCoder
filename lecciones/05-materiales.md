@@ -43,7 +43,7 @@ proyecto. Si necesitas corregir la transcripción, hazlo antes de empezar a marc
 :::
 
 ::: video
-Importación de una entrevista, un PDF y una imagen, con la ventana «Gestionar archivos».
+Importación de una entrevista, un PDF y una imagen, con la ventana "Gestionar archivos".
 :::
 <!-- verificar: 37481082-Qualitative-Research-Methods-a-Data-Collector-s-Field-Guide.pdf, p. 113 -->
 ::: cita Family Health International (2005, p. 113)
@@ -54,7 +54,7 @@ Remove identifying information from the transcript
 
 ## Importar
 
-La importación se hace desde «Gestionar archivos» (Manage files). Al elegir un archivo,
+La importación se hace desde "Gestionar archivos" (Manage files). Al elegir un archivo,
 QualCoder lo copia dentro de la carpeta del proyecto y lo registra en la base de datos.
 
 | Tipo | Formatos habituales | Nota |
@@ -85,7 +85,7 @@ Es un buen momento para revisar que cada archivo tenga el nombre definitivo y qu
 colado nada que no forme parte del corpus.
 
 ::: captura
-Ventana «Gestionar archivos» con varios documentos importados y un filtro aplicado.
+Ventana "Gestionar archivos" con varios documentos importados y un filtro aplicado.
 :::
 
 ## Referencias bibliográficas
@@ -102,7 +102,7 @@ ficha completa.
 ::: pasos
 1. Exporta tus referencias desde el gestor bibliográfico en formato RIS, o deja Zotero abierto
    para importar desde su biblioteca local.
-2. Abre «Gestionar referencias» (Manage references) en QualCoder e importa el archivo.
+2. Abre "Gestionar referencias" (Manage references) en QualCoder e importa el archivo.
 3. Revisa la vista previa de importación antes de confirmar, porque ahí se ven los campos que
    quedaron incompletos.
 4. Vincula cada referencia con el archivo correspondiente del proyecto.
@@ -155,7 +155,7 @@ Un `.docx` con control de cambios activo no se importa. ¿Qué haces?
 ::: clave
 - Limpiar y anonimizar antes de importar evita descuadrar la codificación después
 - QualCoder copia los archivos al proyecto, salvo el multimedia que decidas enlazar
-- Los filtros de «Gestionar archivos» hacen manejable un corpus grande
+- Los filtros de "Gestionar archivos" hacen manejable un corpus grande
 - Las referencias bibliográficas se importan desde RIS o desde Zotero y se vinculan a los documentos
 :::
 

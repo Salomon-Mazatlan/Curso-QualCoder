@@ -20,12 +20,12 @@
 
 ## La ventana de codificación
 
-El módulo «Codificar texto» (Code text) tiene tres zonas. A la izquierda está el árbol de códigos,
+El módulo "Codificar texto" (Code text) tiene tres zonas. A la izquierda está el árbol de códigos,
 al centro el documento, y alrededor del texto un margen donde se dibujan franjas de color que
 indican qué segmentos están codificados y con qué.
 
 Arriba se elige el archivo a codificar, y la lista completa de documentos del proyecto está
-disponible desde ahí sin necesidad de volver a «Gestionar archivos».
+disponible desde ahí sin necesidad de volver a "Gestionar archivos".
 
 ::: video
 Recorrido por la ventana de codificación de texto y primera marca sobre una entrevista.

@@ -90,13 +90,19 @@ Antes de crear un proyecto vale la pena pasar por las preferencias del programa.
 | Ajuste | Por qué importa |
 |---|---|
 | Idioma de la interfaz | Cambia los menús a español. Requiere reiniciar el programa |
-| Nombre del codificador | Queda registrado en cada segmento codificado, es imprescindible al trabajar en equipo |
 | Tema visual | Afecta el contraste al codificar durante horas |
 | Tamaño de letra | Se ajusta por separado para la interfaz y para el texto de los documentos |
 | Copia de seguridad al abrir | Genera una copia del proyecto cada vez que lo abres |
 
 Deja activada la copia de seguridad automática. Ocupa espacio en disco, y a cambio te salva
 de cualquier error irreversible durante la codificación.
+
+::: aviso El nombre del codificador viene después
+El nombre de quien codifica queda registrado en cada segmento y es imprescindible al trabajar
+en equipo, pero no se puede escribir todavía. Esa opción aparece hasta que existe un proyecto
+abierto, porque el dato se guarda dentro del proyecto y no en las preferencias generales del
+programa. Lo verás en la lección 4, al crear el primero.
+:::
 
 ::: captura
 Ventana de preferencias con el idioma en español y la copia de seguridad activada.
@@ -115,7 +121,7 @@ unidad de red o en un servicio de sincronización activa produce errores de bloq
 de datos, que se corrigen moviendo el proyecto a un disco local.
 
 ::: reto Deja el programa listo
-Instala QualCoder 4, cambia el idioma a español, escribe tu nombre como codificador y
+Instala QualCoder 4, cambia el idioma a español, activa la copia de seguridad al abrir y
 reinicia el programa para comprobar que los menús aparecen traducidos.
 
 ::: solucion Si algún menú sigue en inglés
@@ -146,7 +152,7 @@ El programa se cierra solo al arrancar y no muestra ningún mensaje. ¿Cuál es 
 ::: clave
 - Descarga siempre desde el repositorio oficial y revisa las notas de la versión
 - Los avisos de seguridad de Windows y macOS son esperables porque el programa no está firmado comercialmente
-- Configura idioma, nombre de codificador y copia de seguridad antes de empezar
+- Configura idioma, tipografía y copia de seguridad antes de empezar, y deja el nombre del codificador para cuando exista un proyecto
 - Trabaja sobre disco local, nunca dentro de una carpeta sincronizada
 :::
 
