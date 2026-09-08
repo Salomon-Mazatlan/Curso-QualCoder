@@ -81,7 +81,7 @@ window.CURSO = {
         "Convertir segmentos codificados en comparaciones, matrices y representaciones visuales.",
       color: "var(--marca-4)",
       lecciones: [
-        { id: "14-casos-y-atributos", titulo: "Casos, atributos y grupos",
+        { id: "14-casos-y-atributos", titulo: "Casos y atributos",
           archivo: "lecciones/14-casos-y-atributos.md", minutos: 30,
           resumen: "Organizar el corpus por persona, sitio o momento para poder comparar." },
         { id: "15-recuperar-segmentos", titulo: "Recuperar segmentos y armar informes",
