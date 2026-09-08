@@ -27,8 +27,8 @@ para:
 - Recuperar todo eso de manera ordenada para redactar resultados.
 
 La versión 4 trajo cambios que reordenan la forma de trabajar, entre ellos los sub-códigos,
-un módulo propio para PDF, funciones de inteligencia artificial con distintos niveles de
-acceso, un lienzo de grafos mucho más amplio y una gestión de referencias bibliográficas
+un nuevo módulo para PDF's, funciones de inteligencia artificial con distintos niveles de
+acceso, un lienzo de grafos mucho más completo y una gestión de referencias bibliográficas
 integrada. Este curso está armado sobre esa versión, así que si vienes de la 3.x vas a
 encontrar cosas en lugares nuevos.
 
