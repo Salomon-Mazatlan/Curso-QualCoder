@@ -1,20 +1,20 @@
 ::: ficha
-- **Duración estimada** 25 minutos
-- **Antes de empezar** tener permisos para instalar programas en tu equipo
-- **Materiales** conexión a internet
-- **Al terminar tendrás** QualCoder 4 instalado, en español y con la copia de seguridad activada
+- **Duración estimada:** 25 minutos
+- **Antes de empezar:** tener permisos para instalar programas en tu equipo
+- **Materiales:** conexión a internet
+- **Al terminar tendrás:** QualCoder 4 instalado, en español y con la copia de seguridad activada
 :::
 
 ::: preguntas
-- ¿Cómo instalo QualCoder 4 en mi sistema operativo?
+- ¿Cómo instalo QualCoder 4.0 (Beta) en mi sistema operativo?
 - ¿Qué configuro antes de crear el primer proyecto?
 - ¿De dónde descargo la versión correcta?
 :::
 
 ::: objetivos
-- Instalar QualCoder 4 en Windows, macOS o Linux
-- Dejar el idioma, la carpeta de trabajo y las preferencias listas
-- Localizar la página de releases y elegir el archivo que corresponde a tu sistema
+- Localizar la página de releases y elegir el archivo que corresponde a tu sistema.
+- Instalar QualCoder 4.0 (Beta) en Windows, macOS o Linux.
+- Seleccionar el idioma, la carpeta de trabajo y las preferencias listas.
 :::
 
 ::: consejo Antes de seguir, un repaso
