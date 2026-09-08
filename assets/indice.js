@@ -66,7 +66,7 @@ window.CURSO = {
         { id: "11-codificar-imagen", titulo: "Codificar imagen",
           archivo: "lecciones/11-codificar-imagen.md", minutos: 25,
           resumen: "Regiones sobre fotografías, mapas y carteles, con el criterio del recorte documentado." },
-        { id: "12-audio-y-video", titulo: "Audio y video",
+        { id: "12-audio-y-video", titulo: "Codificar audio y video",
           archivo: "lecciones/12-audio-y-video.md", minutos: 35,
           resumen: "Onda de sonido, marcas de tiempo, transcripción parcial y marcado de hablantes." },
         { id: "13-autocodificacion-e-ia", titulo: "Autocodificación y asistencia de IA",
