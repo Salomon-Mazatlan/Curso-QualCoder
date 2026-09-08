@@ -200,5 +200,5 @@ entender más que releyendo el curso completo.
 :::
 
 ::: apoyo Cierre y agradecimiento
-Gracias por llegar hasta aquí. El curso seguirá siendo gratuito, y quien pueda sostenerlo lo hace en [gastos médicos](https://gofund.me/5c133cc99), en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon) o desde el [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas).
+Gracias por llegar hasta aquí. El curso seguirá siendo gratuito, y quien guste apoyarlo lo puede hacer en [gastos médicos](https://gofund.me/5c133cc99), en [asistencia humanitaria a migrantes](https://www.paypal.com/paypalme/lorenzosalomon) o desde el [perfil de recaudación](https://www.gofundme.com/u/lorenzo-salomon-cardenas).
 :::
