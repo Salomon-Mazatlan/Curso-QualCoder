@@ -8,7 +8,7 @@ de práctica, listas de comprobación y un examen final con constancia de culmin
 
 Está pensado para quien investiga con entrevistas, notas de campo, documentos, imágenes o
 grabaciones, sin importar si es su primer programa de análisis cualitativo o si viene de
-ATLAS.ti, NVivo o MAXQDA.
+otros CAQDAS.
 
 El programa se descarga gratis desde la
 [página de releases](https://github.com/ccbogel/QualCoder/releases) del proyecto.
