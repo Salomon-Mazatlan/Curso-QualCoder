@@ -51,6 +51,7 @@ El programa se descarga gratis desde la
 20. Trabajo en equipo y publicación abierta
 
 **Módulo 6. Evaluación final**
+
 21. Examen de retroalimentación y constancia
 
 ## Cómo son las lecciones
@@ -92,16 +93,12 @@ Tu participación en el curso ya es una forma valiosa de contribuir.
 > Salomón Cárdenas, L. (2026). *Introducción al análisis de datos cualitativos con QualCoder*
 > [Curso en línea]. SoftCualitativo. https://github.com/Salomon-Mazatlan/Curso-QualCoder
 
-En el texto se cita como (Salomón Cárdenas, 2026). Si citas una lección concreta, añade su
-número y su título después del título del curso. Sustituye la dirección por la del sitio una vez
-publicado.
+En el texto se cita como (Salomón Cárdenas, 2026). 
 
 ## Independencia del curso
 
-Este curso es un material de formación independiente del proyecto QualCoder. Colaboro en el
-desarrollo del software, y aun así los criterios metodológicos, las recomendaciones y las
-opiniones que aparecen aquí son míos y no representan la posición del equipo de desarrollo ni
-del proyecto.
+Este curso es un material de formación independiente del proyecto QualCoder. Las opiniones que aparecen aquí son
+a título personal y no representan la posición del equipo de desarrollo ni del proyecto.
 
 ## Cómo citar el software
 
