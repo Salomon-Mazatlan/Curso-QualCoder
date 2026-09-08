@@ -100,9 +100,7 @@ Tu participación en el curso ya es una forma valiosa de contribuir.
 > Salomón Cárdenas, L. (2026). *Introducción al análisis de datos cualitativos con QualCoder*
 > [Curso en línea]. SoftCualitativo. https://salomon-mazatlan.github.io/Curso-QualCoder/
 
-En el texto se cita como (Salomón Cárdenas, 2026). Si citas una lección concreta, añade su
-número y su título después del título del curso. Sustituye la dirección por la del sitio una vez
-publicado.
+En el texto se cita como (Salomón Cárdenas, 2026). 
 
 ## Independencia del curso
 
