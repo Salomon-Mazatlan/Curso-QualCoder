@@ -21,9 +21,9 @@
 
 QualCoder es un programa libre para análisis cualitativo asistido por computadora. Sirve
 para:
-- Organizar entrevistas, documentos, imágenes, audio y video.
-- Crear, organizar y asignar códigos
-- Escribir memos
+- Importar y organizar entrevistas, documentos, imágenes, audio y video.
+- Crear, organizar y asignar códigos.
+- Registrar avances y reflexiones en memos y diarios. 
 - Recuperar todo eso de manera ordenada para redactar resultados.
 
 La versión 4 trajo cambios que reordenan la forma de trabajar, entre ellos los sub-códigos,
