@@ -90,7 +90,7 @@ Tu participación en el curso ya es una forma valiosa de contribuir.
 ## Cómo citar este curso
 
 > Salomón Cárdenas, L. (2026). *Introducción al análisis de datos cualitativos con QualCoder*
-> [Curso en línea]. SoftCualitativo. https://TU-USUARIO.github.io/Curso-QualCoder/
+> [Curso en línea]. SoftCualitativo. https://github.com/Salomon-Mazatlan/Curso-QualCoder
 
 En el texto se cita como (Salomón Cárdenas, 2026). Si citas una lección concreta, añade su
 número y su título después del título del curso. Sustituye la dirección por la del sitio una vez
