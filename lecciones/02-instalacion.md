@@ -27,14 +27,14 @@ durante el curso vas a probar cosas.
 
 Todas las versiones publicadas están en la página de releases del proyecto.
 
-[github.com/ccbogel/QualCoder/releases](https://github.com/ccbogel/QualCoder/releases)
+Repositorio oficial: [github.com/ccbogel/QualCoder/releases](https://github.com/ccbogel/QualCoder/releases)
 
 Ahí encontrarás el instalador para Windows y los archivos para los demás sistemas, junto con
 las notas de cada versión, que conviene leer porque señalan los cambios recientes y los
 problemas conocidos. La versión más reciente aparece arriba, marcada como Latest.
 
 Descarga siempre desde esa página. Circulan copias en sitios de descargas que empaquetan
-versiones viejas o modificadas.
+versiones viejas o modificadas sin supervición oficial.
 
 ::: video https://www.youtube.com/watch?v=p2pWR1IrKbg
 Video 2.1. Descarga e instalación completa en Windows, paso a paso.
