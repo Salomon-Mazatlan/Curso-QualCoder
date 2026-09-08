@@ -1,8 +1,8 @@
 ::: ficha
-- **Duración estimada** 10 minutos
-- **Antes de empezar** nada, esta es la puerta de entrada
-- **Materiales** ninguno todavía
-- **Al terminar tendrás** claro qué vas a hacer en el curso y con qué materiales
+- **Duración estimada:** 10 minutos
+- **Antes de empezar:** motivación y disposición para aprender.
+- **Materiales:** ninguno todavía.
+- **Al terminar tendrás:** las habilidades necesarias para llevar a cabo tu análisis.
 :::
 
 ::: preguntas
