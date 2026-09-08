@@ -6,13 +6,13 @@
 :::
 
 ::: preguntas
-- ¿Qué voy a poder hacer al terminar este curso que hoy no puedo?
+- ¿Qué voy a poder hacer al terminar este curso?
 - ¿Cuánto tiempo necesito y con qué materiales trabajo?
 - ¿Cómo se usa esta página?
 :::
 
 ::: objetivos
-- Ubicar los cinco módulos del curso y decidir por dónde entrar
+- Ubicar los cinco módulos del curso y decidir por dónde iniciar
 - Preparar los materiales mínimos para practicar
 - Usar el marcado de lecciones y la navegación de la página
 :::
@@ -20,9 +20,11 @@
 ## 1.1 De qué trata el curso
 
 QualCoder es un programa libre para análisis cualitativo asistido por computadora. Sirve
-para organizar entrevistas, documentos, imágenes, audio y video, marcar fragmentos con
-códigos, escribir memos y después recuperar todo eso de manera ordenada para escribir
-resultados.
+para:
+- Organizar entrevistas, documentos, imágenes, audio y video.
+- Crear, organizar y asignar códigos
+- Escribir memos
+- Recuperar todo eso de manera ordenada para redactar resultados.
 
 La versión 4 trajo cambios que reordenan la forma de trabajar, entre ellos los sub-códigos,
 un módulo propio para PDF, funciones de inteligencia artificial con distintos niveles de
