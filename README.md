@@ -2,7 +2,7 @@
 
 Curso gratuito en español para analizar datos cualitativos con
 [QualCoder](https://github.com/ccbogel/QualCoder), el programa libre de análisis cualitativo
-asistido por computadora. Veintiuna lecciones que van de la instalación a la exportación del
+asistido por computadora. Veintidós lecciones que van de la instalación a la exportación del
 proyecto, con una demostración en video por cada procedimiento, capturas comentadas, archivos
 de práctica, listas de comprobación y un examen final con constancia de culminación.
 
@@ -86,6 +86,22 @@ el curso es gratuito y se mantiene con donativos voluntarios, nunca obligatorios
 - Perfil de recaudación, https://www.gofundme.com/u/lorenzo-salomon-cardenas
 
 Tu participación en el curso ya es una forma valiosa de contribuir.
+
+## Cómo citar este curso
+
+> Salomón Cárdenas, L. (2026). *Introducción al análisis de datos cualitativos con QualCoder*
+> [Curso en línea]. SoftCualitativo. https://TU-USUARIO.github.io/Curso-QualCoder/
+
+En el texto se cita como (Salomón Cárdenas, 2026). Si citas una lección concreta, añade su
+número y su título después del título del curso. Sustituye la dirección por la del sitio una vez
+publicado.
+
+## Independencia del curso
+
+Este curso es un material de formación independiente del proyecto QualCoder. Colaboro en el
+desarrollo del software, y aun así los criterios metodológicos, las recomendaciones y las
+opiniones que aparecen aquí son míos y no representan la posición del equipo de desarrollo ni
+del proyecto.
 
 ## Cómo citar el software
 
