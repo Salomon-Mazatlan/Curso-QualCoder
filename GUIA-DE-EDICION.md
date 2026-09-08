@@ -262,6 +262,16 @@ traducir.
 "Recuperación de códigos" (Code retrieval)
 ```
 
+## El método del curso
+
+Las lecciones se apoyan en la ruta de anclaje, presentada en la lección 3. Cuando escribas
+contenido nuevo, conviene mantener el vocabulario, con las cuatro palabras del método, nombrar,
+situar, anclar y registrar, y con las piezas del programa nombradas siempre igual, código,
+sub-código, categoría, caso, atributo, memo, diario, relación e informe.
+
+Los tres fallos de anclaje, invertido, doble y vacío, sirven para redactar consejos. Casi
+cualquier error frecuente cabe en uno de los tres, y nombrarlo así da continuidad al curso.
+
 ## Estructura recomendada
 
 Primero `preguntas`, `objetivos` y el `consejo` de repaso. Después el desarrollo con

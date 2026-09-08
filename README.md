@@ -2,7 +2,7 @@
 
 Curso gratuito en español para analizar datos cualitativos con
 [QualCoder](https://github.com/ccbogel/QualCoder), el programa libre de análisis cualitativo
-asistido por computadora. Veintidós lecciones que van de la instalación a la exportación del
+asistido por computadora. Veintitrés lecciones que van de la instalación a la exportación del
 proyecto, con una demostración en video por cada procedimiento, capturas comentadas, archivos
 de práctica, listas de comprobación y un examen final con constancia de culminación.
 
@@ -39,21 +39,27 @@ El programa se descarga gratis desde la
 
 **Módulo 4. Análisis**
 
-14. Casos y atributos
+14. Casos, atributos y grupos
 15. Recuperar segmentos y armar informes
 16. Frecuencias, matrices y co-ocurrencias
-17. Gráficos y nubes de palabras
-18. Grafos y modelos analíticos
+17. Gráficos, nubes y grafos
 
 **Módulo 5. Cerrar y compartir**
 
-19. Memos, diarios y rastro del proceso
-20. Exportar, QDPX e interoperabilidad
-21. Trabajo en equipo y publicación abierta
+18. Memos, diarios y rastro del proceso
+19. Exportar, QDPX e interoperabilidad
+20. Trabajo en equipo y publicación abierta
 
 **Módulo 6. Evaluación final**
+21. Examen de retroalimentación y constancia
 
-22. Examen de retroalimentación y constancia
+## El método del curso
+
+El curso usa una metodología propia, la ruta de anclaje, que se presenta en la lección 3 y
+atraviesa las demás. Consiste en cuatro movimientos, nombrar la tarea analítica sin mencionar el
+software, situarla sobre un material y una unidad, anclarla en la pieza del programa y la
+función que la ejecutan, y registrar el rastro que deja. El producto es una tabla de anclaje que
+al terminar el proyecto es ya el esqueleto del apartado metodológico.
 
 ## Cómo son las lecciones
 
@@ -92,14 +98,18 @@ Tu participación en el curso ya es una forma valiosa de contribuir.
 ## Cómo citar este curso
 
 > Salomón Cárdenas, L. (2026). *Introducción al análisis de datos cualitativos con QualCoder*
-> [Curso en línea]. SoftCualitativo. https://github.com/Salomon-Mazatlan/Curso-QualCoder
+> [Curso en línea]. SoftCualitativo. https://TU-USUARIO.github.io/Curso-QualCoder/
 
-En el texto se cita como (Salomón Cárdenas, 2026). 
+En el texto se cita como (Salomón Cárdenas, 2026). Si citas una lección concreta, añade su
+número y su título después del título del curso. Sustituye la dirección por la del sitio una vez
+publicado.
 
 ## Independencia del curso
 
-Este curso es un material de formación independiente del proyecto QualCoder. Las opiniones que aparecen aquí son
-a título personal y no representan la posición del equipo de desarrollo ni del proyecto.
+Este curso es un material de formación independiente del proyecto QualCoder. Colaboro en el
+desarrollo del software, y aun así los criterios metodológicos, las recomendaciones y las
+opiniones que aparecen aquí son míos y no representan la posición del equipo de desarrollo ni
+del proyecto.
 
 ## Cómo citar el software
 
