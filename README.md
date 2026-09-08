@@ -42,17 +42,18 @@ El programa se descarga gratis desde la
 14. Casos, atributos y grupos
 15. Recuperar segmentos y armar informes
 16. Frecuencias, matrices y co-ocurrencias
-17. Gráficos, nubes y grafos
+17. Gráficos y nubes de palabras
+18. Grafos y modelos analíticos
 
 **Módulo 5. Cerrar y compartir**
 
-18. Memos, diarios y rastro del proceso
-19. Exportar, QDPX e interoperabilidad
-20. Trabajo en equipo y publicación abierta
+19. Memos, diarios y rastro del proceso
+20. Exportar, QDPX e interoperabilidad
+21. Trabajo en equipo y publicación abierta
 
 **Módulo 6. Evaluación final**
 
-21. Examen de retroalimentación y constancia
+22. Examen de retroalimentación y constancia
 
 ## Cómo son las lecciones
 
