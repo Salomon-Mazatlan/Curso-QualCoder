@@ -39,7 +39,7 @@ El programa se descarga gratis desde la
 
 **Módulo 4. Análisis**
 
-14. Casos, atributos y grupos
+14. Casos y atributos
 15. Recuperar segmentos y armar informes
 16. Frecuencias, matrices y co-ocurrencias
 17. Gráficos y nubes de palabras
