@@ -139,14 +139,8 @@ Si el curso te sirve y quieres citarlo, la referencia es esta.
 
 ## 1.6 Una advertencia sobre las versiones
 
-QualCoder se actualiza seguido y algunos nombres de menú cambian entre versiones o entre
-traducciones. Cuando en el texto veas un nombre de menú entre comillas, búscalo por
-significado más que al pie de la letra. Si algo no aparece donde se indica, casi siempre
-está a un menú de distancia.
-
-::: video https://www.youtube.com/watch?v=p2pWR1IrKbg
-Video 1.3. Dónde se consulta el número de versión instalado, en la ventana Acerca de.
-:::
+QualCoder se actualiza constantemente y algunos nombres de menús, opciones o funciones
+podrían cambiar.
 
 ::: reto Prepara tu carpeta de trabajo
 Crea en tu computadora una carpeta llamada `curso-qualcoder`. Dentro, otra carpeta llamada
